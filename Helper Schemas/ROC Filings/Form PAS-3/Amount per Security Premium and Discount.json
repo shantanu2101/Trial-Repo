@@ -1,0 +1,26 @@
+{
+  "name": "Amount per Security Premium and Discount",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "securityAmountPas3": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the: (a) nominal amount per security; (b) premium amount per security; and (c) discount amount per security (if any)?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Amount per Security, Premium, and Discount"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "securityAmountPas3"
+    ],
+    "multiplierQueries": {}
+  }
+}

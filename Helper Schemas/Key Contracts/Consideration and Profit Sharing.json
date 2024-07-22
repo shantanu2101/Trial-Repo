@@ -1,0 +1,26 @@
+{
+    "name": "Consideration and Profit Sharing",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "considerationAndProfitSharing": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the amount of consideration to be paid as per the document and which party must pay it? Is there any provision on profit sharing? In what manner will the consideration be provided?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Consideration and Profit Sharing"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "considerationAndProfitSharing"
+        ],
+        "multiplierQueries": {}
+    }
+}

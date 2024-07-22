@@ -1,0 +1,33 @@
+{
+    "name": "Expenses Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "expensesInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there any cap on expenses? What are the exceptions to the cap on expenses? Will all expenses be charged to the fund/alternative investment funds, i.e. will the manager bear any expenses arising from the operations of the fund/alternative investment funds other than manager’s overhead costs such as rent, utilities, employee costs etc.? Should there be a cap on fund expenses? If so, are there any carve outs (such as for broken deal costs)? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Expenses Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "expensesInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+

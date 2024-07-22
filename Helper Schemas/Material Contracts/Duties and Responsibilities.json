@@ -1,0 +1,26 @@
+{
+  "name": "Duties and Responsibilities",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dutiesAndResponsibilities": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the duties, responsibilities and obligations of each party? Provide the response for each party separately. Rely only one xplicit clauses in the document. Do not make any inferences. Mention the specific clause number/ clause title for each response.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Duties and Responsibilities"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dutiesAndResponsibilities"
+    ],
+    "multiplierQueries": {}
+  }
+}

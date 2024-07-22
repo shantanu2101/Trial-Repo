@@ -1,0 +1,26 @@
+{
+    "name": "Type of Company MGT-7",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "companyTypeMgt7": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the 'type of company', 'category of company' and'sub-category of the company' (as expressly provided in the Form MGT-7)?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Type of Company"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "companyTypeMgt7"
+        ],
+        "multiplierQueries": {}
+    }
+}

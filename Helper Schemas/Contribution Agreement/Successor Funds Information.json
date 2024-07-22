@@ -1,0 +1,34 @@
+{
+    "name": "Successor Funds Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "successorFundsInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the circumstances in the <document> in which a successor fund can be launched? Will the fund have an exclusivity of deals sourced by the manager and sponsor? Will this terminate once a successor fund/competing fund is raised or will there be a deal sharing formulation? Are there any successor fund/competing fund or activity restrictions? If so, please specify the time-based and/or quantum-based thresholds for the same, such as the expiry of investment/commitment period or a percentage of the fund/(alternative investment funds being invested. Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Successor Funds Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "successorFundsInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

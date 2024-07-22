@@ -1,0 +1,26 @@
+{
+  "name": "Liaison Officer",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "liaisonOfficer": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the company appointed a liaison officer?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Liaison Officer"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "liaisonOfficer"
+    ],
+    "multiplierQueries": {}
+  }
+}

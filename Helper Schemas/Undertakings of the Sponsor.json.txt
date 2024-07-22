@@ -1,0 +1,26 @@
+{
+    "name": "Undertakings of the Sponsor",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "sponsorUndertakings": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the undertakings in the <document>? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": " Undertakings of the Sponsor"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "sponsorUndertakings"
+        ],
+        "multiplierQueries": {}
+    }
+}

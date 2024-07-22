@@ -1,0 +1,26 @@
+{
+  "name": "Who Must Provide Exit",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whoMustProvideExit": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document explicitly specify who is obligated toprovide exit to the shareholders, or who is obligated to make an exitoffer? These exit options are stipulations within the Agreement thatallows the company, the investor, the promoters or the shareholders todiscontinue any part of the Agreement with limited financialconsequences upon the happening or non-happening of any event. This maybe exercised by the promoters, controlling shareholders, or someoneelse.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Who Must Provide Exit"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whoMustProvideExit"
+    ],
+    "multiplierQueries": {}
+  }
+}

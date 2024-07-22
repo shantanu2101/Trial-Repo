@@ -1,0 +1,26 @@
+{
+  "name": "Maximum Stock Options Per Employee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "maximumStockOptionsPerEmployee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the maximum number of stock options that can be issuedper employee under the ESOP scheme?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Maximum Stock Options Per Employee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "maximumStockOptionsPerEmployee"
+    ],
+    "multiplierQueries": {}
+  }
+}

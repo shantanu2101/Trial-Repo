@@ -1,0 +1,26 @@
+{
+  "name": "Property Share",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "propertyShare": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the extent, portion, share or ownership stake of theproperty that is being transferred? Rely only on explicit references inthe document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Property Share"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "propertyShare"
+    ],
+    "multiplierQueries": {}
+  }
+}

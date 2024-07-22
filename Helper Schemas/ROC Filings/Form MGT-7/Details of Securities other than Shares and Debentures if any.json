@@ -1,0 +1,26 @@
+{
+  "name": "Details of Securities other than Shares and Debentures if any",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "otherSecuritiesMgt7": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the company issued any securities other than shares and debentures? If yes, provide a summary. Restrict your response to data expressly set out in the following field of the document: 'Securities (other than shares and debentures)' If the data in this field makes a reference to an attachment to the document, then the response can be based on the attachment as well.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Details of Securities other than Shares and Debentures(if any)"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "otherSecuritiesMgt7"
+    ],
+    "multiplierQueries": {}
+  }
+}

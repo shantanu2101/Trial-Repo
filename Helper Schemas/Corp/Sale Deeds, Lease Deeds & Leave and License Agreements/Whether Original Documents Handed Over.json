@@ -1,0 +1,26 @@
+{
+  "name": "Whether Original Documents Handed Over",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherOriginalDocumentsHandedOver": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Have the original documents been handed over to the purchaser/donee/ lender/ lessee? Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Original Documents Handed Over"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherOriginalDocumentsHandedOver"
+    ],
+    "multiplierQueries": {}
+  }
+}

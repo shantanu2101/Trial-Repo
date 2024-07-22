@@ -1,0 +1,32 @@
+{
+    "name": "Insurance Amount",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "insuranceAmount": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the amount / quantum of insurance under the insurance contract? Restrict your responses to what is explicitly provided in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Insurance Amount"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "insuranceAmount"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+

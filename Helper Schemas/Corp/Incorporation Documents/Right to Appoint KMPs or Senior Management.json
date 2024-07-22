@@ -1,0 +1,26 @@
+{
+  "name": "Right to Appoint KMPs or Senior Management",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "rightToAppointKMPorManagement": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has any shareholder been given the right to appoint/ nominatekey managerial personnel, or 'KMP' of the company, including the chiefexecutive officer, chief financial officer, managing director,whole-time director, or company secretary? Has any shareholder beengiven the right to appoint/ nominate any other senior management of thecompany?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Right to Appoint KMPs or Senior Management"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "rightToAppointKMPorManagement"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Entire Agreement Clause",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "entireAgreementClause": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there an entire agreement clause, i.e., a clause which provides that this contract contains the entire agreement between the parties? Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Entire Agreement Clause"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "entireAgreementClause"
+    ],
+    "multiplierQueries": {}
+  }
+}

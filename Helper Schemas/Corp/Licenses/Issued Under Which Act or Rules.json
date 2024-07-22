@@ -1,0 +1,26 @@
+{
+  "name": "Issued Under Which Act or Rules",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whichActOrRules": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Which statute/ Act/ rules/ regulations has the document beenissued or filed under?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Issued Under Which Act or Rules"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whichActOrRules"
+    ],
+    "multiplierQueries": {}
+  }
+}

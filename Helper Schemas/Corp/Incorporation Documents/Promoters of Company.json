@@ -1,0 +1,26 @@
+{
+  "name": "Promoters of Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "promotersOfCompany": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the company have any promoters/founders? Who are thesepromoters/founders and what are their respective shareholdings in thecompany?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Promoters of Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "promotersOfCompany"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Date When Notice was Issued",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dateOfNoticeIssued": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date on which the notice for the meeting was issued? What is the number of days of gap between the date of notice and the date of the meeting?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date When Notice was Issued"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dateOfNoticeIssued"
+    ],
+    "multiplierQueries": {}
+  }
+}

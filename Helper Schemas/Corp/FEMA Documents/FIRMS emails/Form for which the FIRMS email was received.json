@@ -1,0 +1,26 @@
+{
+    "name": "Form for which the FIRMS email was received",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "firmsEmailForWhichForm": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Identify both of the following: (a) Which form does the document pertain to; and (b) what is the form reference number (in full)? Strictly limit yourself to details expressly set out in the document and do not draw any inferences including in relation to any abbreviations/acronyms that you are not sure of",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Form for which the FIRMS email was received"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "firmsEmailForWhichForm"
+        ],
+        "multiplierQueries": {}
+    }
+}

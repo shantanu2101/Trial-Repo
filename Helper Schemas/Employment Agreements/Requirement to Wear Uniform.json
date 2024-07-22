@@ -1,0 +1,26 @@
+{
+  "name": "Requirement to Wear Uniform",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "uniformRequirement": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is the contract worker required to wear a uniform or anyspecified clothing?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Requirement to Wear Uniform"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "uniformRequirement"
+    ],
+    "multiplierQueries": {}
+  }
+}

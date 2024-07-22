@@ -1,0 +1,26 @@
+{
+  "name": "Information Rights",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "informationRights": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the information rights available to each party under the document? This includes entitlements granted to the party to access certain information and financial records of the other party or of the company.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Information Rights"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "informationRights"
+    ],
+    "multiplierQueries": {}
+  }
+}

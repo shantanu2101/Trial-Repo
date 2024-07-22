@@ -1,0 +1,26 @@
+{
+  "name": "Extra Bonuses",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "extraBonuses": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document contain any requirements for extra bonuses to be paid? Under what circumstances will these extra bonuses be paid?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Extra Bonuses"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "extraBonuses"
+    ],
+    "multiplierQueries": {}
+  }
+}

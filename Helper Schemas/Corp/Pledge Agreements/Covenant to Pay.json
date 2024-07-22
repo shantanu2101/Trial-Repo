@@ -1,0 +1,26 @@
+{
+  "name": "Covenant to Pay",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "covenantToPay": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the pledgor provided a covenant / guarantee to pay the loan?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Covenant to Pay"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "covenantToPay"
+    ],
+    "multiplierQueries": {}
+  }
+}

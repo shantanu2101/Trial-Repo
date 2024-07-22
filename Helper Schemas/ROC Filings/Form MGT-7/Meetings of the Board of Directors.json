@@ -1,0 +1,26 @@
+{
+  "name": "Meetings of the Board of Directors",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "boardMeetings": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How many board meetings were held during the year? On whatdates, were the meetings held? Restrict your response to data expresslyset out in the field of the document titled 'Board Meetings'. If thedata in this field makes a reference to an attachment to the document,then the response can be based on the attachment as well. Respond intable format please",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Meetings of the Board of Directors"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "boardMeetings"
+    ],
+    "multiplierQueries": {}
+  }
+}

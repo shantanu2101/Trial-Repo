@@ -1,0 +1,27 @@
+{
+  "name": "Location Wise Headcount",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "locationWiseHeadcount": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the location-wise headcount of employees, contractworkers, independent consultants, interns, trainees, and apprentices?Provide the headcount for each type of personnel and each locationseparately. The headcount will be the relevant number/ digit and nothingelse. Use the following format: 'Employees: 1. [Location X] - [Headcountfor Location X], 2. [Location Y] - [Headcount for Location Y]; ContractWorkers: 1. [Location X] - [Headcount for Location X], 2. [Location Y] -[Headcount for Location Y]; Independent Consultants: 1. [Location X] -[Headcount for Location X], 2. [Location Y] - [Headcount for LocationY]; Interns: 1. [Location X] - [Headcount for Location X], 2. [LocationY] - [Headcount for Location Y]; Trainees: 1. [Location X] - [Headcountfor Location X], 2. [Location Y] - [Headcount for Location Y];Apprentices: 1. [Location X] - [Headcount for Location X], 2. [LocationY] - [Headcount for Location Y]' and so on.",
+            "systemPrompt": "You are an expert at reading excel sheets and otherrepositories of data pertaining to details of personnel engaged by acompany. You will be provided a document from which you need toidentify the location-wise headcount of the employees, contract workers,independent consultants, interns, trainees and apprentices engaged bythe company. The document will specify which person is an employee,contract worker, independent consultant, intern, trainee, or apprentice,and the document will also specify where each person is located.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Location Wise Headcount"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "locationWiseHeadcount"
+    ],
+    "multiplierQueries": {}
+  }
+}

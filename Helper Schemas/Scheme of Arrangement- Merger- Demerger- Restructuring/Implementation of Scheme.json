@@ -1,0 +1,26 @@
+{
+  "name": "Implementation of Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "implementationOfScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the steps and timelines for implementation of the scheme, including any post-closing obligations or requirements?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Implementation of Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "implementationOfScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

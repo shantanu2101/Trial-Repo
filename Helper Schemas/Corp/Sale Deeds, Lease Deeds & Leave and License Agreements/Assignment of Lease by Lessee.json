@@ -1,0 +1,26 @@
+{
+  "name": "Assignment of Lease by Lessee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "assignmentOfLeaseByLessee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Can the lease be assigned or transferred by the lessee to a third party? Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Assignment of Lease by Lessee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "assignmentOfLeaseByLessee"
+    ],
+    "multiplierQueries": {}
+  }
+}

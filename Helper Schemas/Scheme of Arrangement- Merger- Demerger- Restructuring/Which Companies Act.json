@@ -1,0 +1,26 @@
+{
+  "name": "Which Companies Act",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whichCompaniesAct": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the document been prepared/ filed/ issued under theCompanies Act, 1956 or the Companies Act, 2013? This is usually providedat the beginning of the document. Rely only on explicit references inthe document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Which Companies Act"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whichCompaniesAct"
+    ],
+    "multiplierQueries": {}
+  }
+}

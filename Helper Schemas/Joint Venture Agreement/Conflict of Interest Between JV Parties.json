@@ -1,0 +1,26 @@
+{
+  "name": "Conflict of Interest Between JV Parties",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "conflictOfInterestBetweenJVParties": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, how will the joint venture handle potential conflicts of interest between the parties?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Conflict of Interest Between JV Parties"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "conflictOfInterestBetweenJVParties"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Next Date of Hearing",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nextDateOfHearing": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the next date of hearing? This is usually specifiedtowards the end of the order.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Next Date of Hearing"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nextDateOfHearing"
+    ],
+    "multiplierQueries": {}
+  }
+}

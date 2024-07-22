@@ -1,0 +1,26 @@
+{
+  "name": "Subject Matter Property",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "subjectMatterProperty": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the details of the subject matter property orproperties as provided in the document? Where is the premises of theproperty situated? What is the area or square footage of the saidproperty? Rely only on explicit references in the document. Do notmake any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Subject Matter Property"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "subjectMatterProperty"
+    ],
+    "multiplierQueries": {}
+  }
+}

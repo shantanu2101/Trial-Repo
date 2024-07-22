@@ -1,0 +1,26 @@
+{
+    "name": "Transfer Details",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "transferDetailsFctrs": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Set out the following details as expressly mentioned in the document: (a) what is the date of transfer of the capital instrument;(b) what is the nature of transfer; (c) what is the transfer type; (d)what is the type of capital instrument transferred; and (e) what is thenumber of instruments transferred? Further, is the transfer by way ofsale or gift - one of the two options in the document for this questionwill be selected (i.e., the white circle would be filled with a black circle for the correct option)? Limit yourself to the data set out under these very fields in the document and do not draw any inferences",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Transfer Details"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "transferDetailsFctrs"
+        ],
+        "multiplierQueries": {}
+    }
+}

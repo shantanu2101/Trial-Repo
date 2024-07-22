@@ -1,0 +1,26 @@
+{
+  "name": "Whether Director or KMP Appointed or Resigned",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "appointmentOrResignationInMinutes": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document specify any event of appointment orresignation of any director or key managerial personnel/ 'KMP' of thecompany?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Director or KMP Appointed or Resigned"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "appointmentOrResignationInMinutes"
+    ],
+    "multiplierQueries": {}
+  }
+}

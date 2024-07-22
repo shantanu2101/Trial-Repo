@@ -1,0 +1,26 @@
+{
+    "name": "Details of Transferor and Transferee",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "partyDetailsFctrs": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the name and residential status of the transferee(i.e., buyer (in case of transfer by sale) or donee (in case of transfer by gift)? What is the name and residential status of the transferor(i.e., seller (in case of transfer by sale) or donor (in case of transfer by gift)? Strictly limit yourself to data provided under these fields and do not make any inferences",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Details of Transferor and Transferee"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "partyDetailsFctrs"
+        ],
+        "multiplierQueries": {}
+    }
+}

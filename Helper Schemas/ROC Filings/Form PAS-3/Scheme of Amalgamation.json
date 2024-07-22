@@ -1,0 +1,26 @@
+{
+  "name": "Scheme of Amalgamation",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "schemeOfAmalgamation": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is is ascertainable whether the securities allotted as set outin the document have been allotted pursuant to a 'Scheme ofAmalgamation'? If yes, what is the calculation of shares being allottedas per the scheme?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Scheme of Amalgamation"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "schemeOfAmalgamation"
+    ],
+    "multiplierQueries": {}
+  }
+}

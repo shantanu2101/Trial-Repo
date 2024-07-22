@@ -1,0 +1,41 @@
+{
+    "name": "Investor Committee",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorCommittee": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is the investor a part of the limited partners advisory committee/advisory board/governance board/advisory committee? Restrict your responses only to explicit references in the <document>. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Committee"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorCommittee"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

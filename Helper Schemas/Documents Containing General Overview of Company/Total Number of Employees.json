@@ -1,0 +1,26 @@
+{
+    "name": "Total Number of Employees",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "totalNumberOfEmployees": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "How many employees does the company have in total?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Total Number of Employees"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "totalNumberOfEmployees"
+        ],
+        "multiplierQueries": {}
+    }
+}

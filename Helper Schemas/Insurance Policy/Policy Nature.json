@@ -1,0 +1,29 @@
+{
+    "name": "Policy Nature",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "policyNature": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": " What is the nature of the insurance? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Policy Nature"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "policyNature"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

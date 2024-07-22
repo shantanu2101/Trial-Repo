@@ -1,0 +1,26 @@
+{
+  "name": "Valuation Report",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "valuationReportPas3": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a valuation report attached to the form? If yes, whatis the date of the report and who has it been issued by? Restrict youranswer to details expressly set out in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Valuation Report"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "valuationReportPas3"
+    ],
+    "multiplierQueries": {}
+  }
+}

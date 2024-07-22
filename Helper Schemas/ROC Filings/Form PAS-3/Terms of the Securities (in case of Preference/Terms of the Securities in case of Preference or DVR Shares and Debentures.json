@@ -1,0 +1,27 @@
+{
+    "name": "Terms of the Securities in case of Preference or DVR Shares and Debentures",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "specialSecurityTermsPas3": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "In case the securities allotted (as spoken of in the documentand any attached documents) are preference shares, DVR shares (i.e.,shares with differential voting rights), or debentures; then pleasesummarize ALL the special terms of such securities pertaining to theirpreferential nature, the differential voting rights attached to them ortheir terms as debentures, as the case may be. Restrict your answer todetails expressly set out in the document AND in any attachmentsappended towards the end of the document (including in the list ofallottees or any other relevant summaries or tables appended towards theend which may set out the required information.",
+                        "systemPrompt": "You are a legal expert skilled at reading forms filedby companies with the Registrar of Companies under companies law inIndia. You know that these forms are standard format XFA-formatdocuments where company personnel fill out the necessary details andadditionally, they often attach certain supporting documents (whethermandatory or otherwise) such as resolutions, notices, agreements,tabular data, etc., which may contain greater information about thesubstance of the form. Form PAS-3 is used for communicating to theRegistrar of Companies the details of the securities issued by thecompany. As a legal expert, if you come across a PAS-3 filing pertainingto issuance of securities other than equity shares (i.e., for preferenceshares, DVR shares, or debentures), then you are particularly interestedin what special terms and conditions govern these special classes ofinstruments. For instance, for preference shares, you want to understandthe preferred dividend and liquidation rights available to theshareholders, the conversion terms in relation to the shares,interest/coupon rate, and any other such special terms and conditionsattached to such DVR shares. For DVR shares, you want to understand thedifferential voting rights and any other special terms and conditionsattached to such DVR shares. For debentures, you want to understand theconvertibility of the debentures (and the terms of such convertibility,if applicable), the interest/coupon rate, and any other special termsand conditions attached to the debentures. You know that due to theprescribed format of the primary form PAS-3, a lot of this informationmay be present only in the attachments appended towards the end of theform PAS-3. You are also aware that much of this information may becontained in tabular format.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Terms of the Securities (in case of Preference/DVR Shares and Debentures)"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "specialSecurityTermsPas3"
+        ],
+        "multiplierQueries": {}
+    }
+}

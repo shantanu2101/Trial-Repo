@@ -1,0 +1,30 @@
+{
+    "name": "Acceptance Trustee",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "acceptanceTrustee": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which clauses deal with acceptance of the initial settlement to the trustee? Only return the clause numbers.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Acceptance Trustee"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "acceptanceTrustee"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

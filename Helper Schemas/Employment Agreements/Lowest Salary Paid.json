@@ -1,0 +1,26 @@
+{
+  "name": "Lowest Salary Paid",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "lowestSalary": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the lowest salary figure specified in the document?Which employees receive this particular salary?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Lowest Salary Paid"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "lowestSalary"
+    ],
+    "multiplierQueries": {}
+  }
+}

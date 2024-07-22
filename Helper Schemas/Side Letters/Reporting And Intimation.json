@@ -1,0 +1,36 @@
+{
+    "name": "Reporting And Intimation",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "reportingAndIntimation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any notices or intimations or disclosures to be provided to the investor? If so, what information is to be provided as part of the reporting/notification requirements? What is the time period in which information is to be provided as part of the reporting/notification requirements? Respond to each question separately. If there are no notices or intimations or disclosures to be provided to the investor, return with ‘NA’ and nothing else for the second and third question. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Reporting And Intimation"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "reportingAndIntimation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+

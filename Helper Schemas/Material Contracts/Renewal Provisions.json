@@ -1,0 +1,26 @@
+{
+  "name": "Renewal Provisions",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "renewalProvisions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any renewal provisions in the document? This refersto any provision addressing whether the agreement will be renewed uponexpiry of the term.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Renewal Provisions"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "renewalProvisions"
+    ],
+    "multiplierQueries": {}
+  }
+}

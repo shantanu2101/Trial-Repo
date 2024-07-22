@@ -1,0 +1,26 @@
+{
+  "name": "Obligations Secured by Pledge or Other Charge",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "obligationsSecuredByCharge": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What amount of money or other obligations like performance are secured by the pledge or charge?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Obligations Secured by Pledge or Other Charge"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "obligationsSecuredByCharge"
+    ],
+    "multiplierQueries": {}
+  }
+}

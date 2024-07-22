@@ -1,0 +1,26 @@
+{
+  "name": "Dissolution of Joint Venture",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dissolutionOfJV": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any specific provisions for dissolution/ liquidation/cessation of the joint venture?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Dissolution of Joint Venture"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dissolutionOfJV"
+    ],
+    "multiplierQueries": {}
+  }
+}

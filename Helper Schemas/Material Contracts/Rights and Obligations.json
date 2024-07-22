@@ -1,0 +1,26 @@
+{
+  "name": "Rights and Obligations",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "rightsAndObligations": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the key rights and obligations of each party under theagreement? Provide responses for each party separately.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Rights and Obligations"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "rightsAndObligations"
+    ],
+    "multiplierQueries": {}
+  }
+}

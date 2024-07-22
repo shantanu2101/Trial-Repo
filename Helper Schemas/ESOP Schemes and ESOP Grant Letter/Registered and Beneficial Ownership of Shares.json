@@ -1,0 +1,26 @@
+{
+  "name": "Registered and Beneficial Ownership of Shares",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "registeredAndBeneficialOwnershipOfShares": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, who gets registered ownership andbeneficial ownership of the shares issued pursuant to the ESOP scheme?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Registered and Beneficial Ownership of Shares"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "registeredAndBeneficialOwnershipOfShares"
+    ],
+    "multiplierQueries": {}
+  }
+}

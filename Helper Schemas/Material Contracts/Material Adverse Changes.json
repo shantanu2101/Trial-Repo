@@ -1,0 +1,26 @@
+{
+  "name": "Material Adverse Changes",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "materialAdverseChanges": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document explicitly address 'material adversechanges'? Are any instances/ events specified, which would constitute a'material adverse change'? Does one party have to notify the other incase a 'material adverse change' occurs?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Material Adverse Changes"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "materialAdverseChanges"
+    ],
+    "multiplierQueries": {}
+  }
+}

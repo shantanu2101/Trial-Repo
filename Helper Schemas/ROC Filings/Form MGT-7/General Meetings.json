@@ -1,0 +1,26 @@
+{
+  "name": "General Meetings",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "generalMeetings": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How many general meetings (i.e., members/class/requisitioned/NCLT/court-convened meetings) were held during the year? On what dates, were the meetings held? Mention the type of meeting as well for each such meeting. Restrict your response to data expressly set out in the field of the document titled 'members/class/requisitioned/NCLT/court-convened meetings'.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "General Meetings"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "generalMeetings"
+    ],
+    "multiplierQueries": {}
+  }
+}

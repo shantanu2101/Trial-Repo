@@ -1,0 +1,26 @@
+{
+  "name": "Shareholding of Registered Member",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "shareholdingDetailsBen": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How many shares does each registered owner/registered memberhold in each class of shares?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Shareholding of Registered Member"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "shareholdingDetailsBen"
+    ],
+    "multiplierQueries": {}
+  }
+}

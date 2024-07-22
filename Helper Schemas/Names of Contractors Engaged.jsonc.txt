@@ -1,0 +1,26 @@
+{
+    "name": "Names of Contractors Engaged",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "namesOfContractors": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Provide names of all of the contractors engaged by the principal employer, as provided in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Names of Contractors Engaged"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "namesOfContractors"
+        ],
+        "multiplierQueries": {}
+    }
+}

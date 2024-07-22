@@ -1,0 +1,26 @@
+{
+  "name": "Securities Allotted for Consideration Other than Cash",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nonCashConsideration": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are securities allotted for consideration other than cash?Restrict your answer to details expressly set out in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Securities Allotted for Consideration Other than Cash"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nonCashConsideration"
+    ],
+    "multiplierQueries": {}
+  }
+}

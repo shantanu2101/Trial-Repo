@@ -1,0 +1,26 @@
+{
+  "name": "Details of Internal Committee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "internalCommitteeDetails": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide a bulleted list of members of the Internal Committee/Internal Complaints Committee of the company, along with each member's contact details. Use the following format: '1. [Member 1 Name] -[Contact Details]; 2. [Member 2 Name] - [Contact Details]' and so on.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Details of Internal Committee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "internalCommitteeDetails"
+    ],
+    "multiplierQueries": {}
+  }
+}

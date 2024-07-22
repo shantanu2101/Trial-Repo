@@ -1,0 +1,31 @@
+{
+    "name": "Sponsor Manager Commitment",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "sponsorManagerCommitment": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "1.     Is the sponsor or manager or their affiliates providing any additional commitment? What is the amount committed by the manager or sponsor or their affiliates or employees? Rely only on explicit references in the <document>. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Sponsor Manager Commitment"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "sponsorManagerCommitment"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Area Sharing",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "areaSharing": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the terms of area sharing under the agreement? This refers to the allocation or distribution of the land/ space/ development site among the parties involved in the development project. This may include developers, landowners, government entities, or other stakeholders as provided in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Area Sharing"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "areaSharing"
+    ],
+    "multiplierQueries": {}
+  }
+}

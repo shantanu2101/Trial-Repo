@@ -1,0 +1,46 @@
+{
+    "name": "Change of Control and MnA",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "changeOfControlandMnA": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "The <document> is a legal agreement. I want you to identify and produce if {partyName} is required to (1) furnish information, (2) take approvals, (3) take authorisations or (4) take consent in any of the following cases: (a) change of control; (b) change in capital structure; (c) change in corporate structure; (d) change of management; (e) change in board of directors; (f) change of articles of association; (g) change of shareholding of the company; (h) merger; (i) acquisition; (j) sale of assets; and (k) sale of business of the company. Return these details as they are mentioned in the <document>. Do not draw any inferences on your end.",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true, 
+                        "displayQuery": "Change of Control and MnA"
+                      
+                  },
+      
+                  {
+                      "text": "Based on the <Data>, if the document contains any provision on change of control, change in corporate structure, change of management, change of shareholding, merger, acquisition, sale of business, etc. pertaining to {partyName}, then just return 'Change of Control Restrictions' and nothing else. But if the document does not contain any provision on change of control, change in corporate structure, change of management, change of shareholding, merger, acquisition, sale of business, etc. pertaining to {partyName}, then just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+                      "position": "none",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true,
+                      "flag": {
+                                  "red": "The document contains provisions on change of control, change in corporate structure, change of management, change of shareholding, merger, acquisition, sale of business, etc. pertaining to {partyName}. Caption - Change of Control Restrictions"
+
+                              },
+                      "output": {
+                          "type": "options",
+                          "options": [
+                                "Change of Control Restrictions",
+                              "NA"
+                              ]
+                          },
+                      "visible": false
+                    }
+              ]
+          }
+      },
+      "baseQueries": [
+          "changeOfControlandMnA"
+      ],
+      "multiplierQueries": {}
+  }
+}

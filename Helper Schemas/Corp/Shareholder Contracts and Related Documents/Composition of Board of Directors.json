@@ -1,0 +1,26 @@
+{
+  "name": "Composition of Board of Directors",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "compositionOfBoardOfDirectors": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document prescribe a composition for the board of directors of the company? What is the composition prescribed?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Composition of Board of Directors"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "compositionOfBoardOfDirectors"
+    ],
+    "multiplierQueries": {}
+  }
+}

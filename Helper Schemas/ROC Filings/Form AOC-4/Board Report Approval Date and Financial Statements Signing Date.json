@@ -1,0 +1,26 @@
+{
+    "name": "Board Report Approval Date and Financial Statements Signing Date",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "datesOfBoardReportAndOfFinancials": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Based on the facts expressly set out in the document and in the documents attached to the document, provide the following dates: (a) when were the board meetings held to approve the board reports; and(b) when were the financial statements signed by the auditors? Do not draw any inferences. Explain how you have arrived at the answer. If the required data is not provided in the document, just mention that the same is not provided?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Board Report Approval Date and Financial Statements Signing Date"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "datesOfBoardReportAndOfFinancials"
+        ],
+        "multiplierQueries": {}
+    }
+}

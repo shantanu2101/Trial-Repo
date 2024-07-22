@@ -1,0 +1,31 @@
+{
+    "name": "Drawdown Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "drawdownInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Under what circumstances can a drawdown be made after the commitment period? Can the timeline for a drawdown notice be altered? Restrict yourself to explicit clauses in the contract to this effect, and do not make under any circumstance make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Drawdown Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "drawdownInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

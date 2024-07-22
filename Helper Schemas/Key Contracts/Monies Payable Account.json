@@ -1,0 +1,34 @@
+{
+    "name": "Monies Payable Account",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "moniesPayableAccount": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": " Are the monies payable under the contract being deposited in any specified account? If yes, is such an account being charged in favour of any creditor? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Monies Payable Account"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "moniesPayableAccount"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

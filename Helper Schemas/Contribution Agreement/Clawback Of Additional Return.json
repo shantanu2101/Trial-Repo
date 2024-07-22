@@ -1,0 +1,34 @@
+{
+    "name": "Clawback Of Additional Return",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "clawbackOfAdditionalReturn": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there any escrow mechanism mentioned in the <document>? Will there be any escrow or guarantee of carry claw-back or additional return? If there is an escrow provision, return the quantum and time period of the escrow. If there is a guarantee provision, who will provide the guarantee? A clawback provision ensures that the carried interest partner does not receive more than its agreed percentage of carried interest over the life of the fund. Is there a back-to-back guarantee being obtained from carry recipients? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Clawback Of Additional Return"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "clawbackOfAdditionalReturn"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

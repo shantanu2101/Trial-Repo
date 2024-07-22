@@ -1,0 +1,26 @@
+{
+  "name": "Allocation of Profits",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "allocationOfProfits": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, in what manner and ratio will the profits and losses be allocated among the parties?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Allocation of Profits"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "allocationOfProfits"
+    ],
+    "multiplierQueries": {}
+  }
+}

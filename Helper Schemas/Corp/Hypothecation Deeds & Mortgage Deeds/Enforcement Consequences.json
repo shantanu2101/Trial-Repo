@@ -1,0 +1,26 @@
+{
+  "name": "Enforcement Consequences",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "enforcementConsequences": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the consequences of enforcement of the mortgage by the lender/ mortgagee? This refers to the actions which the lender may take in case the borrower defaults on repayment, for example, actions of foreclosure, repossession, or sale of the property to recover the outstanding debt. Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Enforcement Consequences"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "enforcementConsequences"
+    ],
+    "multiplierQueries": {}
+  }
+}

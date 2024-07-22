@@ -1,0 +1,26 @@
+{
+  "name": "Tenure of Directorship/KMP",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "tenureOfDirectorKmp": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the period of the directorship (or period of office askey managerial personnel) of the individual as per the resolutionsattached to the document? Is there a fixed term or is the director/KMPliable to retire by rotation?.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Tenure of Directorship/KMP"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "tenureOfDirectorKmp"
+    ],
+    "multiplierQueries": {}
+  }
+}

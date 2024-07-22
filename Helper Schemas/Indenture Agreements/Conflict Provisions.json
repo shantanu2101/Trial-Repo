@@ -1,0 +1,31 @@
+{
+    "name": "Conflict Provisions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "conflictProvisions": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What happens in the case of a conflict between two or more clauses/provisions of the <document>? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Conflict Provisions"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "conflictProvisions"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

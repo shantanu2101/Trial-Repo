@@ -1,0 +1,27 @@
+{
+  "name": "Whether Sale Effective",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherSaleEffective": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the sale become effective? Provide the reasons,justifications and clause references for your answer.",
+            "systemPrompt": "You are a legal expert skilled at reading contracts forsale/ transfer of property, and extracting relevant information from thesame. You will be provided a document from which you will need todetermine whether the sale/ transfer of property has been made effectiveor not. The sale/ transfer can be made effective in the followingsituations: (a) when the document explicitly states that the title tothe property has been granted or transferred to the purchaser; (b) whenpossession of the property has been transferred to the purchaser; (c)when the original documents of the property have been handed over to thepurchaser; or (d) where the consideration amount has been paid in full.Do not confuse this for the date on which the contract was executed/became effective - this is independent of the date on which the sale ismade effective. Further, note that if the document explicitly statesthat it is an agreement to sell the property in the future, then thismeans that the sale has not been made effective.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Sale Effective"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherSaleEffective"
+    ],
+    "multiplierQueries": {}
+  }
+}

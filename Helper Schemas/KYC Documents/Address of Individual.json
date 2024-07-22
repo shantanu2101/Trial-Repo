@@ -1,0 +1,30 @@
+{
+  "name": "Address of Individual",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "addressOfIndividual": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "What is the address of the individual as per the document? Rely only on explicit references in the document. Do not make any inferences. Do not confuse this with any other address provided in the document, such as the address of the issuing authority or government authority.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Address of Individual"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "addressOfIndividual"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+
+
+

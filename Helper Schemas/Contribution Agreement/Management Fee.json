@@ -1,0 +1,32 @@
+{
+    "name": "Management Fee",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "managementFee": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "On what amount is the management fee calculated during and after the commitment period? Are there any conditions in which the management fee gets reduced? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Management Fee"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "managementFee"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+

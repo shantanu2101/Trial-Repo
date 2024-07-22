@@ -1,0 +1,26 @@
+{
+  "name": "Resolutions Adopted",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "resolutionsAdopted": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What were the final resolutions adopted in the meeting? Providea summary of each such resolution. Maintain brevity but do not excludeany important points. Respond with a bulleted list of resolutions in thefollowing format: '1. [Resolution Name] - [Summary]; 2. [ResolutionName] - [Summary]' and so on. Limit yourself to items specifically andexpressly identified as resolution",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Resolutions Adopted"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "resolutionsAdopted"
+    ],
+    "multiplierQueries": {}
+  }
+}

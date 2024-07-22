@@ -1,0 +1,26 @@
+{
+  "name": "Name of ESOP Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nameOfEsopScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the name or title of the ESOP scheme/ plan? This isusually provided in the beginning of the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Name of ESOP Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nameOfEsopScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

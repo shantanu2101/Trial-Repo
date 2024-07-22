@@ -1,0 +1,26 @@
+{
+  "name": "Publicity Provisions",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "publicityProvisions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a clause which addresses whether the parties maypublicize, market or disclose the existence of the contract or of theirrelationship in marketing presentations, discussions with third parties,etc.?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Publicity Provisions"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "publicityProvisions"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Where Parties Situated",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "wherePartiesSituated": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "In which cities are the parties to the document situated? Ifavailable, refer to the registered office or office address provided inthe description of each party to answer this query. Provide the responsefor each party separately.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Where Parties Situated"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "wherePartiesSituated"
+    ],
+    "multiplierQueries": {}
+  }
+}

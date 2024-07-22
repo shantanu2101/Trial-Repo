@@ -1,0 +1,26 @@
+{
+  "name": "Invocation of Guarantee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "guaranteeInvoked": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Under what circumstances can the guarantee be invoked?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Invocation of Guarantee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "guaranteeInvoked"
+    ],
+    "multiplierQueries": {}
+  }
+}

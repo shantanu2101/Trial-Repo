@@ -1,0 +1,26 @@
+{
+  "name": "Net Worth of the Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "netWorthOfCompany": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the net worth of the company as expressly mentioned in the document and/or in its attachments? Please present your answer setting out: (a) the full amounts exactly as set out in the form; and(b) the same amounts in words (eg. how many crore and how many lakh).",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Net Worth of the Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "netWorthOfCompany"
+    ],
+    "multiplierQueries": {}
+  }
+}

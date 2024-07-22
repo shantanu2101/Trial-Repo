@@ -1,0 +1,26 @@
+{
+  "name": "Ranking of Charge",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "rankingOfCharge": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the ranking of the charge? The ranking pertains to thepriority which will be given to the mortgagee's/ lender's claim in casemultiple lenders raise claims over the mortgaged property. This may bein the form of a first ranking charge, second ranking charge, third/subsequent ranking charge, pari passu charge, equitable charge orfloating charge.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Ranking of Charge"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "rankingOfCharge"
+    ],
+    "multiplierQueries": {}
+  }
+}

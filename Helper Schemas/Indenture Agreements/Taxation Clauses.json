@@ -1,0 +1,31 @@
+{
+    "name": "Taxation Clauses",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "taxationClauses": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which clauses are linked to any taxation requirements? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Only return the clause numbers.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Taxation Clauses"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "taxationClauses"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

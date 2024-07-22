@@ -1,0 +1,32 @@
+{
+    "name": "Defaulter Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "defaulterInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "How are consent thresholds affected by defaulting  investors? How are distributions affected by defaulting  investors? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make under any circumstance make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Defaulter Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "defaulterInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+

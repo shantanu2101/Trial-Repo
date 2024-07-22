@@ -1,0 +1,34 @@
+{
+    "name": "Key Person And Event",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "keyPersonAndEvent": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are the key persons directors or employees of the investment manager or sponsor? What are the consequences of a key person event? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Key Person And Event"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "keyPersonAndEvent"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

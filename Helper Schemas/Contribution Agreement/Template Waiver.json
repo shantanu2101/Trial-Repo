@@ -1,0 +1,34 @@
+{
+    "name": "Template Waiver",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "templateWaiver": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there a waiver from the requirement to follow the PPM template? Waiver from template form of PPM has been provided under regulation 20(8) of the SEBI (Alternative Investment Funds (AIF)) Regulations and paragraph 2.4.4 of the SEBI Master Circular for AIFs (alternative investment funds) dated July 31, 2023. Do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Template Waiver"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "templateWaiver"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

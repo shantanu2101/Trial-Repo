@@ -1,0 +1,26 @@
+{
+  "name": "Cross Default",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "crossDefault": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document contain a cross-default provision, i.e., a provision which states that {partyName} will be in default of this agreement if {partyName} defaults on another loan/ another financing arrangement.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Cross Default"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "crossDefault"
+    ],
+    "multiplierQueries": {}
+  }
+}

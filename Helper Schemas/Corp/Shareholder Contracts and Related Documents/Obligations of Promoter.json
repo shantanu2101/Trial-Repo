@@ -1,0 +1,26 @@
+{
+  "name": "Obligations of Promoter",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "promoterObligations": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the obligations of the promoters under the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Obligations of Promoter"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "promoterObligations"
+    ],
+    "multiplierQueries": {}
+  }
+}

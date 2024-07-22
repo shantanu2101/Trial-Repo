@@ -1,0 +1,26 @@
+{
+  "name": "Employee Receiving Grant",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "employeeReceivingGrant": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the name of the employee to whom the grant is being made?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Employee Receiving Grant"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "employeeReceivingGrant"
+    ],
+    "multiplierQueries": {}
+  }
+}

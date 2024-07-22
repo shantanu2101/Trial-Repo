@@ -1,0 +1,26 @@
+{
+    "name": "Term and Expiry",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "termAndExpiry": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the term, tenure or validity period for thisdocument? What is the date of expiry of the document?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Term and Expiry"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "termAndExpiry"
+        ],
+        "multiplierQueries": {}
+    }
+}

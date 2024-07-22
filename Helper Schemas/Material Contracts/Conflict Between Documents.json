@@ -1,0 +1,26 @@
+{
+  "name": "Conflict Between Documents",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "conflictBetweenDocuments": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does this agreement account for a conflict between this agreement and any other document? Which document would prevail or take precedence in such a situation? Restrict your response to what is explicitly stated in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Conflict Between Documents"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "conflictBetweenDocuments"
+    ],
+    "multiplierQueries": {}
+  }
+}

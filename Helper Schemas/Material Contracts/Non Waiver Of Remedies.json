@@ -1,0 +1,26 @@
+{
+  "name": "Non Waiver Of Remedies",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nonWaiverOfRemedies": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there any provision which states that if a party opts for aparticular remedy, then this will not waive such party's right toexercise any other remedy under the agreement or under law?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Non Waiver Of Remedies"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nonWaiverOfRemedies"
+    ],
+    "multiplierQueries": {}
+  }
+}

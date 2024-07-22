@@ -1,0 +1,26 @@
+{
+  "name": "Whether Agreement Exclusive",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherAgreementExclusive": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is this agreement exclusive in nature? Does the agreement prohibit or restrict {partyName} from engaging in a similar relationship with another person/ entity?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Agreement Exclusive"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherAgreementExclusive"
+    ],
+    "multiplierQueries": {}
+  }
+}

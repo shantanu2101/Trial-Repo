@@ -1,0 +1,26 @@
+{
+  "name": "Severability",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "severability": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the agreement contain a severability clause? This isusually a clause stating that if any term of the contract is found to beillegal, unlawful, void or unenforceable, such term will be deemed to besevered from the contract and this will not affect the validity of theremainder of the contract.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Severability"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "severability"
+    ],
+    "multiplierQueries": {}
+  }
+}

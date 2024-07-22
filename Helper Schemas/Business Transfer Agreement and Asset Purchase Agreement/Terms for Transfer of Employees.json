@@ -1,0 +1,26 @@
+{
+  "name": "Terms for Transfer of Employees",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "termsForTransferOfEmployees": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, are the employees being transferred on a'continuity of service' basis or will retrenchment/ terminal benefits beprovided to the employees?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Terms for Transfer of Employees"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "termsForTransferOfEmployees"
+    ],
+    "multiplierQueries": {}
+  }
+}

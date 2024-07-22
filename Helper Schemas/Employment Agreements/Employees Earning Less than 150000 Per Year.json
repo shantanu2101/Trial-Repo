@@ -1,0 +1,26 @@
+{
+  "name": "Employees Earning Less than 150000 Per Year",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "salaryLessThan150000PerYear": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide a bulleted list of employees who earn a basic salary of less than INR/ Rupees 150000 per month. What is the number of such employees?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Employees Earning Less than 150000 Per Year"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "salaryLessThan150000PerYear"
+    ],
+    "multiplierQueries": {}
+  }
+}

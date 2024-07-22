@@ -1,0 +1,38 @@
+{
+    "name": "Subordinated Debt",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "subordinatedDebt": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is the facility senior in nature or is it subordinated to other existing debt availed by the borrower? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Subordinated Debt"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "subordinatedDebt"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

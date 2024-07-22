@@ -1,0 +1,26 @@
+{
+  "name": "Construction Rights",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "lesseeConstructionRights": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document entitle the lessee to carry out construction on the leased land/ property?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Construction Rights"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "lesseeConstructionRights"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Time for Filing Response",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "timeForFilingResponse": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the time period by which the next response/ pleadingmust be filed? Rely only on explicit references in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Time for Filing Response"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "timeForFilingResponse"
+    ],
+    "multiplierQueries": {}
+  }
+}

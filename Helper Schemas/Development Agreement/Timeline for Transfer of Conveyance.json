@@ -1,0 +1,26 @@
+{
+  "name": "Timeline for Transfer of Conveyance",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "timelineForConveyance": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the timeline for transferring legal ownership orconveyance of the developed properties/ constructed area to theallottees or to the organization representing the allottees?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Timeline for Transfer of Conveyance"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "timelineForConveyance"
+    ],
+    "multiplierQueries": {}
+  }
+}

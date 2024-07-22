@@ -1,0 +1,26 @@
+{
+    "name": "LLP Clauses",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "llpClauses": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which clauses are derived from the Limited Liability Partnership Act, 2008? Refer to the Limited Liability Partnership Act, 2008 for the results. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response. ",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "LLP Clauses"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "llpClauses"
+        ],
+        "multiplierQueries": {}
+    }
+}

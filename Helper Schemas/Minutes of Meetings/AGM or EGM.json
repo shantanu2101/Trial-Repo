@@ -1,0 +1,26 @@
+{
+  "name": "AGM or EGM",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "agmOrEgm": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document contain minutes of an annual general meeting or extraordinary general meeting?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "AGM or EGM"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "agmOrEgm"
+    ],
+    "multiplierQueries": {}
+  }
+}

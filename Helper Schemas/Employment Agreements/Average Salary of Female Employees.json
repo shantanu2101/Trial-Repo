@@ -1,0 +1,27 @@
+{
+  "name": "Average Salary of Female Employees",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "averageSalaryFemaleEmployees": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the average salary received by female employees?",
+            "systemPrompt": "You are an expert at reading excel sheets and otherrepositories of data pertaining to details of personnel engaged by anemployer. You will be provided a document from which you need toidentify the average salary received by female employees. The documentwill specify which of the employees are male, and which of the employeesare female. You must restrict your analysis only to the femaleemployees. To calculate the average salary received by the femaleemployees, you must add the salaries received by each female employee,and then divide the sum by the total number of female employees.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Average Salary of Female Employees"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "averageSalaryFemaleEmployees"
+    ],
+    "multiplierQueries": {}
+  }
+}

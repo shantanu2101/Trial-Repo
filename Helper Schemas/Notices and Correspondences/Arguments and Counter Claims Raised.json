@@ -1,0 +1,27 @@
+{
+  "name": "Arguments and Counter Claims Raised",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "argumentsAndCounterClaimsRaised": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the key arguments and claims which have been raised in the document? If the document is filed in reply, what are there buttals raised in the notice? Are there any counter-claims? Restrict your responses to explicit references in the document. Do not make any inferences.",
+            "systemPrompt": "You are a legal expert who is skilled at evaluatinglegal documents and identifying the key arguments and claims raised insuch documents. The document may be filed to raise allegations againstone party, i.e. a notice, petition, etc., or may be filed in reply to adocument already served, i.e. a reply notice, written statement, etc. Ifthe document is filed in reply, such document may contain rebuttals aswell as counter-claims. While rebuttals are simply responses toallegations already raised by the other party, counter-claims areclaims/ allegations which are raised by the issuing party independently.You have to identify such rebuttals and counter-claims separately.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Arguments and Counter Claims Raised"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "argumentsAndCounterClaimsRaised"
+    ],
+    "multiplierQueries": {}
+  }
+}

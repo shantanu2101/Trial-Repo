@@ -1,0 +1,26 @@
+{
+  "name": "Purpose of Joint Venture",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "purposeOfJointVenture": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the purpose or objective which the parties seek toachieve through the joint venture? Rely only on explicit references inthe document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Purpose of Joint Venture"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "purposeOfJointVenture"
+    ],
+    "multiplierQueries": {}
+  }
+}

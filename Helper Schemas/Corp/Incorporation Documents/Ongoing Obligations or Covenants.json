@@ -1,0 +1,26 @@
+{
+  "name": "Ongoing Obligations or Covenants",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "ongoingObligationsOrCovenants": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any ongoing obligations or covenants that {partyName} will be subject to as per the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Ongoing Obligations or Covenants"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "ongoingObligationsOrCovenants"
+    ],
+    "multiplierQueries": {}
+  }
+}

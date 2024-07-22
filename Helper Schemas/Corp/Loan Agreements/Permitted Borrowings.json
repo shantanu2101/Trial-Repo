@@ -1,0 +1,26 @@
+{
+  "name": "Permitted Borrowings",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "permittedBorrowings": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document specifically identify or enumerate anypermitted borrowings/ permitted securities, i.e., which {partyName} maybe entitled to undertake without the prior consent of the lender?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Permitted Borrowings"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "permittedBorrowings"
+    ],
+    "multiplierQueries": {}
+  }
+}

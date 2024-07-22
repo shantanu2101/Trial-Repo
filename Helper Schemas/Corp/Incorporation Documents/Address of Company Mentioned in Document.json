@@ -1,0 +1,26 @@
+{
+    "name": "Address of Company Mentioned in Document",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "addressOfCompany": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the registered address of the company or of the particular office/ premise in respect of which the document has been issued/ created/ filed?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Address of Company Mentioned in Document"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "addressOfCompany"
+        ],
+        "multiplierQueries": {}
+    }
+}

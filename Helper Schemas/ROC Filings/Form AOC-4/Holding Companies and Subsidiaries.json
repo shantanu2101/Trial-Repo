@@ -1,0 +1,26 @@
+{
+  "name": "Holding Companies and Subsidiaries",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "holdcosAndSubsidiaries": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the company have any holding company or subsidiary company? If yes, provide their names and corporate identification numbers (CINs). Restrict your response to the facts expressly set out inthe document and in  the documents attached to the document",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Holding Companies and Subsidiaries"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "holdcosAndSubsidiaries"
+    ],
+    "multiplierQueries": {}
+  }
+}

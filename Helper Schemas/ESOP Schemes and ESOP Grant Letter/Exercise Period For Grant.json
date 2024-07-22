@@ -1,0 +1,26 @@
+{
+  "name": "Exercise Period For Grant",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "exercisePeriodForGrant": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, what is the time period within which the employee must exercise the grant of options and purchase the company's stocks?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Exercise Period For Grant"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "exercisePeriodForGrant"
+    ],
+    "multiplierQueries": {}
+  }
+}

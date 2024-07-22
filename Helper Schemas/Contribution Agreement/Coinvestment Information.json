@@ -1,0 +1,34 @@
+{
+    "name": "Coinvestment Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "coinvestmentInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any fees and expenses being charged for co-investment? Can investors invest in portfolio companies directly, along with the fund? Does the investment manager have a co-investment portfolio management / PMS license? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Coinvestment Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "coinvestmentInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

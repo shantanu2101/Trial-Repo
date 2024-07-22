@@ -1,0 +1,26 @@
+{
+  "name": "Details of the Amount Secured",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "detailsOfamountSecured": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide the following details as expressly set out in the Form CHG-1: (a) amount secured by the charge; (b) rate of interest; (c)repayment term; (d) terms of repayment; (e) margin; and (f) extent and operation of the charge. You may respond in tabular form which each of the above 6 heading as separate rows. In your response, clarify that this response is based only on the details expressly set out in FormCHG-1",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Details of the Amount Secured"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "detailsOfamountSecured"
+    ],
+    "multiplierQueries": {}
+  }
+}

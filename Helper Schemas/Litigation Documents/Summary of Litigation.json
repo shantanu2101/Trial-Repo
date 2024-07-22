@@ -1,0 +1,26 @@
+{
+  "name": "Summary of Litigation",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "summaryOfLitigation": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide a brief summary of the litigation. This summary shouldcontain the date, name of parties involved, the amount involved if any,and an overview of the facts of matter. Do not include the argumentsof the parties or the decision/ order of the court.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Summary of Litigation"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "summaryOfLitigation"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Reference to Shareholders Agreement",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "shareholdersAgreementReference": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document make any reference to a shareholders'agreement or SHA? If yes, then what is date of the shareholders'agreement and who are the parties to the shareholders' agreement?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Reference to Shareholders Agreement"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "shareholdersAgreementReference"
+    ],
+    "multiplierQueries": {}
+  }
+}

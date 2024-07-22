@@ -1,0 +1,26 @@
+{
+  "name": "Period of Appointment of Auditor",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "auditorAppointmentPeriod": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "When was each auditor appointed and what is/ was the term oftheir appointment? Has the auditor been appointed for five years ormore?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Period of Appointment of Auditor"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "auditorAppointmentPeriod"
+    ],
+    "multiplierQueries": {}
+  }
+}

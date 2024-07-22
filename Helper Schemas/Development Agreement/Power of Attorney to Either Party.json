@@ -1,0 +1,26 @@
+{
+  "name": "Power of Attorney to Either Party",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "partyPowerOfAttorney": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a power of attorney referenced in the document in favor of {partyName}?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Power of Attorney to Either Party"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "partyPowerOfAttorney"
+    ],
+    "multiplierQueries": {}
+  }
+}

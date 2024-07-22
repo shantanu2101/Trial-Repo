@@ -1,0 +1,26 @@
+{
+  "name": "Name of Agreement",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nameOfAgreement": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the name or title of the agreement? This is usuallyprovided at th beginning of the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Name of Agreement"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nameOfAgreement"
+    ],
+    "multiplierQueries": {}
+  }
+}

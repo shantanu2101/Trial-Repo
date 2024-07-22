@@ -1,0 +1,46 @@
+{
+    "name": "Restrictions on Charged Properties",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "restrictionsOnChargedProperties": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Does the document place restrictions or conditions on the borrower/ chargor to use, transfer or deal with the charged property inany way?",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true, 
+                        "displayQuery": "Restrictions on Charged Properties"
+                      
+                  },
+      
+                  {
+                      "text": "Based on the <Data>, if the document places restrictions or conditions on the borrower/ chargor to use, transfer or deal with the charged property in any way, then just return 'Restrictions on Charged Properties' and nothing else. But if the document does not place any restrictions or conditions on the borrower/ chargor to use, transfer or deal with the charged property in any way, then just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+                      "position": "none",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true,
+                      "flag": {
+                                  "red": "There document places restrictions or conditions on the borrower/ chargor to use, transfer or deal with the charged property. Caption - Restrictions on Charged Properties"
+
+                              },
+                      "output": {
+                          "type": "options",
+                          "options": [
+                                "Restrictions on Charged Properties",
+                              "NA"
+                              ]
+                          },
+                      "visible": false
+                    }
+              ]
+          }
+      },
+      "baseQueries": [
+          "restrictionsOnChargedProperties"
+      ],
+      "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Consent For Further Indebtedness",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "consentForFurtherIndebtedness": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is consent required to incur further indebtedness? Is there an intimation or notification requirement for incurring further indebtedness? Would availing further indebtedness trigger an event of default? Would availing further indebtedness trigger a mandatory prepayment event? Respond to each question separately. Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Consent For Further Indebtedness"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "consentForFurtherIndebtedness"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

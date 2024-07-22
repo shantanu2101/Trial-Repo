@@ -1,0 +1,46 @@
+{
+    "name": "Exclusive Charge",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "exclusiveCharge": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Is the charge exclusive in nature?",
+                      "systemPrompt": "You are an expert at reading property contracts including mortgage deeds, hypothecation deeds, sale deeds, lease deeds, gift deeds, etc. and identifying the restrictive clauses provided inthem. You will be provided a document from which you need to identify whether the charge is exclusive in nature. The charge is 'exclusive' if the document prohibits the creation of a further charge/ interest/lien over the charged property. The charge will also be considered 'exclusive' if the lender's consent is required before creating of afurther charge/ interest/ lien over the charged property.",
+                      "overridePageSystemPrompt": true, 
+                        "displayQuery": "Exclusive Charge"
+                      
+                  },
+      
+                  {
+                      "text": "Based on the <Data>, if the charge is exclusive in nature, then just return 'Exclusive Charge' and nothing else. But if there is nothing to indicate that the charge is exclusive in nature, then just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+                      "position": "none",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true,
+                      "flag": {
+                                  "red": "The charge is exclusive in nature. Caption - Exclusive Charge"
+
+                              },
+                      "output": {
+                          "type": "options",
+                          "options": [
+                                "Exclusive Charge",
+                              "NA"
+                              ]
+                          },
+                      "visible": false
+                    }
+              ]
+          }
+      },
+      "baseQueries": [
+          "exclusiveCharge"
+      ],
+      "multiplierQueries": {}
+  }
+}

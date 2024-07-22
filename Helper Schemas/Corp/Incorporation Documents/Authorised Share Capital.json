@@ -1,0 +1,26 @@
+{
+    "name": "Authorised Share Capital",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "authorisedShareCapital": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the authorised share capital of the company? Provide the breakdown and associated details of the same. Clarify the division of the authorised share capital between equity shares and preference shares, if provided in the document. Does the document provide for multiple classes of shares in the company?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Authorised Share Capital"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "authorisedShareCapital"
+        ],
+        "multiplierQueries": {}
+    }
+}

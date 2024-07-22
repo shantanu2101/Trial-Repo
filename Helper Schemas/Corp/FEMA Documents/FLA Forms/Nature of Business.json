@@ -1,0 +1,26 @@
+{
+  "name": "Nature of Business",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "natureOfBusinessFla": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the 'nature of business (As per National IndustrialClassification (NIC) 2008 Code)'? Strictly limit the response to thedata specifically identified as 'nature of business (As per NationalIndustrial Classification (NIC) 2008 Code)'' in the document",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Nature of Business"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "natureOfBusinessFla"
+    ],
+    "multiplierQueries": {}
+  }
+}

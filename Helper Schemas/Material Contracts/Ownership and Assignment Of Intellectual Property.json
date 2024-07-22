@@ -1,0 +1,26 @@
+{
+  "name": "Ownership and Assignment Of Intellectual Property",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "ipOwnershipAndAssignment": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How does the document address ownership, licensing,assignment and/ or use of intellectual property? Has the term'Intellectual Property' or any of its components been defined? Is therea provision regarding breach of one party's intellectual propertyrights?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Ownership and Assignment Of Intellectual Property"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "ipOwnershipAndAssignment"
+    ],
+    "multiplierQueries": {}
+  }
+}

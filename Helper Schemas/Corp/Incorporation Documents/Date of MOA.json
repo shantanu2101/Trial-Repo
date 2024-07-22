@@ -1,0 +1,26 @@
+{
+    "name": "Date of MOA",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "dateOfMOA": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the date of the Memorandum of Association? This is usually provided towards the end of the <document>, on the subscription page or signing page.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Date of MOA"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "dateOfMOA"
+        ],
+        "multiplierQueries": {}
+    }
+}

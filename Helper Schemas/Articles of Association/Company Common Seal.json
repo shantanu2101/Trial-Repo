@@ -1,0 +1,31 @@
+{
+    "name": "Company Common Seal",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "companyCommonSeal": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the <document> speak about the 'common seal' or 'seal' of the company? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Company Common Seal"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "companyCommonSeal"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

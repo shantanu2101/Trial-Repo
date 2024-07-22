@@ -1,0 +1,26 @@
+{
+  "name": "Whether Signed by All Parties",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherSigned": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the document been signed by all of the parties?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether *Digitally* Signed by All Parties"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherSigned"
+    ],
+    "multiplierQueries": {}
+  }
+}

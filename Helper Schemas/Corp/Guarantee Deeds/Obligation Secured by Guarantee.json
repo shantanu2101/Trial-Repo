@@ -1,0 +1,26 @@
+{
+  "name": "Obligation Secured by Guarantee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "obligationSecuredByGuarantee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the underlying obligation secured by the guarantee? This refers to the specific debts or other commitments that the obligor/debtor owes, in respect of which the surety/ guarantor has provided the guarantee. This may be in the form of the obligor's/ debtor's debt obligations, performance obligations, payment obligations, compliance obligations, etc.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Obligation Secured by Guarantee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "obligationSecuredByGuarantee"
+    ],
+    "multiplierQueries": {}
+  }
+}

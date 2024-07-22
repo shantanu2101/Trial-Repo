@@ -1,0 +1,26 @@
+{
+  "name": "Place of Execution",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "placeOfExecution": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document specify the place, i.e. the state, city orcountry where the document was signed/ executed? This is usuallyprovided in the introductory lines of the document or in the finalsignature pages. Rely only on explicit references in the document. Donot mention the date or time of signing or execution. Do not make anyinferences. If no location is specified, return a negative answer.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Place of Execution"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "placeOfExecution"
+    ],
+    "multiplierQueries": {}
+  }
+}

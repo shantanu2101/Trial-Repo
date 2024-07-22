@@ -1,0 +1,27 @@
+{
+  "name": "Type of Shares Issued",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "typeOfSharesIssued": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the type of shares being issued/ subscribed under thisdocument? What are the key terms on which such shares are beingissued/ subscribed?",
+            "systemPrompt": "You are an expert at analyzing shareholder contractsand company incorporation documents, and identifying the type of sharesbeing issued/ subscribed under the same. You will be given a documentfrom which you have to identify the type of shares which are being orcan be issued/ subscribed and the key terms on which such issuance/subscription will take place. The types of shares may include preferenceshares, ordinary shares, cumulative shares, bonus shares, redeemableshares, etc. This list is indicative, not exhaustive.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Type of Shares Issued"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "typeOfSharesIssued"
+    ],
+    "multiplierQueries": {}
+  }
+}

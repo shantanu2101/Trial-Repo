@@ -1,0 +1,26 @@
+{
+  "name": "Confidentiality and Non Disclosure",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "confidentialityAndNonDisclosure": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a provision on confidentiality or non-disclosure? Has the scope or definition of confidential information/ protected information/ sensitive information been provided in the document? For how long does the confidentiality/ non-disclosure obligation survive the termination of the Agreement? Are there any circumstances mentioned in which confidential information can be disclosed?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Confidentiality and Non Disclosure"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "confidentialityAndNonDisclosure"
+    ],
+    "multiplierQueries": {}
+  }
+}

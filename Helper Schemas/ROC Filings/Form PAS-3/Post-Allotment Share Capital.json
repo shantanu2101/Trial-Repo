@@ -1,0 +1,26 @@
+{
+  "name": "Post-Allotment Share Capital",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "postAllotmentShareCapital": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide details of the paid-up capital of the company aftertaking into consideration the allotment(s) of shares referred to in the document",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Post-Allotment Share Capital"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "postAllotmentShareCapital"
+    ],
+    "multiplierQueries": {}
+  }
+}

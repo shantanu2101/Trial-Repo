@@ -1,0 +1,26 @@
+{
+  "name": "Majority Threshold for the Resolution",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "majorityThreshold": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is the resolution passed as an 'ordinary resolution', 'specialresolution' or with 'requisite majority'? This is expressly identifiedin the Form itself.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Majority Threshold for the Resolution"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "majorityThreshold"
+    ],
+    "multiplierQueries": {}
+  }
+}

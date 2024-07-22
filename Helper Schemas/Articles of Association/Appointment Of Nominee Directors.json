@@ -1,0 +1,30 @@
+{
+    "name": "Appointment Of Nominee Directors",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "appointmentOfNomineeDirectors": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Do the Articles of Association contain provisions for the appointment of nominee directors? Restrict yourself to explicit clauses in the Articles of Association to this effect, and do not make any inferences. Mention the specific clause number/clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Appointment Of Nominee Directors"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "appointmentOfNomineeDirectors"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

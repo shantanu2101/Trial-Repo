@@ -1,0 +1,26 @@
+{
+  "name": "Permanent Account Number of Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "permanentAccountNumberOfCompany": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the Permanent Account Number/ PAN number of the companyas mentioned in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Permanent Account Number of Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "permanentAccountNumberOfCompany"
+    ],
+    "multiplierQueries": {}
+  }
+}

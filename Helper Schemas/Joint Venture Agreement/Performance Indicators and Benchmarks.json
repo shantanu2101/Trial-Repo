@@ -1,0 +1,26 @@
+{
+  "name": "Performance Indicators and Benchmarks",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "performanceIndicatorsAndBenchmarks": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any specific performance indicators or benchmarksthat the joint venture entity must meet?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Performance Indicators and Benchmarks"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "performanceIndicatorsAndBenchmarks"
+    ],
+    "multiplierQueries": {}
+  }
+}

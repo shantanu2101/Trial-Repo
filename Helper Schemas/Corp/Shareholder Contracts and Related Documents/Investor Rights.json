@@ -1,0 +1,26 @@
+{
+  "name": "Investor Rights",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "investorRights": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document identify an investor? If yes, then what arethe rights available to the investor and the promoter of the company?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Investor Rights"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "investorRights"
+    ],
+    "multiplierQueries": {}
+  }
+}

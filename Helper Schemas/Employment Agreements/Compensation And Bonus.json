@@ -1,0 +1,41 @@
+{
+  "name": "Compensation And Bonus",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {
+      "compensationContext": {
+        "group": "Contexts",
+        "mode": "accumulateHaiku",
+        "queries": [
+          {
+            "text": "From the contract given as document, identify the provisions related to monetary compensation entitled to the employee, specifically the monetary salary and monetary bonus. Also identify the provisions related to provident fund/ employee provident fund. Do not confuse this with other benefits/ perquisites like insurance, allowances,reimbursement of expenses, etc. which may also be available to the employee. Rely only on explicit references in the document. Do notmake any inferences or rely on external knowledge.",
+            "visible": false,
+            "systemPrompt": "You are a legal expert skilled at reading contracts and identifying the compensation provisions outlined in such contracts. This refers to the elements of salary, bonus, provident fund, and other monetary benefits entitled to the employee under the contract."
+          }
+        ]
+      }
+    },
+    "querySets": {
+      "compensationAndBonus": {
+        "mode": "chained",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the salary/ compensation paid to the employee as provided in <context0>? Provide a breakdown of all details and numbers. Is there a provision for employee provident fund? Is there a component of monetary bonus? Is there any clause that explicitly provides for a bonus at the time of 'investment', 'merger' or 'acquisition'? Explicitly identify the specific clause number/ clause title which you are relying on for each response.",
+            "source": true,
+            "context": [
+              "compensationContext"
+            ],
+            "visible": true,
+            "displayQuery": "Compensation And Bonus"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "compensationAndBonus"
+    ],
+    "multiplierQueries": {}
+  }
+}

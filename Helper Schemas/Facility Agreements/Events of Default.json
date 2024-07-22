@@ -1,0 +1,46 @@
+{
+  "name": "Events of Default",
+"chapter": "",
+"alternativeNames": [],
+"pipeline": {
+    "context": {},
+    "querySets": {
+        "eventsOfDefault": {
+            "mode": "accumulate",
+            "queries": [
+                {
+                    "keywordRequired": [],
+                    "text": "What actions of {partyName} would constitute an events of default under the contract? Does the document separately provide for 'material default' or 'material breach'? Outline the triggers provided for such events as well as the consequences for {partyName} if the such breach or default occurs.",
+                    "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                    "overridePageSystemPrompt": true, 
+                "displayQuery": "Events of Default"
+                    
+                },
+    
+                {
+                    "text": "Based on the <Data>, if there are any events of default outlined in the document, then just return 'Events of Default' and nothing else. But if there are no events of default outlined in the document, then just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+                    "position": "none",
+                    "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                    "overridePageSystemPrompt": true,
+                    "flag": {
+                                "white": "There are events of default outlined in the document. Caption - Events of Default"
+
+                            },
+                    "output": {
+                    "type": "options",
+                    "options": [
+                        "Events of Default",
+                      "NA"
+                        ]
+                      },
+                    "visible": false
+                  }
+            ]
+        }
+    },
+    "baseQueries": [
+        "eventsOfDefault"
+    ],
+    "multiplierQueries": {}
+}
+}

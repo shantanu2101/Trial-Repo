@@ -1,0 +1,26 @@
+{
+  "name": "Calculation of Provident Fund",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "calculationOfProvidentFund": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the manner in which the employer's provident fund contributions are calculated? Are the contributions calculated on basic salary, or on guaranteed components of pay structure, or using other factors?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Calculation of Provident Fund"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "calculationOfProvidentFund"
+    ],
+    "multiplierQueries": {}
+  }
+}

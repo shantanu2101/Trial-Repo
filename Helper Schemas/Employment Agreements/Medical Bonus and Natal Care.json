@@ -1,0 +1,26 @@
+{
+  "name": "Medical Bonus and Natal Care",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "medicalBonusAndNatalCare": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the employer provide pre-natal confinement and post-natalcare free of charge? Does the employer provide any medical bonus to itsemployees?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Medical Bonus and Natal Care"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "medicalBonusAndNatalCare"
+    ],
+    "multiplierQueries": {}
+  }
+}

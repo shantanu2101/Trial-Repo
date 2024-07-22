@@ -1,0 +1,26 @@
+{
+  "name": "Authority Passing the Resolution",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "resolutionAuthority": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the authority passing or agreeing to the resolution(i.e., whether it is 'board of directors', 'shareholders', 'class of shareholders' or 'creditors')?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Authority Passing the Resolution"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "resolutionAuthority"
+    ],
+    "multiplierQueries": {}
+  }
+}

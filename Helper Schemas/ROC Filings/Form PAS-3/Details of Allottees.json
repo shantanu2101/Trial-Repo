@@ -1,0 +1,26 @@
+{
+  "name": "Details of Allottees",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "allotteeDetailsPas3": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Who are the allottees of the securities? Are any of these allottees non-residents (i.e., not residents of India)? What is the class and number of securities allotted to each allottee? This should be ascertainable from the list of allottees attached to the Form PAS-3",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Details of Allottees"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "allotteeDetailsPas3"
+    ],
+    "multiplierQueries": {}
+  }
+}

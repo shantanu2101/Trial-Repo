@@ -1,0 +1,26 @@
+{
+  "name": "Board or Committee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "boardOrCommittee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Do the minutes pertain to a board meeting or a committee meeting? If it pertains to a committee meeting, what is the name of the committee?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Board or Committee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "boardOrCommittee"
+    ],
+    "multiplierQueries": {}
+  }
+}

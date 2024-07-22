@@ -1,0 +1,27 @@
+{
+    "name": "Consent to Create Further Security",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "consentToCreateFurtherSecurity": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is the lender's consent required prior to creating an additional security/ charge over the secured assets? Alternatively, is the borrower required to notify or intimate the lender of the creation of additional security/ charge over the secured assets?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Consent to Create Further Security"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "consentToCreateFurtherSecurity"
+        ],
+        "multiplierQueries": {}
+    }
+}
+

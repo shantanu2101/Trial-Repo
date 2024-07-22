@@ -1,0 +1,26 @@
+{
+  "name": "Whether Form is Approved",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "firmsApproval": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is the form approved by RBI? You must answer in the affirmativeonly if the document expressly states that the form is approved by theRBI. Further, if the form is approved, carefully identify whether theapproval is conditional in nature and if yes, set out what theseconditions are.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Form is Approved"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "firmsApproval"
+    ],
+    "multiplierQueries": {}
+  }
+}

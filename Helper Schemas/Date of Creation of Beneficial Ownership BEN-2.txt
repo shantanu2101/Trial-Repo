@@ -1,0 +1,29 @@
+{
+  "name": "Date of Creation of Beneficial Ownership BEN-2",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {
+      
+    },
+    "querySets": {
+      "beneficialOwnershipCreationDateBen2": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date of creation of each beneficial ownership?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Creation of Beneficial Ownership"
+          }
+          
+        ]
+      }
+    },
+    "baseQueries": [
+      "beneficialOwnershipCreationDateBen2"
+    ],
+    "multiplierQueries": {}
+  }
+}

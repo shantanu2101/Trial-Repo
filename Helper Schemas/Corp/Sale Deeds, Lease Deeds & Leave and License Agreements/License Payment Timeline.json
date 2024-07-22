@@ -1,0 +1,26 @@
+{
+  "name": "License Payment Timeline",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "licensePaymentTimeline": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the timeline or schedule for payment of license fee asper the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "License Payment Timeline"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "licensePaymentTimeline"
+    ],
+    "multiplierQueries": {}
+  }
+}

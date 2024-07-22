@@ -1,0 +1,29 @@
+{
+  "name": "Obligations of Employer",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "obligationsOfEmployer": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "What are the obligations of the employer?",
+                      "systemPrompt": "You are a legal expert, skilled at reading employment contracts and extracting relevant details from the same. You understand the difference between rights and obligations, and you never confuse between the two. You will be provided an employment agreement from which you need to identify the obligations of the employer. Do not confuse these with the obligations of the employee. Rely only on explicit references in the document. Do not make any inferences.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Obligations of Employer"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "obligationsOfEmployer"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Which Entity Issued Document",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "courtOrGovernmentEntity": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Which is the court, tribunal, judicial authority or state/government entity before which the document has been filed, or whichhas issued/ passed the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Which Entity Issued Document"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "courtOrGovernmentEntity"
+    ],
+    "multiplierQueries": {}
+  }
+}

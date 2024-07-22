@@ -1,0 +1,26 @@
+{
+    "name": "Ancillary Objects of Business",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "ancillaryObjectsOfBusiness": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Based on the objects clause in the document, summarize the 'ancillary' or 'incidental' objects of the business. Exclude those objects which are explicitly recognized or listed as 'main' objects of the business. If the document does not explicitly contain any 'ancillary' or 'incidental' objects of the business, then say that the relevant information has not been provided. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Ancillary Objects of Business"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "ancillaryObjectsOfBusiness"
+        ],
+        "multiplierQueries": {}
+    }
+}

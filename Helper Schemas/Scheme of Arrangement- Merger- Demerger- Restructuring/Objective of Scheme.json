@@ -1,0 +1,26 @@
+{
+  "name": "Objective of Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "objectiveOfScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, what is the rationale or objective ofthe scheme?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Objective of Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "objectiveOfScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

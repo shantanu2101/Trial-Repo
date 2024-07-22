@@ -1,0 +1,26 @@
+{
+  "name": "Liquidation Preference",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "liquidationPreference": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the liquidation preference outlined in the document?This refers to provisions which outline the priority order in whichshareholders are entitled to receive distributions from the company'sassets in the event of a liquidation or sale.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Liquidation Preference"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "liquidationPreference"
+    ],
+    "multiplierQueries": {}
+  }
+}

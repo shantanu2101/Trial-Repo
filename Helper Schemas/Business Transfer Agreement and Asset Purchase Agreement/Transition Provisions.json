@@ -1,0 +1,26 @@
+{
+    "name": "Transition Provisions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "transitionProvisions": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the provisions related to transition? This refers to the specific clauses or arrangements within the agreement that outline how the transfer of the business/ the transition process will be managedand executed.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Transition Provisions"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "transitionProvisions"
+        ],
+        "multiplierQueries": {}
+    }
+}

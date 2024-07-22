@@ -1,0 +1,29 @@
+{
+    "name": "Offer Pricing",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "offerPricing": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are the investments being calculated on Net Asset Value or investable funds? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/clause title for the response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Offer Pricing"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "offerPricing"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

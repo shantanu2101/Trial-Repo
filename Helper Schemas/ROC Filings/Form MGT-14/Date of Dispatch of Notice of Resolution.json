@@ -1,0 +1,26 @@
+{
+  "name": "Date of Dispatch of Notice of Resolution",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "resolutionNoticeDate": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date of dispatch of notice for passing of resolution(s)? Alternatively, what is the date of dispatch of notice for passing of postal ballot resolution(s)?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Dispatch of Notice of Resolution"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "resolutionNoticeDate"
+    ],
+    "multiplierQueries": {}
+  }
+}

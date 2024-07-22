@@ -1,0 +1,26 @@
+{
+  "name": "Manner of Meetings",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "mannerOfMeetings": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the contract stipulate a requirement of meetings to beconducted offline/ in person? Does the contract explicitly permitmeetings to be conducted online?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Manner of Meetings"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "mannerOfMeetings"
+    ],
+    "multiplierQueries": {}
+  }
+}

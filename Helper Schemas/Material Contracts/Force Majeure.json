@@ -1,0 +1,26 @@
+{
+  "name": "Force Majeure",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "forceMajeure": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the agreement contain a force majeure provision, i.e., a clause which relieves the parties of their obligations and liabilities in the case of an unforeseen or extraordinary event/ circumstance? If yes, then provide the list of force majeure events provided in the document. In case a force majeure event occurs, what are the reliefs available to the counterparty against {partyName} (e.g. suspension of payment, termination, etc.)? Rely only on explicit references in the document, and do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Force Majeure"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "forceMajeure"
+    ],
+    "multiplierQueries": {}
+  }
+}

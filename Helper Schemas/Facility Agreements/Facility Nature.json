@@ -1,0 +1,35 @@
+{
+    "name": "Facility Nature",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "facilityNature": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the nature of the facility? For instance, is the facility in the nature of a term loan, a working capital loan, a revolving credit facility, a master facility for non-fund based limits, etc. Restrict your responses to what is explicitly provided in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Facility Nature"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "facilityNature"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+

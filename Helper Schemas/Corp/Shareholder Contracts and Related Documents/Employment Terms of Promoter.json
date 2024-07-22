@@ -1,0 +1,26 @@
+{
+  "name": "Employment Terms of Promoter",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "promoterEmployment": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document contain any provisions regarding employment of the promoter with the company? What are the terms of employment of such promoter?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Employment Terms of Promoter"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "promoterEmployment"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Decision Making Process",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "decisionMakingProcess": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What decision making processes are in place at the board level and shareholders' level? Is there a hierarchy of approvals provided?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Decision Making Process"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "decisionMakingProcess"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Pre Existing Relationship",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "preExistingRelationship": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there a pre-existing relationship between the parties? Thiscould be in the form of a relationship of holding company-subsidiary,parent-subsidiary, sister companies, group companies, affiliates, etc.which already existed prior to the contract. Rely only on explicit references in the document. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Pre Existing Relationship"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "preExistingRelationship"
+        ],
+        "multiplierQueries": {}
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Relief and Prayers",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "reliefAndPrayers": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are reliefs being sought in the document? What are theprayers of the parties?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Relief and Prayers"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "reliefAndPrayers"
+    ],
+    "multiplierQueries": {}
+  }
+}

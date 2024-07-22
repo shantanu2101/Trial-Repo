@@ -1,0 +1,26 @@
+{
+  "name": "Quantum of Liabilities Granted or Alleged",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "liabilitiesGrantedOrAlleged": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the quantum of liabilities alleged by the allegingparty, i.e. the claimant/ petitioner/ alleger? What is the quantum ofliabilities granted by the court?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Quantum of Liabilities Granted or Alleged"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "liabilitiesGrantedOrAlleged"
+    ],
+    "multiplierQueries": {}
+  }
+}

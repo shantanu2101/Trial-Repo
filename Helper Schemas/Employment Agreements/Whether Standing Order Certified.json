@@ -1,0 +1,26 @@
+{
+  "name": "Whether Standing Order Certified",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherStandingOrderCertified": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the standing order been certified? Rely only on explicitreferences in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Standing Order Certified"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherStandingOrderCertified"
+    ],
+    "multiplierQueries": {}
+  }
+}

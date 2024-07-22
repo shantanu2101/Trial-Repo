@@ -1,0 +1,26 @@
+{
+  "name": "Date of Birth of Individual",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dateOfBirth": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date of birth/ DOB of the individual as per the document? Reproduce the date in the same format as provided in the document. Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Birth of Individual"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dateOfBirth"
+    ],
+    "multiplierQueries": {}
+  }
+}

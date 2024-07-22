@@ -1,0 +1,26 @@
+{
+  "name": "Benefits And Perquisites",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "benefitsAndPerquisites": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Apart from salary, what are the perquisites which the employee is entitled to under the Contract? These may include, for example, benefits like insurance, healthcare, food or travel allowance, car allowance, education assistance, profit sharing, stock option schemes, bonus, retirement benefits, pension plans, gratuity, relocation assistance, reimbursement of expenses, employee discounts, personal time off, leaves, etc. This list is only indicative, not exhaustive. Exclude the employee's salary. Also exclude clauses on obligations and liabilities of the employee like non-compete, non-solicit, assignment of intellectual property, confidentiality, exclusivity, termination andnotice for termination, etc. as these do not constitute benefits/perquisites. Mention the specific clause number/ clause title which you are relying on for each response.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Benefits And Perquisites"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "benefitsAndPerquisites"
+    ],
+    "multiplierQueries": {}
+  }
+}

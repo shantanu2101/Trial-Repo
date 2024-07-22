@@ -1,0 +1,26 @@
+{
+    "name": "Purpose of Loan",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "purposeOfLoan": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "For what purpose or end use has the loan been granted under the document? Restrict your responses only to explicit references regarding the purpose of the loan and how the funds must be utilized. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Purpose of Loan"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "purposeOfLoan"
+        ],
+        "multiplierQueries": {}
+    }
+}

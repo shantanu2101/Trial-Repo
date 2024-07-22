@@ -1,0 +1,26 @@
+{
+  "name": "Amount Claimed",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "amountClaimed": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the amount of money being claimed in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Amount Claimed"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "amountClaimed"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Consideration and Conversion Ratio",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "considerationAndConversionRatio": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Answer the following: (a) What is amount of consideration paid for the investment? Limit yourself to the field ‘Amount (in Rupees)’; and (b) What is the conversion ratio (if any)? Limit yourself to the field ‘Conversion Ratio’. Strictly limit yourself to data expressly provided under these fields and do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Consideration and Conversion Ratio"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "considerationAndConversionRatio"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

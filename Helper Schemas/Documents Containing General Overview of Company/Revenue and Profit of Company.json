@@ -1,0 +1,28 @@
+{
+    "name": "Revenue and Profit of Company",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "revenueAndProfitOfCompany": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the revenue of the company? What is the profit of the company? If the revenue and/ or profit figures are provided separately for different years/ time periods, then provide the response for each such year/ time period separately. Rely only on explicit references in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Revenue and Profit of Company"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "revenueAndProfitOfCompany"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+

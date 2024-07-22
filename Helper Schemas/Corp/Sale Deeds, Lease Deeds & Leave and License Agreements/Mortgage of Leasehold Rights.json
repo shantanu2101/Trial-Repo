@@ -1,0 +1,26 @@
+{
+  "name": "Mortgage of Leasehold Rights",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "mortgageOfLeaseholdRights": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document permit the lessee to mortgage the leaseholdrights, or to use the leasehold rights as collateral to obtain amortgage loan?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Mortgage of Leasehold Rights"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "mortgageOfLeaseholdRights"
+    ],
+    "multiplierQueries": {}
+  }
+}

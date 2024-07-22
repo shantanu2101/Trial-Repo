@@ -1,0 +1,26 @@
+{
+  "name": "Whether Chairman Initialled or Signed",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "chairmanInitialsOrSignature": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the document been initialled or signed on each page bythe chairman?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Chairman Initialled or Signed"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "chairmanInitialsOrSignature"
+    ],
+    "multiplierQueries": {}
+  }
+}

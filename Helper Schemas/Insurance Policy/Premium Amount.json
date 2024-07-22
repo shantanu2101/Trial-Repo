@@ -1,0 +1,31 @@
+{
+    "name": "Premium Amount",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "premiumAmount": {
+            "mode": "accumulate",
+            "queries": [
+                {
+                    "keywordRequired": [],
+                    "text": "What is the amount of premium to be paid by the party in the <document> for the insurance? Restrict your responses to what is explicitly provided in the <document>.",
+                    "source": true,
+                    "visible": true,
+                    "displayQuery": "Premium Amount"
+                }
+            ]
+        }
+        },
+        "baseQueries": [
+            "premiumAmount"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

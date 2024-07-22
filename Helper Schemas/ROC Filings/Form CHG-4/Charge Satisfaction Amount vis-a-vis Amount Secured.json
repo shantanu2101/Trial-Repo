@@ -1,0 +1,26 @@
+{
+  "name": "Charge Satisfaction Amount vis-a-vis Amount Secured",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "securedAmountAndSatisfactionAmount": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the 'final amount secured' as set out in the FormCHG-4? Further, as per any attachments to the form, is the amount of the charge satisfied the same as the final amount secured? Is it ascertainable whether any amount of the loan still outstanding?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Charge Satisfaction Amount vis-a-vis Amount Secured"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "securedAmountAndSatisfactionAmount"
+    ],
+    "multiplierQueries": {}
+  }
+}

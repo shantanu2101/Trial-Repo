@@ -1,0 +1,26 @@
+{
+  "name": "Category and Designation of Director/KMP",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "directorCategory": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "In case the document is filed in relation to a director, what is the 'category' (i.e., whether Director/Managing director/Alternate director/Additional director/Director appointed in casual vacancy/Nominee director/Whole-time director) and 'designation' (i.e.,whether Promoter/Professional/Independent/Small shareholder's director) of each director mentioned in the form, if any? Is such director a chairman, executive director or non-executive director? In case the document is filed in relation to a key managerial personnel, manager(s), secretary(s), Chief financial Officer or Chief Executive Officer, what is the designation of such personnel?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Category and Designation of Director/KMP"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "directorCategory"
+    ],
+    "multiplierQueries": {}
+  }
+}

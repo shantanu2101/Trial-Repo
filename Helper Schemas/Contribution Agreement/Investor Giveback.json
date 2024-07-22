@@ -1,0 +1,34 @@
+{
+    "name": "Investor Giveback",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorGiveback": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are the investors required to return any amount pursuant to any obligation on the fund? If so, after what time period do such ‘giveback’ obligations end for investors? What is the amount cap after which giveback obligations end for investors? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Giveback"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorGiveback"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

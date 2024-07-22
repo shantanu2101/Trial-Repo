@@ -1,0 +1,25 @@
+{
+    "name": "Minimum shareholding restrictions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "minimumShareholdingRestrictions": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "text": "Are there any restrictions on minimum shareholding required to be held by either party? Include all the relevant details mentioned in the document. Under no circumstances, summarise the details or just mention the key details. Answer this question on the basis of whatever is explicitly stated in the document. Do not draw any kind of inferences on your part.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Minimum shareholding restrictions"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "minimumShareholdingRestrictions"
+        ],
+        "multiplierQueries": {}
+    }
+}

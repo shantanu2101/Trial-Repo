@@ -1,0 +1,26 @@
+{
+  "name": "Pricing Details",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "transferPricingFctrs": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Answer the following: (a) What is the transfer price perinstrument?; (b) What is the total amount of consideration?; (c) What isthe conversion ratio (if any)?; (d) What is the fair value of thecapital instrument at the time of transfer (in INR) (if this is notprovided, are you able to identify the file name of the valuationcertificate that may be embedded into the form)? Strictly limit yourselfto data expressly provided under these fields and do not make anyinferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Pricing Details"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "transferPricingFctrs"
+    ],
+    "multiplierQueries": {}
+  }
+}

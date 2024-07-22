@@ -1,0 +1,26 @@
+{
+    "name": "Details of Transaction",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "firmsTransactionDetails": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Answer all of the following questions distinctly in bullet point format and if you are unable to determine the answer to any of the questions, please mention the same: (a) What is the nature of transaction approved?; (b) What is the name of the transferor/ seller/donor?; (c) What is the name of the transferee/ buyer/ donee?; (d) How many shares are issued/ transferred under the form?; (e) What is the consideration paid for sale/gift/ issuance of instrument (and towards what has such consideration been paid)?. Note: Do not confuse form filing fees/late submission fees with consideration for the underlying transaction. Further, in all cases, strictly limit yourself to data expressly mentioned in the document and do not make any inferences",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Details of Transaction"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "firmsTransactionDetails"
+        ],
+        "multiplierQueries": {}
+    }
+}

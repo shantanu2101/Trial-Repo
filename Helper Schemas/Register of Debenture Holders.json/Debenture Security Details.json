@@ -1,0 +1,26 @@
+{
+    "name": "Debenture Security Details",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "debentureSecurityDetailsRegister": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are each of the debentures mentioned in the document secured? If yes, clearly state the security package including the date of registration of charge with ROC, the charge identification number allotted to the charge, and a brief particulars of the assets to secure such debentures/other securities. These details are typically  expressly provided in the document under the heading 'Details of Security'",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Debenture Security Details"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "debentureSecurityDetailsRegister"
+        ],
+        "multiplierQueries": {}
+    }
+}

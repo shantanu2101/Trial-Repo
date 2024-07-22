@@ -1,0 +1,26 @@
+{
+    "name": "Nature and Amount of Debentures",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "natureAmountDebentures": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the nature and amount of the debentures being issued under the document?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Nature and Amount of Debentures"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "natureAmountDebentures"
+        ],
+        "multiplierQueries": {}
+    }
+}

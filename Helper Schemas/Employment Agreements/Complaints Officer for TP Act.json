@@ -1,0 +1,26 @@
+{
+  "name": "Complaints Officer for TP Act",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "complaintsOfficerForTPAct": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the company designated any person as a complaints officer to deal with complaints under the Transgender Persons (Protection of Rights) Act, 2020 / TP Act?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Complaints Officer for TP Act"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "complaintsOfficerForTPAct"
+    ],
+    "multiplierQueries": {}
+  }
+}

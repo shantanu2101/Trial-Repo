@@ -1,0 +1,26 @@
+{
+    "name": "Shareholding by Minors",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "shareholdingByMinors": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any shares held by a minor (i.e. less than 18 years of age)? If yes, who is the guardian? This data should be expressly mentioned in the document, if applicable",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Shareholding by Minors"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "shareholdingByMinors"
+        ],
+        "multiplierQueries": {}
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Nature of Allotment",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "natureOfAllotment": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the nature of allotment of the shares \u2013 have the sharesbeen allotted pursuant to a preferential allotment, private placement,bonus issuance or rights issue? Restrict your answer to detailsexpressly set out in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Nature of Allotment"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "natureOfAllotment"
+    ],
+    "multiplierQueries": {}
+  }
+}

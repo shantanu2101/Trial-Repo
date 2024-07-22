@@ -1,0 +1,26 @@
+{
+  "name": "Mode of Acquisition of Beneficial Ownership",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "beneficialOwnershipAcquisitionMode": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the mode of acquisition of beneficial ownership?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Mode of Acquisition of Beneficial Ownership"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "beneficialOwnershipAcquisitionMode"
+    ],
+    "multiplierQueries": {}
+  }
+}

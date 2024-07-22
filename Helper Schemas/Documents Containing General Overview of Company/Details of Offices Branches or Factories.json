@@ -1,0 +1,26 @@
+{
+    "name": "Details of Offices Branches or Factories",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "detailsOfOfficesBranchesOrFactories": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "How many offices / branches / factories/ outlets does the company have? In which cities or states are each of these offices/ branches/ factories/ outlets situated?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Details of Offices Branches or Factories"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "detailsOfOfficesBranchesOrFactories"
+        ],
+        "multiplierQueries": {}
+    }
+}

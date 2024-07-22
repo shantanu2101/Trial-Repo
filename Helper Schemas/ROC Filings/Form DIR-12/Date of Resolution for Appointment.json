@@ -1,0 +1,26 @@
+{
+  "name": "Date of Resolution for Appointment",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "resolutionDateDir12": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "If the document pertains to appointment of director/KMP, then does the document specify the dates of: (a) the board resolution through which the director/KMP was appointed; and (b) the shareholders'/members'/general resolution through which the director/KMP was appointed. Make sure your response sets out the date of the board/general meeting (i.e., the date on which the resolution is passed) as set out in the subject line of the resolution attached to the document (if any) through which the director/KMP is appointed. Do not mention any other date and do not confuse this with the effective dateof appointment. If either of the two dates is not expressly mentioned in the TITLE of the resolutions attached to the document, just say that it is not mentioned. If the document does not pertain to appointment of director/KMP and instead deals with cessation, etc., then simply mention that the document does not pertain to appointment of KMP. Please do not make any assumptions here.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Resolution for Appointment"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "resolutionDateDir12"
+    ],
+    "multiplierQueries": {}
+  }
+}

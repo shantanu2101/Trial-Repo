@@ -1,0 +1,26 @@
+{
+  "name": "License Fee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "licenseFee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the license fee payable as per the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "License Fee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "licenseFee"
+    ],
+    "multiplierQueries": {}
+  }
+}

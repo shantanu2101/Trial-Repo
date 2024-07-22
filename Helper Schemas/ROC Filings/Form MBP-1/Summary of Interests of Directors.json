@@ -1,0 +1,26 @@
+{
+  "name": "Summary of Interests of Directors",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "interestsOfDirectors": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "For each director, what are the names of the companies/ bodycorporates/ firms/ association of individuals in which such director isinterested? In each case, what is the nature of suchinterest/concern/shareholding and what is the date on which each suchinterest or concern arose? What is the time period for which theindividual has had an interest in these other entities? Please bifurcatebetween Indian entities and foreign entities disclosed in the form",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Summary of Interests of Directors"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "interestsOfDirectors"
+    ],
+    "multiplierQueries": {}
+  }
+}

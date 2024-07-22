@@ -1,0 +1,26 @@
+{
+  "name": "Procedure for Transfer of Shares",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "transferOfSharesProcedure": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document prescribe a particular procedure to befollowed for transfer of shares by any shareholder? If yes, then explainthe procedure. Rely only on explicit references in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Procedure for Transfer of Shares"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "transferOfSharesProcedure"
+    ],
+    "multiplierQueries": {}
+  }
+}

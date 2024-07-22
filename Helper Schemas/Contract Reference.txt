@@ -1,0 +1,23 @@
+{
+    "name": "Contract Reference",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "ContractDetails": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "text": "What is the name and date of the contract under which the <document> has been issued?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Contract Referenced"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [],
+        "multiplierQueries": {}
+    }
+}

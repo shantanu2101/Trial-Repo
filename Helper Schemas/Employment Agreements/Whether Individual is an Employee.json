@@ -1,0 +1,26 @@
+{
+  "name": "Whether Individual Is An Employee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherEmployee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there any provision which may imply or convey that theindividual is in fact an employee of the company? This may includeprovisions regarding employee provident fund, employee state insurance,bonuses etc. which are ordinarily found only in employment agreements.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Individual is an Employee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherEmployee"
+    ],
+    "multiplierQueries": {}
+  }
+}

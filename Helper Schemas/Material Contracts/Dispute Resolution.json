@@ -1,0 +1,26 @@
+{
+  "name": "Dispute Resolution",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "disputeResolution": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the dispute resolution mechanism provided in the document? Does the document explicitly assign a particular court with 'exclusive' jurisdiction over disputes arising from this agreement? Does the document provide for any alternative dispute resolution mechanisms like arbitration, mediation, negotiation, conciliation, etc.? Which party is responsible for the costs associated with dispute resolution? Restrict your responses to explicit references in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Dispute Resolution"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "disputeResolution"
+    ],
+    "multiplierQueries": {}
+  }
+}

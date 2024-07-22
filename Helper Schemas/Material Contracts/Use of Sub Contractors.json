@@ -1,0 +1,26 @@
+{
+  "name": "Use of Sub Contractors",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "useOfSubContractors": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the agreement explicitly address the use of sub-contractors by {partyName}? Which obligations can be subcontracted by {partyName}? Are there any restrictions on the sub-contractors under the contract?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Use of Sub Contractors"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "useOfSubContractors"
+    ],
+    "multiplierQueries": {}
+  }
+}

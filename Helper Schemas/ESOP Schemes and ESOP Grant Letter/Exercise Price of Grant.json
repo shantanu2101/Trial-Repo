@@ -1,0 +1,26 @@
+{
+  "name": "Exercise Price of Grant",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "exercisePriceOfGrant": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the exercise price of the grant?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Exercise Price of Grant"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "exercisePriceOfGrant"
+    ],
+    "multiplierQueries": {}
+  }
+}

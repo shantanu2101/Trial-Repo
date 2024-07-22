@@ -1,0 +1,87 @@
+{
+  "name": "Transfer Restrictions Under ESOP Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {
+          "esopTransferRestrictions": {
+              "group": "",
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "text": "The <document> is a legal document containing the terms of Employee Stock Options. I want you to identify and produce 2 things: (1) Lock-in period, i.e. a period during which employees are restricted from selling or  transferring the shares acquired/ vested through the ESOP scheme? and (2) Any other transfer restrictions, i.e., any provisions which restrict the employees from transferring shares that they acquired through exercise of the ESOP scheme? If any of this information is not mentioned in the <document>, mention that no information is available.",
+                      "visible": false,
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true
+                  }
+              ]
+          }
+      },
+      "querySets": {
+          "lockInForESOP": {
+              "mode": "chained",
+              "queries": [
+                  {
+                      "text": "From <context0>, find and produce the lock-in period. Do not start the output with filler phrases like 'According to the information provided in <context0>' or 'Here is the information', etc. If there is no information mentioned, just return 'NA' and nothing else.",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true, 
+                      "context": ["esopTransferRestrictions"],
+                      "displayQuery": "Lock-in period"
+                  },
+                  {
+                      "text": "Based on the <Data>, if the document contains a lock-in period, then just return 'ESOP Lock-In' and nothing else. But if the document does not contain a lock-in period, then just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences",
+                      "position": "none",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true,
+                      "flag": {
+                        "red": "The document contains a lock-in period or any other transfer restrictions. Caption - ESOP Lock In"
+
+                    },
+            "output": {
+                "type": "options",
+                "options": [
+                    "ESOP Lock In",
+                    "NA"
+                    ]
+                },
+                "visible": false
+                  }
+              ]
+          },
+          "transferRestrictionsUnderESOP": {
+              "mode": "chained",
+              "queries": [
+                  {
+                      "text": "From <context0>, find and produce other transfer restrictions. Do not start the output with filler phrases like 'According to the information provided in <context0>' or 'Here is the information', etc. If there is no other transfer restrictions mentioned, just return 'NA' and nothing else.",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                      "overridePageSystemPrompt": true, 
+                      "context": ["esopTransferRestrictions"],
+                      "displayQuery": "Transfer Restrictions Under ESOP Scheme"
+                  },
+                  {
+                      "text": "Based on the <Data>, if the document contains other transfer restrictions, then just return 'ESOP Other Transfer Restrictions' and nothing else. But if the document does not contain other transfer restrictions, then just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+                      "position": "none",
+                      "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                        "overridePageSystemPrompt": true,
+                        "flag": {
+                                    "red": "The document contains a lock-in period or any other transfer restrictions. Caption - ESOP Other Transfer Restrictions"
+
+                                },
+                        "output": {
+                    		"type": "options",
+                    		"options": [
+                      			"ESOP Other Transfer Restrictions",
+                    			"NA"
+                        		]
+                        	},
+                            "visible": false
+                      }
+              ]
+          }
+      },
+      "baseQueries": [
+          "lockInForESOP", "transferRestrictionsUnderESOP"
+      ],
+      "multiplierQueries": {}
+  }
+}

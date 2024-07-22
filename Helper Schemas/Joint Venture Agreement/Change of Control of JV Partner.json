@@ -1,0 +1,46 @@
+{
+  "name": "Change of Control of JV Partner",
+"chapter": "",
+"alternativeNames": [],
+"pipeline": {
+    "context": {},
+    "querySets": {
+        "changeOfControlOfJVPartner": {
+            "mode": "accumulate",
+            "queries": [
+                {
+                    "keywordRequired": [],
+                    "text": "What happens in the event of change of control or change in capital structure of {partyName}?",
+                    "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                    "overridePageSystemPrompt": true, 
+                "displayQuery": "Change of Control of JV Partner"
+                    
+                },
+    
+                {
+                    "text": "Based on the <Data>, if the document contains any provisions on change of control or change in capital structure of {partyName}, then just return 'JV Change of Control Terms' and nothing else. But if the document does not contain any provisions on change of control or change in capital structure of {partyName}, then just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+                    "position": "none",
+                    "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                    "overridePageSystemPrompt": true,
+                    "flag": {
+                                "amber": "The document contains provisions on change of control or change in capital structure of {partyName}. Caption - JV Change of Control Terms"
+
+                            },
+                    "output": {
+                    "type": "options",
+                    "options": [
+                        "JV Change of Control Terms",
+                      "NA"
+                        ]
+                      },
+                    "visible": false
+                  }
+            ]
+        }
+    },
+    "baseQueries": [
+        "changeOfControlOfJVPartner"
+    ],
+    "multiplierQueries": {}
+}
+}

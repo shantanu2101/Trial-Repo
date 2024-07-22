@@ -1,0 +1,26 @@
+{
+  "name": "Deadlock Provisions",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "deadlockProvisions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document address situations of deadlock between the parties? If yes, then what is defined as a deadlock, what is the escalation mechanism, and the possible outcomes/ remedies in case a resolution is not reached? Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Deadlock Provisions"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "deadlockProvisions"
+    ],
+    "multiplierQueries": {}
+  }
+}

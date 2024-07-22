@@ -1,0 +1,26 @@
+{
+    "name": "Security for Loan",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "securityForLoan": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there a security created or guarantee provided? What is the security package? Provide all details of the security created in favour of the lender.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Security for Loan"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "securityForLoan"
+        ],
+        "multiplierQueries": {}
+    }
+}

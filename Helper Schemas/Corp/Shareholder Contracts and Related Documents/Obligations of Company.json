@@ -1,0 +1,27 @@
+{
+  "name": "Obligations of Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "companyObligations": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is {partyName} a party to the agreement? If yes, then does the agreement impose any obligations on {partyName}? If {partyName} is not a party to the agreement, just return 'Company not a Party to the SPA' and nothing else.",
+            "systemPrompt": "You are an expert at reading share purchase agreements,or 'SPA', and identifying the parties involved in these agreements alongwith their obligations. SPA is an agreement entered into between thebuyer and seller/ sellers of shares of a particular company. While thebuyer and seller of the shares are necessary parties to the SPA, thecompany may or may not be a party to the SPA. If the company is a partyto the SPA, you must identify the company's obligations under the SPA.Do not confuse this with the obligations of the seller. Rely only onexplicit references in the document, and do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Obligations of Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "companyObligations"
+    ],
+    "multiplierQueries": {}
+  }
+}

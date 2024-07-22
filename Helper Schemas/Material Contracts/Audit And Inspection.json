@@ -1,0 +1,26 @@
+{
+  "name": "Audit And Inspection",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "auditAndInspection": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any provisions which require the records of {partyName} to be audited/ inspected, or which grant the counterparty the right to audit/inspect the records, books, facilities, etc. of {partyName}?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Audit And Inspection"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "auditAndInspection"
+    ],
+    "multiplierQueries": {}
+  }
+}

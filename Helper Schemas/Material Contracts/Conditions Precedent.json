@@ -1,0 +1,26 @@
+{
+    "name": "Conditions Precedent",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "conditionsPrecedent": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the document contain any conditions precedent? These are conditions which either party has to fulfil or events which must take place before the agreement can be considered to be in effect.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Conditions Precedent"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "conditionsPrecedent"
+        ],
+        "multiplierQueries": {}
+    }
+}

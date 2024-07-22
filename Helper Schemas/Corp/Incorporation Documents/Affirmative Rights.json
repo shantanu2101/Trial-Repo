@@ -1,0 +1,26 @@
+{
+    "name": "Affirmative Rights",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "affirmativeRights": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the document specify any affirmative rights for any shareholder? Affirmative rights typically include voting rights, requirement to seek consent/ approval of shareholder, right to board representation, pre-emptive rights, right to receive certain company information, etc.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Affirmative Rights"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "affirmativeRights"
+        ],
+        "multiplierQueries": {}
+    }
+}

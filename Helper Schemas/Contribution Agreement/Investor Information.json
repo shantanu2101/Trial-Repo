@@ -1,0 +1,30 @@
+{
+    "name": "Investor Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the various types of investors who are being allotted classes? These may be institutional investors, HNIs, retail investors or other types of investors. Are there any persons/investors/category of investors who can get multiple classes of units? Can any person subscribe to multiple categories of classes? Also mention whether there are investors from different jurisdictions. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

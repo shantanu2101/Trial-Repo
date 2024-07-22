@@ -1,0 +1,26 @@
+{
+  "name": "Vesting Schedule",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "vestingSchedule": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the vesting schedule or vesting period provided in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Vesting Schedule"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "vestingSchedule"
+    ],
+    "multiplierQueries": {}
+  }
+}

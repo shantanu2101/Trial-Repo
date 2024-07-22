@@ -1,0 +1,41 @@
+{
+  "name": "Auto Renewal",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {
+      "autoRenewalContext": {
+        "group": "Contexts",
+        "mode": "accumulateHaiku",
+        "queries": [
+          {
+            "text": "From the contract given as document, identify the renewal provisions. These renewal clauses may be of three distinct types. Firstly, there is an 'auto-renewal'/ 'automatic renewal' clause, which states that at the end of the contract term, the agreement will automatically renew unless one of the parties has terminated or wishes to terminate it. Secondly, there is an 'option to renew' clause, which states that at the end of the contract term, the party/ parties have the option to renew the contract on certain terms, if they wish to do so. Thirdly, there is a 'no renewal' clause, which states that the contract is a one-time agreement which shall not be renewed. Unlike the 'option to renew' clause, the 'auto renewal' clause does not require any positive action by either party in order to renew the contract. Do not confuse between these three types of renewal provisions. Identify each of these three types independently in the document provided.",
+            "visible": false,
+            "systemPrompt": "You are an expert at reading contracts and identifyingrenewal clauses provided in such contracts. You will be provided adocument from which you have to identify the circumstances under whichthe document may be renewed by either party or deemed to be renewedautomatically."
+          }
+        ]
+      }
+    },
+    "querySets": {
+      "autoRenewal": {
+        "mode": "chained",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the <context0>, is there any 'auto-renewal'/ 'automatic renewal' clause provided in the agreement?",
+            "source": true,
+            "context": [
+              "autoRenewalContext"
+            ],
+            "visible": true,
+            "displayQuery": "Auto Renewal"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "autoRenewal"
+    ],
+    "multiplierQueries": {}
+  }
+}

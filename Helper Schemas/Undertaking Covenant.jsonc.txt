@@ -1,0 +1,26 @@
+{
+    "name": "Undertaking Covenant",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "undertakingCovenant": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there a covenant to pay on the undertaking provider or is the undertaking provider undertaking / guaranteeing the repayment of the facility / loan? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Undertaking Covenant"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "undertakingCovenant"
+        ],
+        "multiplierQueries": {}
+    }
+}

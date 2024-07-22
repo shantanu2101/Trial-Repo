@@ -1,0 +1,26 @@
+{
+  "name": "Time Gap between Board Meetings",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "gapInBoardMeetings": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Was the gap between any two board meetings more than 120 days?If yes, identify which board meetings had such a gap and mention howlong was the gap. The date of the meetings is expressly set out in thefield of the document titled 'Board Meetings'. Calculate the gap basedon this data while preparing your response. Qualify your answer bymentioning that this analysis is based only on the financial year forwhich the document pertains to, and the response does not account forgaps between: (a) meetings held in the said financial year; and (b)meetings held in the previous or subsequent financial year.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Time Gap between Board Meetings"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "gapInBoardMeetings"
+    ],
+    "multiplierQueries": {}
+  }
+}

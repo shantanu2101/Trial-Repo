@@ -1,0 +1,26 @@
+{
+  "name": "Board of Directors of JV",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "boardOfDirectorsOfJV": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the composition of board of directors prescribed for the joint venture entity? What are the rights of the joint venture partners in relation to appointment or nomination of directors/observers to the board?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Board of Directors of JV"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "boardOfDirectorsOfJV"
+    ],
+    "multiplierQueries": {}
+  }
+}

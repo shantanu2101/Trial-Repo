@@ -1,0 +1,29 @@
+{
+  "name": "Whether Model Order Adopted",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "whetherModelOrderAdopted": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Have the model standing orders been adopted? Have the model standing orders been references anywhere in the document?",
+                      "systemPrompt": "You are a legal expert, skilled at reading standing orders and extracting details from the same. Standing orders represent a formalized set of instructions or directives that govern routine operations, procedures, or tasks within an organization. These may be drafted on the basis of model standing orders. Model standing orders are a standardized or sample set of instructions/ directives that are drafted to ensure consistency between different organizations. Hence, standing orders are often drafted on the basis of (and often adopt) the model standing orders for the sake of consistency and simplicity. You will be provided a standing order document, from which you will need to identify whether the model standing orders have been adopted. Rely only on explicit references in the document. Do not make any inferences.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Whether Model Order Adopted"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "whetherModelOrderAdopted"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+

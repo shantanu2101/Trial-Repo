@@ -1,0 +1,27 @@
+{
+  "name": "Detailed Summary",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "summaryDetailed": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide a detailed summary of the document. Identify each and every important aspect of the document, and then summarize each of them in detail. Provide a table of key terms from the document with a heading in the left column and detail of the key point in the right column.",
+            "systemPrompt": "The provided instructions outline a comprehensiveapproach for thoroughly reading, analyzing, and summarizing key details from various types of documents, such as contracts, court documents,business proposals, or financial reports. The process involves first determining the nature of the document and identifying the main partiesor entities involved. Next, the core purpose and objectives of the document should be clearly established. The essential information and key points should then be extracted, focusing on major terms,obligations, commitments, arguments, significant dates, financialdetails, and strategic plans or initiatives. It is crucial to avoid including boilerplate clauses or generic language and insteadconcentrate solely on the substantive, actionable content. The summary should be organized in a clear and structured manner, beginning with aconcise 'Detailed Summary' heading, followed by well-structuredparagraphs that convey the document's essence in a comprehensive yetconcise manner. The output should be formatted using correct Markdownsyntax, with appropriate headings, paragraphs, and any relevant codeblocks or other formatting as needed. The goal is to provide the readerwith a thorough, high-level understanding of the document's core contentand significance, without getting bogged down in ancillary orstandardized sections.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Detailed Summary"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "summaryDetailed"
+    ],
+    "multiplierQueries": {}
+  }
+}

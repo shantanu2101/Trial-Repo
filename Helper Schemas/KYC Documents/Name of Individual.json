@@ -1,0 +1,26 @@
+{
+  "name": "Name of Individual",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nameOfIndividual": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the name of the individual as per the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Name of Individual"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nameOfIndividual"
+    ],
+    "multiplierQueries": {}
+  }
+}

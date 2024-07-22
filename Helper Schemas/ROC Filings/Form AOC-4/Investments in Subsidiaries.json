@@ -1,0 +1,26 @@
+{
+  "name": "Investments in Subsidiaries",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "investmentsInSubsidiaries": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide the details of investments by the Company in its subsidiary companies.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Investments in Subsidiaries"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "investmentsInSubsidiaries"
+    ],
+    "multiplierQueries": {}
+  }
+}

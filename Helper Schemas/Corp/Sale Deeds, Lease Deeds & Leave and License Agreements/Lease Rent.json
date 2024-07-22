@@ -1,0 +1,26 @@
+{
+  "name": "Lease Rent",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "leaseRent": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the lease rent amount?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Lease Rent"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "leaseRent"
+    ],
+    "multiplierQueries": {}
+  }
+}

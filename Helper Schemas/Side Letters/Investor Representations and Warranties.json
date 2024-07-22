@@ -1,0 +1,43 @@
+{
+    "name": "Investor Representations and Warranties",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorRepresentationsAndWarranties": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any representations & warranties given by the investor? If so, mention the representations and warranties given by such party. Restrict your responses only to explicit references in the <document>. Do not make any inferences. Mention the specific clause number/ clause title for your response.",
+"systemPrompt": "You are an expert at reading contracts and identifying the representations and warranties made by each party in such contracts. You will be given a <document> from which you have to identify the representations and warranties made by each party. These are statements of fact made by one party, in reliance of which the other party agrees to enter into the contract. These may be provided by way of a single provision, or may be spread across the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Representations and Warranties"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorRepresentationsAndWarranties"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

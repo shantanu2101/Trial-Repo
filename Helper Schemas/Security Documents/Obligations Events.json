@@ -1,0 +1,37 @@
+{
+    "name": "Obligation Events",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "obligationEvents": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Till when are the obligations subsisting? In other words, upon the occurrence of what event would the undertakings no longer remain mandatory/active? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Obligation Events"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "obligationEvents"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

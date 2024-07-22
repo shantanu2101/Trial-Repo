@@ -1,0 +1,28 @@
+{
+    "name": "Policy Date",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "policyDate": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What was the date on which the insurance policy was executed or made effective? If not provided explicitly in the <document>, return ‘NA’ and nothing else. Do not confuse this with the date on which the policy was signed.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Policy Date"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "policyDate"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+

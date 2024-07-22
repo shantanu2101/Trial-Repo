@@ -1,0 +1,28 @@
+{
+    "name": "Composition of Committees",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "compositionOfCommittees": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "As per the document, which committees have been constituted or re-constituted? What is the composition of these committees? Provide the response for each committee separately. Rely only on explicit references in the document.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Composition of Committees"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "compositionOfCommittees"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+

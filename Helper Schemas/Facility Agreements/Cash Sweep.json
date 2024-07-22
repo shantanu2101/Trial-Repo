@@ -1,0 +1,26 @@
+{
+    "name": "Cash Sweep",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "cashSweep": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there a cash sweep provision/mechanism? Such provisions lay down terms for the use of excess cash to pay down debts. Restrict your responses to what is explicitly provided in the document.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Cash Sweep"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "cashSweep"
+        ],
+        "multiplierQueries": {}
+    }
+}

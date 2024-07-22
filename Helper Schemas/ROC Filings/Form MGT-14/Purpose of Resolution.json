@@ -1,0 +1,26 @@
+{
+  "name": "Purpose of Resolution",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "purposeOfResolution": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "If the document is in relation to registration of aresolution/postal ballot resolution, then what is the purpose of passingthe resolution and subject matter of the resolution?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Purpose of Resolution"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "purposeOfResolution"
+    ],
+    "multiplierQueries": {}
+  }
+}

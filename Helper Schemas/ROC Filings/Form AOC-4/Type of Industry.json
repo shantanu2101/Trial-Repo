@@ -1,0 +1,26 @@
+{
+  "name": "Type of Industry",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "industryType": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the 'type of industry' the Company operates in, asexpressly mentioned in the main Form AOC-4 itself?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Type of Industry"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "industryType"
+    ],
+    "multiplierQueries": {}
+  }
+}

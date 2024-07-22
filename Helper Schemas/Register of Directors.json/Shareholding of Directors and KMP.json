@@ -1,0 +1,26 @@
+{
+    "name": "Shareholding of Directors and KMP",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "directorShareholding": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Summarise the details of securities held by current and former directors and KMP in the company, its holding company, subsidiaries, subsidiaries of the company’s holding company and associate companies. Your response should be in a tabular format with the following columns: (a)Sr. no.; (b) Name of director or key managerial personnel; (c) Designation (director/ key managerial personnel); (d) Status (Current/ resigned/ retired); (e) No. of securities/shares held; (f) Class of shares/securites held; (g) Mode of acquisition of the securities (purchase/ ESOP, etc.); (h) Details of any  pledge or encumbrance that has been created on these securities.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Shareholding of Directors and KMP"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "directorShareholding"
+        ],
+        "multiplierQueries": {}
+    }
+}

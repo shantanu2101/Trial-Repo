@@ -1,0 +1,26 @@
+{
+  "name": "Last In First Out",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "lastInFirstOut": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a provision that addresses last in first out, i.e., aclause which states that in case of layoffs, the most recently hiredemployees will be laid off first while the more senior employees will beretained?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Last In First Out"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "lastInFirstOut"
+    ],
+    "multiplierQueries": {}
+  }
+}

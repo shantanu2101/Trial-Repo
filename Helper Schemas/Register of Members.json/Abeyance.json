@@ -1,0 +1,26 @@
+{
+    "name": "Abeyance",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "securitiesInAbeyance": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are any shares/debentures/securities kept in abeyance? If yes, how many securities are kept in abeyance?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Abeyance"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "securitiesInAbeyance"
+        ],
+        "multiplierQueries": {}
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Maintenance Charges",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "maintenanceCharges": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document provide for any maintenance charges, i.e.charges or expenses incurred to maintain the leased/ rented property?Which party is liable to pay such charges? Specify the relevant clausenumbers/ titles.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Maintenance Charges"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "maintenanceCharges"
+    ],
+    "multiplierQueries": {}
+  }
+}

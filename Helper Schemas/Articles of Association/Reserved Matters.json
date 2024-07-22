@@ -1,0 +1,24 @@
+{
+  "name": "Reserved Matters",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "reservedMatters": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document identify any reserved matters, i.e. actions/ decisions which cannot be undertaken without the explicit consent or approval of at least a certain proportion of specific persons (usually, certain specified shareholders/ directors/ Members/ JV partners)? These matters are also known as 'affirmative voting rights' or 'veto rights'. What is the procedure to approve or vote on a reserved matter?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Reserved Matters List and Procedure"
+          }
+        ]
+      }
+    },
+    "baseQueries": ["reservedMatters"],
+    "multiplierQueries": {}
+  }
+}

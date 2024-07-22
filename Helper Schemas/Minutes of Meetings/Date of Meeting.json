@@ -1,0 +1,26 @@
+{
+  "name": "Date of Meeting",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dateOfMeeting": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date on which the meeting was held?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Meeting"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dateOfMeeting"
+    ],
+    "multiplierQueries": {}
+  }
+}

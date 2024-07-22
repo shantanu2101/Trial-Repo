@@ -1,0 +1,26 @@
+{
+  "name": "Principal Business Activity of the Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "principalBusinessActivity": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the principal business activities of the company?Restrict your response only to the details expressly set out in the document and do not make any inferences",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Principal Business Activity of the Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "principalBusinessActivity"
+    ],
+    "multiplierQueries": {}
+  }
+}

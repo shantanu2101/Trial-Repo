@@ -1,0 +1,26 @@
+{
+  "name": "Name of Company Mentioned in Document",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nameOfCompany": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the name of the company in respect of which the document has been issued/ created/ filed?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Name of Company Mentioned in Document"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nameOfCompany"
+    ],
+    "multiplierQueries": {}
+  }
+}

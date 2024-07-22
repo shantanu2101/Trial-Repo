@@ -1,0 +1,35 @@
+{
+    "name": "Date Of Maturity",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "dateOfMaturity": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the maturity date of the facility? Restrict your responses to what is explicitly provided in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Date Of Maturity"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "dateOfMaturity"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+

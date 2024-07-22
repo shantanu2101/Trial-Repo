@@ -1,0 +1,26 @@
+{
+  "name": "Veto and Negative Voting Rights",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "vetoAndNegativeVotingRights": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any veto or negative voting rights provided in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Veto and Negative Voting Rights"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "vetoAndNegativeVotingRights"
+    ],
+    "multiplierQueries": {}
+  }
+}

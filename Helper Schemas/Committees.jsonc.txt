@@ -1,0 +1,23 @@
+{
+    "name": "Committees",
+    "chapter": "Corporate",
+    "helperSchemas": [
+        "When Committees Constituted",
+        "Composition of Committees"
+    ],
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {},
+        "baseQueries": [],
+        "flavours": {
+            "Capital Markets": {
+                "helperSchemas": [
+                    "When Committees Constituted",
+                    "Composition of Committees"
+                ]
+            }
+        },
+        "multiplierQueries": {}
+    }
+}

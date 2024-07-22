@@ -1,0 +1,26 @@
+{
+    "name": "Details of Monies Received but not considered as Deposits",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "moniesNotConsideredDeposits": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Provide the details set out under the following field of the document: 'Particulars of receipt of money or loan by a company but not considered as deposits, at the end of financial year'. The response should reflect the data set out under the following sub-fields: 'particulars', 'closing balance' and 'ageing of loan' for each such receipt.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Details of Monies Received but not considered as Deposits"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "moniesNotConsideredDeposits"
+        ],
+        "multiplierQueries": {}
+    }
+}

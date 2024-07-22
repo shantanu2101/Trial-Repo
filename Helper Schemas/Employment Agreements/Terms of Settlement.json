@@ -1,0 +1,26 @@
+{
+  "name": "Terms of Settlement",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "termsOfSettlement": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the terms of settlement outlined in the agreement?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Terms of Settlement"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "termsOfSettlement"
+    ],
+    "multiplierQueries": {}
+  }
+}

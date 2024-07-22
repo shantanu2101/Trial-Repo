@@ -1,0 +1,26 @@
+{
+  "name": "Affiliate Rights to Use Property",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "affiliateRightsToUseProperty": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are the group entities or affiliates of {partyName} entitled to use the subject matter property? Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Affiliate Rights to Use Property"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "affiliateRightsToUseProperty"
+    ],
+    "multiplierQueries": {}
+  }
+}

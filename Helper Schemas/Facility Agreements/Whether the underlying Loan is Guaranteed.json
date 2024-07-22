@@ -1,0 +1,26 @@
+{
+  "name": "Whether the underlying Loan is Guaranteed",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "presenceOfGuarantee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document (including any attachments to it) provide a provision relating to creation of guarantee, corporate or personal, to the facility agreement or loan agreement?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether the underlying Loan is Guaranteed"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "presenceOfGuarantee"
+    ],
+    "multiplierQueries": {}
+  }
+}

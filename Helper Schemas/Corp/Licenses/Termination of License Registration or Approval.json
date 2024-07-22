@@ -1,0 +1,26 @@
+{
+  "name": "Termination of License Registration or Approval",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "terminationOfLicenseRegistrationOrApproval": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the situations in which the document may beterminated, cancelled or revoked",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Termination of License Registration or Approval"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "terminationOfLicenseRegistrationOrApproval"
+    ],
+    "multiplierQueries": {}
+  }
+}

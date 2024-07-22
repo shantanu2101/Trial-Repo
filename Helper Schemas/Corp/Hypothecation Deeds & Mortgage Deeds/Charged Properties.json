@@ -1,0 +1,26 @@
+{
+    "name": "Charged Properties",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "chargedProperties": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the details of the properties over which the charge has been created? Provide details of the charging provision as well.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Charged Properties"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "chargedProperties"
+        ],
+        "multiplierQueries": {}
+    }
+}

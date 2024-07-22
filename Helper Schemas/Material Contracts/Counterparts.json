@@ -1,0 +1,26 @@
+{
+  "name": "Counterparts",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "counterparts": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a provision stating that the document may be executed in multiple counterparts, or through separate copies?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Counterparts"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "counterparts"
+    ],
+    "multiplierQueries": {}
+  }
+}

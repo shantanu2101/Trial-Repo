@@ -1,0 +1,26 @@
+{
+  "name": "Third Party Beneficiaries",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "thirdPartyBeneficiaries": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Have any third party beneficiaries been explicitly identifiedin the agreement? Who are these third party beneficiaries? What is theextent of their rights and benefits under the agreement? Restrict yourresponses to explicit references in the document. Do not make anyinferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Third Party Beneficiaries"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "thirdPartyBeneficiaries"
+    ],
+    "multiplierQueries": {}
+  }
+}

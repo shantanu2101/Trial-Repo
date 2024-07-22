@@ -1,0 +1,26 @@
+{
+  "name": "Serial Number of Meeting",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "serialNumberOfMeeting": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the serial number of the meeting?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Serial Number of Meeting"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "serialNumberOfMeeting"
+    ],
+    "multiplierQueries": {}
+  }
+}

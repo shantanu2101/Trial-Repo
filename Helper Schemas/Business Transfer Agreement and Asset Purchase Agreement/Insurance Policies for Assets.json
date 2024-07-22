@@ -1,0 +1,26 @@
+{
+  "name": "Insurance Policies for Assets",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "insurancePolicyForAssets": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any insurance policies related to the assets under the agreement? If yes, then how are these policies being transferred or terminated?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Insurance Policies for Assets"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "insurancePolicyForAssets"
+    ],
+    "multiplierQueries": {}
+  }
+}

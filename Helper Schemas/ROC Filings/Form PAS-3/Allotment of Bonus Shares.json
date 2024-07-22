@@ -1,0 +1,26 @@
+{
+  "name": "Allotment of Bonus Shares",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "allotmentOfBonusShares": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are any bonus shares allotted? Respond in the affirmative only if the document expressly identifies the shares issued as bonus shares. Further, if bonus shares are issued, then provide the date of allotment, number of shares allotted, nominal amount per share and amount to be treated as paid per share.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Allotment of Bonus Shares"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "allotmentOfBonusShares"
+    ],
+    "multiplierQueries": {}
+  }
+}

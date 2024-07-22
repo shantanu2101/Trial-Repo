@@ -1,0 +1,28 @@
+{
+  "name": "Transfer of Business",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "transferOfBusiness": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Is there a provision which explicitly addresses transfer of the business? What does this provision say?",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Transfer of Business"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "transferOfBusiness"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+

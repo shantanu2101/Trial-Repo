@@ -1,0 +1,26 @@
+{
+  "name": "Entry Route and Sectoral Cap",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "entryRouteSectoralCap": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the entry route? What is the applicable sectoral cap? The document will have multiple options for this question and one of them should be selected. Your response should be based on the option which has been selected in the document (i.e., which button has been selected - i.e., which of the white circles has been marked with a black circle within it). Strictly limit yourself to this exercise and do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Entry Route and Sectoral Cap"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "entryRouteSectoralCap"
+    ],
+    "multiplierQueries": {}
+  }
+}

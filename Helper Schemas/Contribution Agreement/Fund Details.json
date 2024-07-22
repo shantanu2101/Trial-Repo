@@ -1,0 +1,34 @@
+{
+    "name": "Fund Details",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "fundValue": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is the fund a large value fund? Is the fund a successor fund or a parallel fund of an existing fund? Is there any reference to a prior fund managed by the manager or sponsor or its affiliates? Is the fund a foreign-owned and controlled fund? Respond to each question separately. If not provided explicitly in the <document>, return ‘NA’ and nothing else. Restrict your response to what is explicitly stated in the <document>. Do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Fund Details"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "fundValue"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

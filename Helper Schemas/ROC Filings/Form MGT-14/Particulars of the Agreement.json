@@ -1,0 +1,26 @@
+{
+  "name": "Particulars of the Agreement",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "particularsOfAgreementMgt14": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "In case the Form MGT-14 has been filed for registration of anagreement, provide the following details as expressly set out in theForm MGT-14: (a) date of the agreement; (b) purpose for which agreementis entered; (c) subject matter of the agreement; (d) the authorityadopting the agreement (i.e., whether 'board of directors','shareholders', 'class of shareholders' or 'creditors')?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Particulars of the Agreement"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "particularsOfAgreementMgt14"
+    ],
+    "multiplierQueries": {}
+  }
+}

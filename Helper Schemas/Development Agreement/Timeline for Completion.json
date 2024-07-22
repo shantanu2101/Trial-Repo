@@ -1,0 +1,26 @@
+{
+  "name": "Timeline for Completion",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "timelineForCompletion": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the timeline for completion of construction under theagreement?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Timeline for Completion"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "timelineForCompletion"
+    ],
+    "multiplierQueries": {}
+  }
+}

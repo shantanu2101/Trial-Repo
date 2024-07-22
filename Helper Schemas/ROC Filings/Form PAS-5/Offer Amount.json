@@ -1,0 +1,26 @@
+{
+  "name": "Offer Amount",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "offerAmountPas5": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Set out the 'Amount of the Offer' as expressly set out in the document. If not expressly mentioned, please state that it is notmentioned'",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Offer Amount"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "offerAmountPas5"
+    ],
+    "multiplierQueries": {}
+  }
+}

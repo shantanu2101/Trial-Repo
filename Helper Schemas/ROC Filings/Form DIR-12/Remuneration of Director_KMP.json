@@ -1,0 +1,26 @@
+{
+  "name": "Remuneration of Director/KMP",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "remunerationOfDirectorKmp": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the remuneration of the director/KMP as per theresolution attached to the document? Are there any perquisites availableto the director/KMP?.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Remuneration of Director/KMP"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "remunerationOfDirectorKmp"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Committee Meetings",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "committeeMeetings": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How many committee meetings were held during the year? On what dates were the meetings held? Restrict your response to data expressly set out in the field of the document titled; 'Committee Meetings'",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Committee Meetings"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "committeeMeetings"
+    ],
+    "multiplierQueries": {}
+  }
+}

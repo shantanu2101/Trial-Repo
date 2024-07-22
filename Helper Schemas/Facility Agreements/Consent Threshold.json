@@ -1,0 +1,36 @@
+{
+    "name": "Consent Threshold",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "consentThreshold": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What threshold of consent is required among lenders for decisions like granting consent for further indebtedness? Restrict your responses to what is explicitly provided in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Consent Threshold"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "consentThreshold"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+

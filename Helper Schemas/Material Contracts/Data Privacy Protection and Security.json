@@ -1,0 +1,26 @@
+{
+  "name": "Data Privacy Protection and Security",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dataPrivacyProtectionAndSecurity": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How does the document address data privacy, data protection and/ or data security?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Data Privacy Protection and Security"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dataPrivacyProtectionAndSecurity"
+    ],
+    "multiplierQueries": {}
+  }
+}

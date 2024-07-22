@@ -1,0 +1,26 @@
+{
+  "name": "Membership or Registration Number of the Auditor",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "auditorRegistrationNumber": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the membership number of the auditor or theregistration number of the auditor's firm?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Membership or Registration Number of the Auditor"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "auditorRegistrationNumber"
+    ],
+    "multiplierQueries": {}
+  }
+}

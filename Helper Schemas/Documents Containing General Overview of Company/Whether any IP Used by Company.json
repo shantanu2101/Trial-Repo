@@ -1,0 +1,28 @@
+{
+    "name": "Whether any IP Used by Company",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "whetherAnyIpUsed": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does {partyName} make use of any proprietary intellectual property? If yes, then provide details of the intellectual property used. Rely only on explicit references in the <document>. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Whether any IP Used by Company"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "whetherAnyIpUsed"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+

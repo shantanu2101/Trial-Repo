@@ -1,0 +1,26 @@
+{
+  "name": "Information Sharing and Royalty",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "informationSharingAndRoyalty": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document address trademark-sharing or information sharing arrangements between the parties? Does the document mention any royalty arrangements or require {partyName} to pay any royalty to the licensor/ counterparty? ",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Information Sharing and Royalty"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "informationSharingAndRoyalty"
+    ],
+    "multiplierQueries": {}
+  }
+}

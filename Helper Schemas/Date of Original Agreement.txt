@@ -1,0 +1,25 @@
+{
+    "name": "Date of Original Agreement",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "dateOrignalAgreement": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "text": "What is the date of the Agreement which is being amended through the document?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Date of Original Agreement"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "dateOrignalAgreement"
+        ],
+        "multiplierQueries": {}
+    }
+}

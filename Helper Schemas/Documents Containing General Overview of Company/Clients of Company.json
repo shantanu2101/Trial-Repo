@@ -1,0 +1,26 @@
+{
+    "name": "Clients of Company",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "clientsOfCompany": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Who are the customers/ clients of the company?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Clients of Company"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "clientsOfCompany"
+        ],
+        "multiplierQueries": {}
+    }
+}

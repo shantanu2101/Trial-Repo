@@ -1,0 +1,26 @@
+{
+  "name": "State Where Office is Situated",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "stateSituated": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the Indian state or union territory where theregistered office of the company is situated, as mentioned in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "State Where Office is Situated"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "stateSituated"
+    ],
+    "multiplierQueries": {}
+  }
+}

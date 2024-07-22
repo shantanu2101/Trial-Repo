@@ -1,0 +1,30 @@
+{
+    "name": "Minimum Capital Commitment",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "minimumCapitalCommitment": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is the minimum capital commitment of an investor below INR 1 crore?Rely only on explicit references in the <document>. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Minimum Capital Commitment"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "minimumCapitalCommitment"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

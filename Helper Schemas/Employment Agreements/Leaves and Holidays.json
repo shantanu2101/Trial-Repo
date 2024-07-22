@@ -1,0 +1,26 @@
+{
+  "name": "Leaves and Holidays",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "leavesAndHolidays": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the leaves and holidays entitled to the employee underthe Contract? Refer to the specific provision, i.e. the clause/ sectionnumber or the title of the clause if available.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Leaves and Holidays"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "leavesAndHolidays"
+    ],
+    "multiplierQueries": {}
+  }
+}

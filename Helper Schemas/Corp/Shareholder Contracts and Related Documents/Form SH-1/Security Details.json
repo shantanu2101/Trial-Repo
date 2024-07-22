@@ -1,0 +1,26 @@
+{
+  "name": "Security Details",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "securityDetails": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the type of security (equity or preference ordebentures) that this document pertains to? Further, tell me what isthe: (a) face value/nominal value of each security; and (b) paid-upvalue/ amount paid-up of each security? Further, tell me the number ofsecurities (eg. 'no. of shares') that this document pertains to, alongwith the 'distinctive nos' of such securities. For all responses, limityourself to facts expressly mentioned in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Security Details"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "securityDetails"
+    ],
+    "multiplierQueries": {}
+  }
+}

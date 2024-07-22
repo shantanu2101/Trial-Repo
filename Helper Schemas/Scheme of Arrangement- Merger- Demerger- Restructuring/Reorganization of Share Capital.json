@@ -1,0 +1,26 @@
+{
+  "name": "Reorganization of Share Capital",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "reorganizationOfShareCapital": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the scheme involve any reorganization of share capital,such as consolidation or split?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Reorganization of Share Capital"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "reorganizationOfShareCapital"
+    ],
+    "multiplierQueries": {}
+  }
+}

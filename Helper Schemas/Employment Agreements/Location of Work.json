@@ -1,0 +1,26 @@
+{
+  "name": "Location of Work",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "locationOfWork": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Which place/ location is the contract worker expected to workfrom as per the agreement?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Location of Work"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "locationOfWork"
+    ],
+    "multiplierQueries": {}
+  }
+}

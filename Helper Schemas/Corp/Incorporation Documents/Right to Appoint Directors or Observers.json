@@ -1,0 +1,26 @@
+{
+  "name": "Right to Appoint Directors or Observers",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "rightToAppointDirectorsOrObservers": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has any shareholder been given the right to appoint/ nominatedirectors or observers to the board of directors of the company?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Right to Appoint Directors or Observers"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "rightToAppointDirectorsOrObservers"
+    ],
+    "multiplierQueries": {}
+  }
+}

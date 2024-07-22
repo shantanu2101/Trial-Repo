@@ -1,0 +1,26 @@
+{
+  "name": "Date of Shareholder Resolution for Allotment",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "allotmentResolutionDate": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date of passing of the shareholders resolution approving the allotment? Do the shares and the allottees approved by the shareholders (as attached at the end of the form) align with the shares allotted by way of the primary form PAS-3? Do not confuse this with aboard of directors resolution.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Shareholder Resolution for Allotment"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "allotmentResolutionDate"
+    ],
+    "multiplierQueries": {}
+  }
+}

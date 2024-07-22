@@ -1,0 +1,26 @@
+{
+  "name": "Whether IP Rights Included in Assets",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherIPRightsIncludedInAssets": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any intellectual property rights included in theassets being transferred?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether IP Rights Included in Assets"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherIPRightsIncludedInAssets"
+    ],
+    "multiplierQueries": {}
+  }
+}

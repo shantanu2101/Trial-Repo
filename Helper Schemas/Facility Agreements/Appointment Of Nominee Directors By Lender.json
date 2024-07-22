@@ -1,0 +1,31 @@
+{
+    "name": "Appointment Of Nominee Directors By Lender",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "appointmentOfNomineeDirectorsByLender": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the <document> contain provisions for the appointment of nominee directors, i.e., does the agreement contemplate a scenario where the lender(s) can appoint a nominee director(s) or an observer(s) to the board of directors of the borrower entity or its affiliates? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Appointment Of Nominee Directors By Lender"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "appointmentOfNomineeDirectorsByLender"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

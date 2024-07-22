@@ -1,0 +1,26 @@
+{
+  "name": "Date When Litigation Arose",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "firstDateOfLitigation": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date on which the litigation arose, i.e. the date on which the claimant/ petitioner first filed the claim/ petition?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date When Litigation Arose"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "firstDateOfLitigation"
+    ],
+    "multiplierQueries": {}
+  }
+}

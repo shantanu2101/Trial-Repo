@@ -1,0 +1,26 @@
+{
+    "name": "Duration of Agreement To Supply Manpower",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "durationOfAgreementToSupplyManpower": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the duration of the agreement between the principal employer and the contractors, for supplying manpower?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Duration of Agreement To Supply Manpower"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "durationOfAgreementToSupplyManpower"
+        ],
+        "multiplierQueries": {}
+    }
+}

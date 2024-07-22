@@ -1,0 +1,26 @@
+{
+  "name": "Subsequent Amendments",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "subsequentAmendments": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the document been amended since it was issued/ created? What were these amendments and when did they take place? Rely only on explicit references in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Subsequent Amendments"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "subsequentAmendments"
+    ],
+    "multiplierQueries": {}
+  }
+}

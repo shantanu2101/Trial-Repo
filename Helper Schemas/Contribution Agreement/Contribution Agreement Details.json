@@ -1,0 +1,34 @@
+{
+    "name": "Contribution Agreement Details",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "contributionAgreementDetails": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which parts of the PPM state that additional details are provided in the Contribution Agreement? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Contribution Agreement Details"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "contributionAgreementDetails"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

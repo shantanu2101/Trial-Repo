@@ -1,0 +1,26 @@
+{
+  "name": "Arguments Raised by Petitioner or Alleger",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "petitionerOrAllegerArguments": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the main arguments, claims and observations raised by the petitioner/ claimant/ alleger? Do not confuse this with the arguments raised by the respondent.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Arguments Raised by Petitioner or Alleger"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "petitionerOrAllegerArguments"
+    ],
+    "multiplierQueries": {}
+  }
+}

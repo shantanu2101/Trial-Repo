@@ -1,0 +1,46 @@
+{
+    "name": "Borrow And Raise Funds",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "borrowAndRaiseFunds": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the Memorandum of Association expressly provide the entity the power to borrow monies / raise funds / issue debentures (howsoever described)? Restrict yourself to explicit clauses in the Memorandum of Association to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                        "overridePageSystemPrompt": true, 
+              			"displayQuery": "Borrow And Raise Funds"
+                        
+                    },
+        
+                    {
+                        "text": "Based on the <Data>, if the document expressly provides the entity the power to borrow monies / raise funds / issue debentures, just return 'Power to Borrow or Raise Funds' and nothing else. But if the document does not address such provisions or does not provide the entity the power to borrow monies / raise funds / issue debentures, just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+                        "position": "none",
+                        "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+                        "overridePageSystemPrompt": true,
+                        "flag": {
+                                    "white": "The document expressly provides the entity the power to borrow monies / raise funds / issue debentures. Caption - Power to Borrow or Raise Funds"
+
+                                },
+	         "output": {
+		"type": "options",
+		"options": [
+			"Power to Borrow or Raise Funds",
+			"NA"
+		]
+	},
+                        "visible": false
+                      }
+                ]
+            }
+        },
+        "baseQueries": [
+            "borrowAndRaiseFunds"
+        ],
+        "multiplierQueries": {}
+    }
+  }

@@ -1,0 +1,26 @@
+{
+  "name": "Insurance Requirement",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "insuranceRequirement": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a provision requiring any party to maintain insurance coverage?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Insurance Requirement"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "insuranceRequirement"
+    ],
+    "multiplierQueries": {}
+  }
+}

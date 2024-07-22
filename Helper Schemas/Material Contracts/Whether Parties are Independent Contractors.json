@@ -1,0 +1,26 @@
+{
+  "name": "Whether Parties are Independent Contractors",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherIndependentContractors": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there any clause which explicitly states that the parties'relationship is not that of agents, or is that of independentcontractors?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Parties are Independent Contractors"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherIndependentContractors"
+    ],
+    "multiplierQueries": {}
+  }
+}

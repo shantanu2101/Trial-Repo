@@ -1,0 +1,31 @@
+{
+    "name": "Investor Details Form DI",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorDetailsFormDi": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the name of the investor and the ‘investor type’? Strictly limit yourself to data provided under these fields and do not make any inferences",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Details (Form DI)"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorDetailsFormDi"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

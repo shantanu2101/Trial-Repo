@@ -1,0 +1,37 @@
+{
+    "name": "Debt To Equity",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "debtToEquity": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there provisions relating to the conversion of debt to equity? In other words, are there any provisions in the agreement which enable the lender (or the parties mutually) to convert all or part of the outstanding dues under the facility into equity shares of the borrower, whether upon the occurrence of certain events or otherwise? If so, please enumerate these provisions. Restrict your responses to what is explicitly provided in the <document>. Mention the specific clause number/clause title for each response",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Debt To Equity"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "debtToEquity"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

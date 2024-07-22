@@ -1,0 +1,31 @@
+{
+    "name": "Excuse And Exclusion",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "excuseAndExclusion": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "How are consent thresholds affected by excused/excluded investors? How are distributions affected by excused/excluded investors? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make under any circumstance make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Excuse And Exclusion"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "excuseAndExclusion"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

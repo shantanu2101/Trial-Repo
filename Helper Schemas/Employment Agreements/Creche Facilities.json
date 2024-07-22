@@ -1,0 +1,26 @@
+{
+  "name": "Creche Facilities",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "crecheFacilities": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the employer provide creche facilities at any of its establishments/ outlets?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Creche Facilities"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "crecheFacilities"
+    ],
+    "multiplierQueries": {}
+  }
+}

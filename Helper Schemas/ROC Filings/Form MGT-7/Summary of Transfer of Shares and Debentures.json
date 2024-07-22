@@ -1,0 +1,26 @@
+{
+  "name": "Summary of Transfer of Shares and Debentures",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "securityTransfersSummary": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Summarize the data expressly set out in the following field ofthe document: 'Details of shares/Debentures Transfers since closuredate of last financial year'. If the data in this field makes areference to an attachment to the document, then the response can bebased on the attachment as well.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Summary of Transfer of Shares and Debentures"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "securityTransfersSummary"
+    ],
+    "multiplierQueries": {}
+  }
+}

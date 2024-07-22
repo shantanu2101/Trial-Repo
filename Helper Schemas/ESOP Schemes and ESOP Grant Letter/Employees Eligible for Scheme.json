@@ -1,0 +1,26 @@
+{
+  "name": "Employees Eligible for Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "employeesEligibleForScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the scope of eligible employees under the ESOP scheme? Does the document specify who will be covered under the scheme?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Employees Eligible for Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "employeesEligibleForScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

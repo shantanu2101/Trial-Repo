@@ -1,0 +1,26 @@
+{
+  "name": "Whether Loan Convertible",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherLoanConvertible": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is the loan convertible from debt to equity or preferenceshares? What are the conditions for such conversion?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Loan Convertible"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherLoanConvertible"
+    ],
+    "multiplierQueries": {}
+  }
+}

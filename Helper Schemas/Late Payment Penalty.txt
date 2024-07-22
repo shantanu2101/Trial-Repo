@@ -1,0 +1,23 @@
+{
+    "name": "Late Payment Penalty",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "LatePaymentPenalty": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "text": "Is there any aspect on penalty on late payment of the amount under the <document>?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Late Payment Penalty in Purchase Order"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [],
+        "multiplierQueries": {}
+    }
+}

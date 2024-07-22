@@ -1,0 +1,28 @@
+{
+  "name": "Nature of Relationship",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "natureOfRelationship": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Is there a clause which explicitly states that the individual is not an employee or must not be deemed to be an employee of the company? Rely only on explicit references in the document. Do not make any inferences.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Nature of Relationship"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "natureOfRelationship"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+

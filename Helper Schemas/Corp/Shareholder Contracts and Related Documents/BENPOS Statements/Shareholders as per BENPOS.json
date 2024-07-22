@@ -1,0 +1,26 @@
+{
+  "name": "Shareholders as per BENPOS",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "shareholdersBenpos": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the total number of: (a) shareholders; and (b)beneficial owners, of the company. Separately, can you determine who arethe shareholders/beneficial owners which hold more than 1% of the sharecapital of the company? Also separately, please identify and list out ifany of the shares are jointly held by 2 or more persons",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Shareholders as per BENPOS"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "shareholdersBenpos"
+    ],
+    "multiplierQueries": {}
+  }
+}

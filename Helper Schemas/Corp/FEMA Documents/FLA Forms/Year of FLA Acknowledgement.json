@@ -1,0 +1,26 @@
+{
+  "name": "Year of FLA Acknowledgement",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "flaYear": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "The document is an acknowledgement for an annual return on FLAsubmitted by a company for a particular year. Which year does the formpertain to?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Year of FLA Acknowledgement"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "flaYear"
+    ],
+    "multiplierQueries": {}
+  }
+}

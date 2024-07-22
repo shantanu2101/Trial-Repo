@@ -1,0 +1,26 @@
+{
+  "name": "Overtime Payments",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "overtimePayments": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the rate at which overtime payments are made?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Overtime Payments"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "overtimePayments"
+    ],
+    "multiplierQueries": {}
+  }
+}

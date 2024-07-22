@@ -1,0 +1,26 @@
+{
+  "name": "Insurance Coverage for JV",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "jvInsuranceCoverage": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there an obligation on the joint venture entity to maintain insurance coverage? If yes, then what is the scope and the minimum amount of coverage?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Insurance Coverage for JV"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "jvInsuranceCoverage"
+    ],
+    "multiplierQueries": {}
+  }
+}

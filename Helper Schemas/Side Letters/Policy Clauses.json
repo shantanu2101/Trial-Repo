@@ -1,0 +1,37 @@
+{
+    "name": "Policy Clauses",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "policyClauses": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which clauses are linked to policy requirements of the investor?  Have any such clauses been dis-applied for the investor? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Policy Clauses"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "policyClauses"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

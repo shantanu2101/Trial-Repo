@@ -1,0 +1,26 @@
+{
+  "name": "Period of Probation",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "probationPeriod": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the duration of probation for the employee under theContract? What is the period of notice required for termination duringthe probation period? Refer to the specific provision, i.e. the clausenumber/ title of the clause if available.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Period of Probation"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "probationPeriod"
+    ],
+    "multiplierQueries": {}
+  }
+}

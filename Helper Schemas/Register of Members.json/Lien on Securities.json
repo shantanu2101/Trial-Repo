@@ -1,0 +1,26 @@
+{
+    "name": "Lien on Securities",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "lienOnSecurities": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there any record of lien on the shares/debentures/securities, or does the document provide details of any encumrbance on the shares/debentures/securities?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Lien on Securities"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "lienOnSecurities"
+        ],
+        "multiplierQueries": {}
+    }
+}

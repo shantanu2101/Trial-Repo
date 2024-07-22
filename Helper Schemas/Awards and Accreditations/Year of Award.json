@@ -1,0 +1,24 @@
+{
+  "name": "Year of Award",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "yearOfAward": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "In which year was the award granted?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Year of Award"
+          }
+        ]
+      }
+    },
+    "baseQueries": ["yearOfAward"],
+    "multiplierQueries": {}
+  }
+}

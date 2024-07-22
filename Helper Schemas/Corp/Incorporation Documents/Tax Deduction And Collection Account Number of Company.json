@@ -1,0 +1,26 @@
+{
+  "name": "Tax Deduction And Collection Account Number of Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "taxDeductionAndCollectionAccountNumber": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the Tax Deduction And Collection Account Number/ TANnumber of the company as mentioned in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Tax Deduction And Collection Account Number of Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "taxDeductionAndCollectionAccountNumber"
+    ],
+    "multiplierQueries": {}
+  }
+}

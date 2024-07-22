@@ -1,0 +1,26 @@
+{
+  "name": "Promoter Shareholding",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "promoterShareholding": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the shareholding of the promoters? Restrict yourresponse to data expressly set out in the following field of the document: 'Share Holding Pattern - Promoters'. If the data in thisfield makes a reference to an attachment to the document, then theresponse can be based on the attachment as well. Your response should bein table format",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Promoter Shareholding"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "promoterShareholding"
+    ],
+    "multiplierQueries": {}
+  }
+}

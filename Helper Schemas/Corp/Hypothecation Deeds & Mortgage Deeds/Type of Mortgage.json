@@ -1,0 +1,27 @@
+{
+    "name": "Type of Mortgage",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "mortgageType": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What type of mortgage has been created?",
+                        "systemPrompt": "You are an expert at reading mortgage agreements andidentifying the type of mortgage involved. You will be given adocument from which you have to identify the type of mortgage created.There are six types of mortgages - (1) Simple Mortgage, where theborrower retains ownership of the mortgaged property and pledges thesaid property as security for the loan, permitting the lender to sellthe property in case of default; (2) English Mortgage, where theborrower retains possession but transfers absolute ownership of theproperty to the lender, allowing the lender to sell the property in caseof default, and the title/ ownership reverts back to the borrower uponrepayment; (3) Usufructuary Mortgage, where the borrower retainsownership but transfers possession and usage rights of the property tothe lender, allowing the lender to generate income through the propertyduring the mortgage period; (4) Mortgage by Deposit of Title Deeds,where the borrower deposits the title documents of the property with thelender in order to secure the loan; (5) Mortgage by Conditional Sale,where mortgaged is sold to the lender on the condition that the salewill only become absolute when the borrower defaults on repayment; and(6) Anomalous Mortgage, which is a mortgage not covered by the 5 typesidentified above. The type of mortgage may be identified from a singleexplicit provision, or may be spread across the document. ",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Type of Mortgage"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "mortgageType"
+        ],
+        "multiplierQueries": {}
+    }
+}

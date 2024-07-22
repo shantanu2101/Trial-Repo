@@ -1,0 +1,26 @@
+{
+  "name": "Details of Charge in case of Secured Deposits",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "securedDepositChargeDetails": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "In case of secured deposits, provide the following details of charge created for secured deposits: (a) date of entering into trust deed, (b) name of the trustee, (c) description of property charged, and(d) value of property. Restrict your response to the facts set out in the document and to the trust deed attached to the document",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Details of Charge in case of Secured Deposits"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "securedDepositChargeDetails"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Vesting Conditions",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "vestingConditions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, what are the conditions which must bemet for the vesting to take place?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Vesting Conditions"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "vestingConditions"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Rate of Interest",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "rateOfInterest": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the coupon rate or interest rate payable on the loan? If the interest rate is provided as a formula or calculation method, then reproduce the formula or calculation.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Rate of Interest"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "rateOfInterest"
+        ],
+        "multiplierQueries": {}
+    }
+}

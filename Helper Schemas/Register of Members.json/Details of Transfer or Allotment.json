@@ -1,0 +1,26 @@
+{
+    "name": "Details of Transfer of Allotment",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "transferDetailsMgt1": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Set out the date 'date of allotment/ transfer' and 'no. of shares/debentures/securities allotted/ transferred' for each members as expressly set out in the document. At all points, please specify which class of securities were allotted/transferred. Typically, this data is provided in tabular format in the document",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Details of Transfer of Allotment"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "transferDetailsMgt1"
+        ],
+        "multiplierQueries": {}
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Consideration Payable",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "considerationPayable": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the amount of consideration to be paid by or to {partyName} as per the document? In what manner is this consideration to be paid? Has the consideration been paid in full?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Consideration Payable"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "considerationPayable"
+    ],
+    "multiplierQueries": {}
+  }
+}

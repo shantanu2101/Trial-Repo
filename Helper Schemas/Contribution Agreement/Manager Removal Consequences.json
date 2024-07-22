@@ -1,0 +1,34 @@
+{
+    "name": "Manager Removal Consequences",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "managerRemovalConsequences": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What happens to the management fee and carry in the event of the removal of the investment manager? Restrict your response to what is explicitly stated in the <document>, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Manager Removal Consequences"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "managerRemovalConsequences"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

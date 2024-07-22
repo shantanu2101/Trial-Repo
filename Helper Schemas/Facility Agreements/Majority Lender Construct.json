@@ -1,0 +1,42 @@
+{
+    "name": "Majority Lender Construct",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "majorityLenderConstruct": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Regarding decision-making inter-se the lenders, carefully study the document and answer the following: (a) Is there a majority lender construct? What threshold of consent is required among lenders for taking any decisions under the document and granting any consents, waivers, approvals, etc., under the document? (b) Is there a list of items for which consent of all lenders is required? (c) Is there a list of items for which consent of a majority of lenders is required? (d) Are there any decisions/actions that each lender can take individually and severally?",
+                        "systemPrompt": "Under the loan agreements, lender(s) are required to make certain decisions – eg. to grant consents, waivers, permissions to the borrower; to take action against any party; to take any decisions regarding the facility and the facility documents, etc. Hence, loan documents often contain provisions governing how such decisions should be made in the event that more than 1 lenders are involved in the transaction (note: even if only 1 lender is party to the document at the time of signing, more lenders may join in the future). These provisions are referred to colloquially as ‘majority lender construct’ or ‘inter-creditor provisions’ – i.e., in case a decision needs to be made among the lenders, how is this to be done? Is there a majority threshold among the lenders? Do all lenders need to approve all actions/consents? Are there certain actions that each lender can individually and severally decide upon?\n Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Majority Lender Construct"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "majorityLenderConstruct"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

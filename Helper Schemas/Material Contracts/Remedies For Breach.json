@@ -1,0 +1,26 @@
+{
+  "name": "Remedies For Breach",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "remediesForBreach": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document specify the remedies available to the counterparty when {partyName} commits a default or breach of the contract, such as remedies of damages, termination, etc.?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Remedies For Breach"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "remediesForBreach"
+    ],
+    "multiplierQueries": {}
+  }
+}

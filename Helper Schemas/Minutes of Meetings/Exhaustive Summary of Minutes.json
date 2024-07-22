@@ -1,0 +1,27 @@
+{
+    "name": "Exhaustive Summary of Minutes",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "exhaustiveSummaryOfMinutes": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "The <document> provides the minutes of a meeting held by the board or committee of a company. Exhaustively summarize every heading provided in the <document>. Provide the summary in the following format: '1. [Heading] - [Summary of discussions]; 2. [Heading] - [Summary of discussions]', and so on. Do not exclude any heading in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Exhaustive Summary of Minutes"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "exhaustiveSummaryOfMinutes"
+        ],
+        "multiplierQueries": {}
+    }
+}
+

@@ -1,0 +1,33 @@
+{
+    "name": "MFN Better Terms And Mutatis Mutandis Clauses",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "mfnBetterTermsAndMutatisMutandisClauses": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any better terms, most favoured nation clauses, or mutatis mutandis clauses? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "MFN Better Terms And Mutatis Mutandis Clauses"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "mfnBetterTermsAndMutatisMutandisClauses"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+

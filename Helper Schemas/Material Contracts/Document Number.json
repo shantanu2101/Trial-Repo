@@ -1,0 +1,26 @@
+{
+  "name": "Document Number",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "documentNumber": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the reference number of the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Document Number"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "documentNumber"
+    ],
+    "multiplierQueries": {}
+  }
+}

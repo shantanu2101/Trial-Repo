@@ -1,0 +1,26 @@
+{
+  "name": "Who Approved Grant",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whoApprovedGrant": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, who has approved the grant? Was thegrant approved by the board of directors of the company or by anyparticular committee of the board?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Who Approved Grant"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whoApprovedGrant"
+    ],
+    "multiplierQueries": {}
+  }
+}

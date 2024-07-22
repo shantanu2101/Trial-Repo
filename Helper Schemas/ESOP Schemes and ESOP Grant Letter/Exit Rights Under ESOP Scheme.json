@@ -1,0 +1,26 @@
+{
+  "name": "Exit Rights Under ESOP Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "exitRightsUnderESOP": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document provide exit rights to the employees, i.e. provisions which allow the employees to sell or dispose of the shares that they acquire through the ESOP scheme? Do not confuse this with the employee's right to exercise the stock options.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Exit Rights Under ESOP Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "exitRightsUnderESOP"
+    ],
+    "multiplierQueries": {}
+  }
+}

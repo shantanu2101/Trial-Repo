@@ -1,0 +1,26 @@
+{
+  "name": "Type of Charge and Secured Assets",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "chargeTypeAndSecuredAssets": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide the following details as expressly set out in the document: (a) 'Type of Charge' as expressly set out in Form CHG-1; and(b) all assets/properties over which such charge has been created.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Type of Charge and Secured Assets"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "chargeTypeAndSecuredAssets"
+    ],
+    "multiplierQueries": {}
+  }
+}

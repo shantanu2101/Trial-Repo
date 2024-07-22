@@ -1,0 +1,26 @@
+{
+  "name": "Date Issued",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dateIssued": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What was the date on which the document was issued or passed?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date Issued"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dateIssued"
+    ],
+    "multiplierQueries": {}
+  }
+}

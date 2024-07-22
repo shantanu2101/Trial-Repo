@@ -1,0 +1,26 @@
+{
+  "name": "Notices and Communication",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "noticesAndCommunication": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document provide a specific mode and manner ofserving notices/ communications?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Notices and Communication"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "noticesAndCommunication"
+    ],
+    "multiplierQueries": {}
+  }
+}

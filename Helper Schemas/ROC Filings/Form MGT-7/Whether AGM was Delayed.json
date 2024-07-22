@@ -1,0 +1,44 @@
+{
+  "name": "Whether AGM was Delayed",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "agmTiming": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Did the AGM take place on or before the due date? The date of AGM and due date of AGM are expressly mentioned in the document. Was any extension for AGM granted?",
+            "source": true,
+            "visible": true,
+            "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+            "displayQuery": "Whether AGM was Delayed"
+          },
+          {
+            "text": "Based on the <Data>, if the date of AGM is a later date than due date of AGM, just return 'AGM delayed' and nothing else. But if the date of AGM is a earlier date than due date of AGM, just return 'NA' and nothing else. Limit your responses to the required output and include nothing else. Do not draw any inferences.",
+            "position": "none",
+            "systemPrompt": "You are Lucio AI, an expert at processing data and extracting information from it. You will receive some text in the Data and instructions asking you to perform a task on the data. You will carefully and logically execute the instructions and provide the output. All instructions must be executed only on the Data given.\n\nYou are not chatty and only respond with the output of the task asked of you. Respond without preamble or filler phrases like 'this is what I think' or 'I have analyzed the document'. Just directly return the result asked for in the instruction.\n\nUnless explicitly stated otherwise, ensure that your output is formatted as follows. All dates should be written in DD-MM-YYYY format. All numbers should be written in digits and formatted in the Indian system, for example 8,000. Any money or currency should be written with the currency first and the amount formatted in the Indian system, for example, ₹1,00,000.00. All names should be written in title case without any salutations like Mr. Ms. or other details. If the instruction asks you to respond from a set of options like 'Yes, No', your response should only contain those options and no other text.",
+            "overridePageSystemPrompt": true,
+            "flag": {
+                "amber": "The document contains AGM delayed. Caption - AGM delayed"
+            },
+            "output": {
+                "type": "options",
+                "options": [
+                    "AGM delayed",
+                    "NA"
+                ]
+            },
+            "visible": false
+        }
+        ]
+      }
+    },
+    "baseQueries": [
+      "agmTiming"
+    ],
+    "multiplierQueries": {}
+  }
+}

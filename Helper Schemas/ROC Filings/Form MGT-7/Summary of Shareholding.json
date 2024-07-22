@@ -1,0 +1,26 @@
+{
+  "name": "Summary of Shareholding",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "shareholdingSummary": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide summary of shareholders of the company with name,number of shares held and percentage of shareholding - present youranswer in table format. If the list of shareholders is attached to the document, then the response can be based on such attachment. If the document contains data for equity shares as well as preference shares,please present two separate tables - one for equity shares and one forpreference shares.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Summary of Shareholding"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "shareholdingSummary"
+    ],
+    "multiplierQueries": {}
+  }
+}

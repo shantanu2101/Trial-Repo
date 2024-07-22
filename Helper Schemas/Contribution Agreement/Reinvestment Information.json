@@ -1,0 +1,34 @@
+{
+    "name": "Reinvestment Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "reinvestmentInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there any cap on reinvestments?  Within which time period can reinvestments be made? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Reinvestment Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "reinvestmentInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

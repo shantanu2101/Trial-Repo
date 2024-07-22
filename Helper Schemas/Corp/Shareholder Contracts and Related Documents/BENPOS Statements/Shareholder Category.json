@@ -1,0 +1,26 @@
+{
+  "name": "Shareholder Category",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "shareholderCategoryBenpos": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How many shares are held by persons belonging to the followinggroups (as expressly mentioned in the document, if at all): (a)promoters; (b) promoter group directors; (c) key managerial personnel;(d) senior management; and (e) the selling shareholders. Answer intabular format. Be very clear and careful - if the document does notexpressly classify the shareholders into any of these categories, justmention that you are unable to determine the answer for any or such ofthese categories, please mention that you are unable to determine thesame. Do not make any inferences or assumptions and do not try toclassify these yourself.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Shareholder Category"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "shareholderCategoryBenpos"
+    ],
+    "multiplierQueries": {}
+  }
+}

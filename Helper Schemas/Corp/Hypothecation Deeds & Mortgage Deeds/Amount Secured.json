@@ -1,0 +1,26 @@
+{
+    "name": "Amount Secured",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "amountSecuredByMortgage": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the amount of money being borrowed / secured through the <document>?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Amount Secured"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "amountSecured"
+        ],
+        "multiplierQueries": {}
+    }
+}

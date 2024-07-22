@@ -1,0 +1,26 @@
+{
+    "name": "Investors Details FC-GPR",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorDetailsFcgpr": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "For each foreign investor, set out the following details: (a)name of investor; (b) investor country; (c) constitution/nature of investing entity; and (d) how many instruments are issued to such foreign investor? Strictly limit yourself to data provided under these fields and do not make any inferences",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Details (FC-GPR)"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorDetailsFcgpr"
+        ],
+        "multiplierQueries": {}
+    }
+}

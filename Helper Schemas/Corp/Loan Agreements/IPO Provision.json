@@ -1,0 +1,28 @@
+{
+  "name": "IPO Provision",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "ipoProvision": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Is there a provision which explicitly addresses situations of an initial public offering/ IPO?",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "IPO Provision"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "ipoProvision"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+

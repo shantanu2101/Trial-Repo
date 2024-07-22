@@ -1,0 +1,26 @@
+{
+  "name": "Share Capital and Shareholding in JV",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "jvShareCapitalAndHolding": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the total share capital of the joint venture entity?What is the shareholding of each shareholder?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Share Capital and Shareholding in JV"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "jvShareCapitalAndHolding"
+    ],
+    "multiplierQueries": {}
+  }
+}

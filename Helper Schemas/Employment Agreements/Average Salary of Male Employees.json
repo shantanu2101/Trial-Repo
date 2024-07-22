@@ -1,0 +1,27 @@
+{
+  "name": "Average Salary of Male Employees",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "averageSalaryMaleEmployees": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the average salary received by male employees?",
+            "systemPrompt": "You are an expert at reading excel sheets and otherrepositories of data pertaining to details of personnel engaged by anemployer. You will be provided a document from which you need toidentify the average salary received by male employees. The documentwill specify which of the employees are male, and which of the employeesare female. You must restrict your analysis only to the male employees.To calculate the average salary received by the male employees, you mustadd the salaries received by each male employee, and then divide the sumby the total number of male employees.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Average Salary of Male Employees"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "averageSalaryMaleEmployees"
+    ],
+    "multiplierQueries": {}
+  }
+}

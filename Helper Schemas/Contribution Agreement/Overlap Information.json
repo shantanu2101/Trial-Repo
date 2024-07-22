@@ -1,0 +1,34 @@
+{
+    "name": "Overlap Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "overlapInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there any overlap between the directors/partners of the investment manager and sponsor? Restrict your response to what is explicitly stated in the <document>. Do not make any inferences.Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Overlap Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "overlapInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

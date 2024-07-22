@@ -1,0 +1,35 @@
+{
+    "name": "Restricted Payments",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "restrictedPayments": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the restricted payments under the facility? In other words, what restrictions exist on any upstreaming of cash-flows from the borrower to its shareholders/promoters/sponsors? These would include restrictions on upstreaming of any nature, including restrictions on dividend payments, repayment of promoter loans, etc. Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Restricted Payments"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "restrictedPayments"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+

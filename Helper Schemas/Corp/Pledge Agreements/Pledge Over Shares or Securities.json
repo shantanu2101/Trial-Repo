@@ -1,0 +1,26 @@
+{
+  "name": "Pledge Over Shares or Securities",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "pledgeOverSecurities": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is the pledge created over securities or shares? If yes, thendoes the document contain an obligation to pledge additional shares ortop-up the pledge?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Pledge Over Shares or Securities"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "pledgeOverSecurities"
+    ],
+    "multiplierQueries": {}
+  }
+}

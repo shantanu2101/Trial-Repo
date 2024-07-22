@@ -1,0 +1,26 @@
+{
+    "name": "Debenture Issuance and Subscription Date",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "debentureIssuanceAndSubscriptionDate": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the date of issuance of the debentures and the date of subscription (a.k.a. pay-in date) to the debentures? If there are multiple series or tranches of the debentures, what is the issuance/subscription date of the same.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Debenture Issuance and Subscription Date"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "debentureIssuanceAndSubscriptionDate"
+        ],
+        "multiplierQueries": {}
+    }
+}

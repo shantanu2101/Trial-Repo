@@ -1,0 +1,26 @@
+{
+    "name": "Parties and Roles",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "partiesAndRoles": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Who are the parties involved in the document? What are their respective roles and designations?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Parties and Roles"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "partiesAndRoles"
+        ],
+        "multiplierQueries": {}
+    }
+}

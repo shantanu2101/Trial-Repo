@@ -1,0 +1,25 @@
+{
+    "name": "Call option events and price",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "callOptionEventsAndPrice": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "text": "What are the events related to the PPA on occurrence of which the parties can exercise call option under the SHA? What is the call price payable in such events? Do not get confused between call option and put option. Both are separate things. Include all the relevant details mentioned in the document. Under no circumstances, summarise the details or just mention the key details. Answer this question on the basis of whatever is explicitly stated in the document. Do not draw any kind of inferences on your part. If there is no mention of call option, just return that the document does not contain any information.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Call option events and price"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "callOptionEventsAndPrice"
+        ],
+        "multiplierQueries": {}
+    }
+}

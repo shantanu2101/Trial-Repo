@@ -1,0 +1,26 @@
+{
+  "name": "Expiry Date of Document",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "expiryDate": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the expiry date/ expiration date of the document? Reproduce the date in the same format as provided in the document. Rely only on explicit references in the document. Do not make anyinferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Expiry Date of Document"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "expiryDate"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Investor Details PAS-5",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorDetailsPas5": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the name of the investor? In order to answer this  question, reproduce the name and contact details set out under the  heading in the document which would read as or akin to details of the  persons to whom private placement offer letter has been circulated'.  Respond in tabular format - with the following two headings: 'Name and Address' and Contact Details'",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Details (PAS-5)"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorDetailsPas5"
+        ],
+        "multiplierQueries": {}
+    }
+}

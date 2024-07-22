@@ -1,0 +1,34 @@
+{
+    "name": "Undertaking Securities",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "undertakingSecurities": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the percentage of securities that is subject to the Undertaking? Restrict your responses to what is explicitly provided in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Undertaking Securities"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "undertakingSecurities"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

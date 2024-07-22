@@ -1,0 +1,26 @@
+{
+  "name": "Escalation of Rent",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "escalationOfRent": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document provide for any escalations in the rent payable? What are the details and amounts of such escalations?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Escalation of Rent"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "escalationOfRent"
+    ],
+    "multiplierQueries": {}
+  }
+}

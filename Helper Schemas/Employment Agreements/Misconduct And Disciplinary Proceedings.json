@@ -1,0 +1,26 @@
+{
+  "name": "Misconduct And Disciplinary Proceedings",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "misconductAndDisciplinaryProceedings": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Does the contract address what constitutes 'cause', or misconduct committed by the employee? What is the definition or scope of misconduct/ cause, i.e. the list of acts or omissions that constitute misconduct or cause? What is the disciplinary procedure in case misconduct is committed by the employee? Rely only on explicit references in the document. Do not make any inferences.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Misconduct And Disciplinary Proceedings"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "misconductAndDisciplinaryProceedings"
+      ],
+      "multiplierQueries": {}
+  }
+}

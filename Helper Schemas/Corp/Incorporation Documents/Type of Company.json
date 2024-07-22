@@ -1,0 +1,27 @@
+{
+  "name": "Type of Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "typeOfCompany": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the type of company specified in the document? Is ita private limited company, public limited company, one-person company,or a non-profit company? Is the company limited by shares, limited byguarantee, or unlimited?",
+            "systemPrompt": "You are an expert at analyzing corporate legaldocuments and identifying the type of company involved in such documents. You will be provided a document from which you have to identify the type of company which has filed the document or to which the document primarily pertains. The company may be a private limited company, public limited company, one-person company, or a non-profit company. Assume that if the document specifies that the company hasbeen set up/ incorporated under section 8 of the Companies Act, 2013, orunder section 25 of the Companies Act, 1956, then such company will bedeemed to be a 'non-profit company'.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Type of Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "typeOfCompany"
+    ],
+    "multiplierQueries": {}
+  }
+}

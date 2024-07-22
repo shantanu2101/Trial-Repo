@@ -1,0 +1,29 @@
+{
+  "name": "Timeline for Making POSH Inquiry Report Available",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "timelineForMakingPOSHInquiryReportAvailable": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "What is the timeline for providing the inquiry report or making the inquiry report available?",
+                      "systemPrompt": "You are a legal expert skilled at reading corporate policies and extracting the relevant details. You will be provided a policy on prevention of sexual harassment at the workplace. From this policy, you will have to extract the relevant timelines provided. Identify these three timelines specifically - (1) the timeline for completing the inquiry; (2) the timeline for providing the inquiry report or making the inquiry report available; (3) the timeline for filing an appeal against the inquiry report/ decision. Identify each of these timelines separately and do not get confused between them.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Timeline for Making POSH Inquiry Report Available"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "timelineForMakingPOSHInquiryReportAvailable"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+

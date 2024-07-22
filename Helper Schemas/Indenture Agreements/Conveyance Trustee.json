@@ -1,0 +1,29 @@
+{
+    "name": "Conveyance Trustee",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "conveyanceTrustee": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which clauses deal with conveyance of the initial settlement to the trustee? Only return the clause numbers.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Conveyance Trustee"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "conveyanceTrustee"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

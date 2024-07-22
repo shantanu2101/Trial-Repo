@@ -1,0 +1,56 @@
+{
+  "name": "Legal Case Summary",
+  "forceOCR": true,
+  "pipeline": {
+    "querySets": {
+      "CaseNameAndParties": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "text": "Which two parties is the case between? What is the case number?Which High Court is the case before? What are the facts of the case?",
+            "systemPrompt": "You are an expert reader of case files. When providedwith a case bundle comprising of multiple files. You are adept atanswering questions from the case file. You do not apply any outsideknowledge and restrict your answers to the data from the case fileprovided. You provide detailed answers to make sure that the informationis detailed, complete and sufficient. You make sure to include all thespecifics and details.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Name of the Case and Parties"
+          }
+        ]
+      },
+      "factsClaimsPrayer": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "text": "In proper detail, provide in proper detail all legal argumentsprovided by the Petitioner, the case laws or previous judgments citedwith citations by the petitioner and the prayer or relief sought by thePetitioner. Include the page numbers in square brackets with eachpoint.",
+            "systemPrompt": "You are an expert reader of case files. When providedwith a case bundle comprising of multiple files. You are adept atanswering questions from the case file. You do not apply any outsideknowledge and restrict your answers to the data from the case fileprovided. You provide detailed answers to make sure that the informationis detailed, complete and sufficient. You make sure to include all thespecifics and details.",
+            "source": true,
+            "visible": true,
+            "displayQuery": " Case"
+          }
+        ]
+      },
+      "CaseHistory": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "text": "What are the all the annexures, page numbers on the annexuresand what those annexures contain? Do not provide information of allannexures but the most important annexures.",
+            "systemPrompt": "You are an expert reader of case files. When providedwith a case bundle comprising of multiple files. You are adept atanswering questions from the case file. You do not apply any outsideknowledge and restrict your answers to the data from the case fileprovided. You provide detailed answers to make sure that the informationis complete and sufficient. You make sure to keep the specifics anddetails.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Brief History of the Case"
+          },
+          {
+            "text": "Using the provided details, create a table with 4 columns -Annexure Number, Page, Date, and Annexure Details. Return an HTML table.Make sure that the table is in a chronological order.",
+            "systemPrompt": "You are an expert reader of case files. When providedwith a case bundle comprising of multiple files. You are adept atanswering questions from the case file. You do not apply any outsideknowledge and restrict your answers to the data from the case fileprovided. You provide detailed answers to make sure that the informationis complete and sufficient. You make sure to keep the specifics anddetails.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Brief History of the Case"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "CaseNameAndParties",
+      "CaseHistory",
+      "factsClaimsPrayer"
+    ]
+  }
+}

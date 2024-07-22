@@ -1,0 +1,30 @@
+{
+    "name": "Closing Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "closingInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there any upfront contribution which has to be paid by the investor?  How is the timeline of the final closing determined? If an investor invests in the fund/alternative investment fund after the initial set of investors (i.e. after initial closing), will there be a compensating payment required to equalize for time value of money invested previously by other investors? If so, what would be the percentage for calculation? Would the manager have discretion to vary or waive this? What amounts are being paid by the investor for participating in a subsequent closing? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make under any circumstance make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Closing Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "closingInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

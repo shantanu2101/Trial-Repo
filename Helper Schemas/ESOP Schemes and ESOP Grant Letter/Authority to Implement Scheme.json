@@ -1,0 +1,26 @@
+{
+  "name": "Authority to Implement Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "authorityToImplementScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Who has the authority to administer and implement the ESOP scheme? Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Authority to Implement Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "authorityToImplementScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

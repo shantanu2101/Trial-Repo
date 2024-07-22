@@ -1,0 +1,27 @@
+{
+  "name": "Supporting Documents and Terms",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "supportingDocumentsAndTerms": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document refer to any other document/ agreement/terms which have been agreed to or entered into by the parties? If yes,then why has the reference been made? List each such referenceseparately. Have these documents/ agreements/ terms been incorporatedinto or read into the document by any explicit clause?",
+            "systemPrompt": "You are an expert at reading legal documents includingcontracts, and identifying cross references between different documents.You will be provided a document from which you have to identifyreferences to other agreements/ documents/ terms agreed to or enteredinto by the parties.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Supporting Documents and Terms"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "supportingDocumentsAndTerms"
+    ],
+    "multiplierQueries": {}
+  }
+}

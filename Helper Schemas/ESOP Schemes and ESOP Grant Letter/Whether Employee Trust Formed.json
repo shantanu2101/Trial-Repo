@@ -1,0 +1,26 @@
+{
+  "name": "Whether Employee Trust Formed",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherEmployeeTrustFormed": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, is an employee trust formed for the ESOPScheme? If yes, then what is the name of the trust, who are the trusteesand when was the trust deed executed?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Employee Trust Formed"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherEmployeeTrustFormed"
+    ],
+    "multiplierQueries": {}
+  }
+}

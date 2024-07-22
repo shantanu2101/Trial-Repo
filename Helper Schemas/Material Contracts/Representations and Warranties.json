@@ -1,0 +1,41 @@
+{
+  "name": "Representations and Warranties",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {
+      "repsAndWarrantiesContext": {
+        "group": "Contexts",
+        "mode": "accumulateClaude",
+        "queries": [
+          {
+            "text": "From the agreement given as document, identify therepresentations and warranties made by each party. A statement will onlyconstitute a representation/ warranty when it relates to a statement offact or a pre-contractual event and when it uses positive terms like'represents', 'warrants', and 'certifies'. Do not confuse this withgeneral rights and obligations of the parties. Do not, under anycircumstance, include provisions which are intended to subsist for theduration of the contract or post termination of the contract, such asobligations of confidentiality, non-compete etc.",
+            "visible": false,
+            "systemPrompt": "You are an expert at reading contracts and identifyingthe representations and warranties made by each party in such contracts.You will be given a document from which you have to identify therepresentations and warranties made by each party. These are statementsof fact made by one party, in reliance of which the other party agreesto enter into the contract. These may be provided by way of a singleprovision, or may be spread across the document."
+          }
+        ]
+      }
+    },
+    "querySets": {
+      "representationsAndWarranties": {
+        "mode": "chained",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the representations and warranties made by the partiesin the document? Respond for each party separately. Provide the specific clause number/ clause title foreach response. Restrict yourself to explicit references in the document. Do not make any inferences as to whether a particular right/obligation constitutes a representation or warranty.",
+            "source": true,
+            "visible": true,
+            "context": [
+              "repsAndWarrantiesContext"
+            ],
+            "displayQuery": "Representations and Warranties"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "representationsAndWarranties"
+    ],
+    "multiplierQueries": {}
+  }
+}

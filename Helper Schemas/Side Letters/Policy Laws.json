@@ -1,0 +1,38 @@
+{
+    "name": "Policy Laws",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "policyLaws": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which laws are linked to policy requirements of the investor? Look at Indian legislation, rules and regulations related to the question, and do not make any inferences. Mention the specific clause/rule/section/regulation/paragraph number of the concerned act/rules/regulations/notification for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Policy Laws"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "policyLaws"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

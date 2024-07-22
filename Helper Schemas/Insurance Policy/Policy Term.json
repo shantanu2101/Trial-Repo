@@ -1,0 +1,29 @@
+{
+    "name": "Policy Term",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "policyTerm": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the term, tenure or validity period for the insurance under this insurance policy? What is the date of expiry of the policy?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Policy Term"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "policyTerm"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Reason for Cessation",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "cessationReason": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "In case of cessation of a director or a key managerialpersonnel, what is the reason for cessation? If the purpose of the document is not related to cessation, then simply mention that the formdoes not pertain to cessation",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Reason for Cessation"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "cessationReason"
+    ],
+    "multiplierQueries": {}
+  }
+}

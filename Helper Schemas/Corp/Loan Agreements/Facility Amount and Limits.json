@@ -1,0 +1,26 @@
+{
+    "name": "Facility Amount and Limits",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "loanAmount": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the loan amount or facility limit prescribed in the document? Are there any sub-limits of the overall facility amount? Is there any mention of amount committed by a party?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Facility Amount and Limits"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "loanAmount"
+        ],
+        "multiplierQueries": {}
+    }
+}

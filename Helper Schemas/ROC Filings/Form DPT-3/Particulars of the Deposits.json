@@ -1,0 +1,26 @@
+{
+  "name": "Particulars of the Deposits",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "particularsOfDeposits": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As expressly mentioned in the document, what are the: (a)amount of existing deposits as on 1 April; (b) amount of depositsrenewed during the year; (c) amount of new deposits accepted during theyear (including the breakup between secured and unsecured depositsaccepted during the year); (d) amount of deposits repaid during theyear; and (e) balance of deposits outstanding at the end of the year?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Particulars of the Deposits"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "particularsOfDeposits"
+    ],
+    "multiplierQueries": {}
+  }
+}

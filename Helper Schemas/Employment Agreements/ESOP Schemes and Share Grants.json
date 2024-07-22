@@ -1,0 +1,26 @@
+{
+  "name": "ESOP Schemes and Share Grants",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "esopAndShareGrants": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document grant any shares or employee stock option schemes/ ESOPs to the employee? What is the vesting period for these shares/ stock options?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "ESOP Schemes and Share Grants"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "esopAndShareGrants"
+    ],
+    "multiplierQueries": {}
+  }
+}

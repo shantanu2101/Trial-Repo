@@ -1,0 +1,26 @@
+{
+  "name": "How Many Stock Options Granted",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "howManyStockOptionsGranted": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How many stock options are being granted to the employee?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "How Many Stock Options Granted"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "howManyStockOptionsGranted"
+    ],
+    "multiplierQueries": {}
+  }
+}

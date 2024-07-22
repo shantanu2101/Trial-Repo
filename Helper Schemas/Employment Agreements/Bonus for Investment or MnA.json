@@ -1,0 +1,26 @@
+{
+  "name": "Bonus for Investment or MnA",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "bonusForInvestmentOrMnA": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there any clause which provides for a bonus at the time of investment, merger or acquisition of the employer?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Bonus for Investment or MnA"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "bonusForInvestmentOrMnA"
+    ],
+    "multiplierQueries": {}
+  }
+}

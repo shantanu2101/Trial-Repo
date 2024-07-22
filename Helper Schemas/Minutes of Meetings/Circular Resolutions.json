@@ -1,0 +1,26 @@
+{
+  "name": "Circular Resolutions",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "circularResolutions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document mention details of any 'circular' resolutions? Provide a summary of each such circular resolution. Maintain brevity but do not exclude any important points. Respond with a bulleted list of circular resolutions in the following format: '1.[Circular Resolution Name] - [Summary]; 2. [Circular Resolution Name] -[Summary]' and so on.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Circular Resolutions"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "circularResolutions"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Board Resolution for Allotment",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "boardResolutionForAllotment": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has a resolution of the board of directors (or of any committee thereof) been passed approving the allotment? Such a resolution would typically be attached at the back of the form. Do not confuse this with a shareholders'/members'/general resolution. If yes, what is the date of the board resolution? Do the shares and the allottees approved by the board resolution (as attached to the form) align with the shares allotted by way of the primary form PAS-3?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Board Resolution for Allotment"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "boardResolutionForAllotment"
+    ],
+    "multiplierQueries": {}
+  }
+}

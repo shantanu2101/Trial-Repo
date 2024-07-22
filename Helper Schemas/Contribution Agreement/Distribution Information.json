@@ -1,0 +1,34 @@
+{
+    "name": "Distribution Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "distributionsInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Which classes of units in the <document> are getting carry or additional return on investment? Carry refers to a share of profits from a private equity, venture capital, or alternative investment fund paid as incentive compensation. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Distribution Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "distributionsInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Investor Majority and Super Majority",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "investorMajorityAndSuperMajority": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document stipulate a specific percentage or ratiowhich would constitute 'investor majority' or 'investor super majority'?Which actions or events require the approval of 'majority' or 'supermajority' of the investors?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Investor Majority and Super Majority"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "investorMajorityAndSuperMajority"
+    ],
+    "multiplierQueries": {}
+  }
+}

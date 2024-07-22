@@ -1,0 +1,29 @@
+{
+    "name": "Stamp Duty and Registration Fees",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "stampDutyAndRegistrationFees": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Has the contract been e-stamped and duly registered? What is the stamp duty, i.e., the amount for which the contract has been e-stamped? What is the registration fees paid on the Sale Deed/Gift Deed/Lease Deed/Mortgage Deed/Leave and License Agreement?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Stamp Duty and Registration Fees"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "stampDutyAndRegistrationFees"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

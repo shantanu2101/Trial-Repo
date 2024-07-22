@@ -1,0 +1,26 @@
+{
+    "name": "Guarantee Provisions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "guaranteeAndGuarantors": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the document contain a guarantee clause? What are the details of the guarantee provisions, and who is the guarantor? Do not confuse this with the warranty provisions. Also reproduce all express references to guarantee and/or guarantors in the <document>. Make sure you have not missed any references to the words 'guarantee' or 'guarantor'.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Guarantee Provisions"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "guaranteeAndGuarantors"
+        ],
+        "multiplierQueries": {}
+    }
+}

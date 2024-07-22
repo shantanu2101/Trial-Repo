@@ -1,0 +1,26 @@
+{
+  "name": "Whether Possession Handed Over",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherPossessionHandedOver": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Has the possession of the subject matter property been handedover to the buyer/ donee/ lessee/ lender?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Possession Handed Over"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherPossessionHandedOver"
+    ],
+    "multiplierQueries": {}
+  }
+}

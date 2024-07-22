@@ -1,0 +1,26 @@
+{
+  "name": "Conditions Recorded",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "conditionsRecorded": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document prescribe any conditions which must be met by {partyName}, in order for the transaction to take place or to remain effective?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Conditions Recorded"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "conditionsRecorded"
+    ],
+    "multiplierQueries": {}
+  }
+}

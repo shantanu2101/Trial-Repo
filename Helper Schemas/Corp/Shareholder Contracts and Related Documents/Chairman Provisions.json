@@ -1,0 +1,26 @@
+{
+  "name": "Chairman Provisions",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "chairmanProvisions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "How is the chairman/ chairperson of each meeting of the board of directors appointed? Does the chairman/ chairperson of the meeting have a casting vote?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Chairman Provisions"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "chairmanProvisions"
+    ],
+    "multiplierQueries": {}
+  }
+}

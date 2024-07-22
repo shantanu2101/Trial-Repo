@@ -1,0 +1,26 @@
+{
+  "name": "Interim Orders",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "interimOrders": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Are there any interim orders or interlocutory orders mentioned in the document? What are the directions passed by the court in these interim/ interlocutory orders?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Interim Orders"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "interimOrders"
+    ],
+    "multiplierQueries": {}
+  }
+}

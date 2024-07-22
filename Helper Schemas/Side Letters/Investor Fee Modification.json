@@ -1,0 +1,41 @@
+{
+    "name": "Investor Fee Modification",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorFeeModification": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any reductions/modifications in the fees or expenses charged to the investor? If so, what are they? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Fee Modification"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorFeeModification"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

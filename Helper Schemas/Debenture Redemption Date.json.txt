@@ -1,0 +1,26 @@
+{
+    "name": "Debenture Redemption Date",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "debentureRedemptionDate": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the maturity date or final redemption date or redemption date of the debentures issued under the document? Does the document contain a redemption schedule?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Debenture Redemption Date"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "debentureRedemptionDate"
+        ],
+        "multiplierQueries": {}
+    }
+}

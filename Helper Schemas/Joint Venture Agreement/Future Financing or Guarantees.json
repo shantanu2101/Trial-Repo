@@ -1,0 +1,26 @@
+{
+  "name": "Future Financing or Guarantees",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "futureFinancingOrGuarantees": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the provisions related to future financing or guarantees? Is {partyName} required to provide any future financing or guarantees as per the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Future Financing or Guarantees"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "futureFinancingOrGuarantees"
+    ],
+    "multiplierQueries": {}
+  }
+}

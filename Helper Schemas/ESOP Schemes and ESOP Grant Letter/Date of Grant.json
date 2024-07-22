@@ -1,0 +1,26 @@
+{
+  "name": "Date of Grant",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dateOfESOPGrant": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date of the grant?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Grant"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dateOfESOPGrant"
+    ],
+    "multiplierQueries": {}
+  }
+}

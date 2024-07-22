@@ -1,0 +1,26 @@
+{
+  "name": "Whether Digital Signature Present",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "digitalSignature": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a digital signature present at the end of the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Digital Signature Present"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "digitalSignature"
+    ],
+    "multiplierQueries": {}
+  }
+}

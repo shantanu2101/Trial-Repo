@@ -1,0 +1,26 @@
+{
+  "name": "Details of Shares Purchased",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "sharesPurchased": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the number and percentage of shares being purchased under the agreement?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Details of Shares Purchased"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "sharesPurchased"
+    ],
+    "multiplierQueries": {}
+  }
+}

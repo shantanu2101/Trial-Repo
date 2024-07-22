@@ -1,0 +1,26 @@
+{
+  "name": "Successors And Assigns",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "successorsAndAssigns": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document address the rights, benefits or obligationswhich will apply to the parties' successors and assigns?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Successors And Assigns"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "successorsAndAssigns"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Refund of Security Deposit",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "refundOfSecurityDeposit": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a security deposit under the agreement? What are theterms and timeline for refund of the security deposit?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Refund of Security Deposit"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "refundOfSecurityDeposit"
+    ],
+    "multiplierQueries": {}
+  }
+}

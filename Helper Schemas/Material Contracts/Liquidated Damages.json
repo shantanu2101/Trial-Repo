@@ -1,0 +1,27 @@
+{
+  "name": "Liquidated Damages",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "liquidatedDamages": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Does the document contain a damages or liquidated damages clause?",
+                      "systemPrompt": "You are a legal expert, skilled at reading contracts and identifying details from the same. You will be provided a contract from which you need to identify the presence of a damages or liquidated damages clause. This is different from an indemnity clause, and must never be confused. This is also different from a 'limitation of liability' clause, and must never be confused. A limitation of liability clause is a clause which states that the party/parties shall not be liable for damages which are incidental, special, consequential, punitive, etc. in nature. This is different from a damages or liquidated damages clause. Never confuse a damages/ liquidated damages clause with a limitation of liability clause. Do not, under any circumstance, include any reference to a limitation of liability clause or indemnity clause.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Liquidated Damages"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "liquidatedDamages"
+      ],
+      "multiplierQueries": {}
+  }
+}

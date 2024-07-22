@@ -1,0 +1,29 @@
+{
+    "name": "Trustee Powers",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "trusteePowers": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What powers can be exercised by the trustee without the advice/approval of the investment manager? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Trustee Powers"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "trusteePowers"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Minimum Amount for Sale",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "minimumAmountForSale": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the agreement contain a predetermined minimum price forsale of the constructed area? This refers to a pre-agreed minimum priceor threshold below which the developed properties may not be sold.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Minimum Amount for Sale"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "minimumAmountForSale"
+    ],
+    "multiplierQueries": {}
+  }
+}

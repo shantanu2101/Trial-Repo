@@ -1,0 +1,26 @@
+{
+    "name": "Vendors of Company",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "vendorsOfCompany": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Who are the vendors/ suppliers of the company?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Vendors of Company"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "vendorsOfCompany"
+        ],
+        "multiplierQueries": {}
+    }
+}

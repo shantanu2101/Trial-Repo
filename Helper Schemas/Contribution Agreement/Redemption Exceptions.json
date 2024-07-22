@@ -1,0 +1,30 @@
+{
+    "name": "Redemption Exceptions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "redemptionExceptions": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any exceptions to the redemption limits? Redemption limits refer to restrictions on investors to withdraw their capital/investment from the hedge fund/alternative investment fund, and such restrictions may be time-based or quantum-based. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Redemption Exceptions"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "redemptionExceptions"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

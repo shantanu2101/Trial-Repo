@@ -1,0 +1,30 @@
+{
+    "name": "Loss Payee",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "lossPayee": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Who is the loss payee under the insurance contract? A loss payee clause is a clause in a contract of insurance that provides, in the event of payment being made under the policy in relation to the insured risk, that payment will be made to a third party rather than to the insured beneficiary of the policy. Restrict your responses to what is explicitly provided in the <document>.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Loss Payee"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "lossPayee"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

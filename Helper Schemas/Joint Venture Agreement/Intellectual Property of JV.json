@@ -1,0 +1,26 @@
+{
+  "name": "Intellectual Property of JV",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "intellectualPropertyOfJV": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the rights and responsibilities of the parties with regards to intellectual property created or utilized within the joint venture?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Intellectual Property of JV"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "intellectualPropertyOfJV"
+    ],
+    "multiplierQueries": {}
+  }
+}

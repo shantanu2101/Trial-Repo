@@ -1,0 +1,26 @@
+{
+  "name": "Registered Members and Beneficial Owners",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "ownershipDetails": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Who are the registered owners/registered members and theircorresponding beneficial owners?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Registered Members and Beneficial Owners"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "ownershipDetails"
+    ],
+    "multiplierQueries": {}
+  }
+}

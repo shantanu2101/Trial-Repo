@@ -1,0 +1,26 @@
+{
+  "name": "Result of Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "resultOfScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Summarize the final result of the scheme, including the statusof the corporate entities involved, and the impact on relevantstakeholders.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Result of Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "resultOfScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

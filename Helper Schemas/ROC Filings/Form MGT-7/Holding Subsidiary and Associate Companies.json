@@ -1,0 +1,26 @@
+{
+  "name": "Holding Subsidiary and Associate Companies",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "holdingSubsidiaryAndAssociateCompanies": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the company have the holding, subsidiary and associate companies (including joint ventures)? If yes, provide the name of such entity, nature of relationship and % of shares held by the company. Restrict your response only to the details expressly set out in the field titled 'PARTICULARS OF HOLDING, SUBSIDIARY AND ASSOCIATE COMPANIES(INCLUDING JOINT VENTURES)' in the document and do not make any inferences. If the data in this field makes a reference to an attachment to the document, then the response can be based on the attachment as well.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Holding, Subsidiary and Associate Companies"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "holdingSubsidiaryAndAssociateCompanies"
+    ],
+    "multiplierQueries": {}
+  }
+}

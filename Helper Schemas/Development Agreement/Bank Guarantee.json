@@ -1,0 +1,26 @@
+{
+  "name": "Bank Guarantee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "bankGuarantee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a bank guarantee provided in the document? When can the bank guarantee be invoked?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Bank Guarantee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "bankGuarantee"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Role of Asset Reconstruction Company or Assignee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "roleOfArcOrAssignee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is the charge satisfied in favour of an asset reconstructioncompany or assignee/transferee/novatee? If yes, provide the particularsof the asset reconstruction company or assignee. The answer to the abovequery is expressly set out in the Form CHG-4. If the answer is 'No' andthe attachments to the Form CHG-4 contain any references to an assetreconstruction company or assignee/transferee/novatee, please mentionthe same",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Role of Asset Reconstruction Company or Assignee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "roleOfArcOrAssignee"
+    ],
+    "multiplierQueries": {}
+  }
+}

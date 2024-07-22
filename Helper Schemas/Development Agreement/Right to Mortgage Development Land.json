@@ -1,0 +1,26 @@
+{
+  "name": "Right to Mortgage Development Land",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "rightToMortgageDevelopmentLand": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the agreement, does the developer or landowner have theright to use their respective entitlements in the development project,or the land itself, as collateral to obtain a mortgage/ loan?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Right to Mortgage Development Land"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "rightToMortgageDevelopmentLand"
+    ],
+    "multiplierQueries": {}
+  }
+}

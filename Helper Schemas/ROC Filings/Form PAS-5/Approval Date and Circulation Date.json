@@ -1,0 +1,26 @@
+{
+  "name": "Approval Date and Circulation Date",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "relevantDatesPas5": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Please distinctly identify the following dates as would be expressly mentioned in the document: (a) date when approval of relevant authority (board or shareholders) obtained for the private placement offer letter; and (b) date of circulation of private placement offer. Restrict yourself to dates expressly identified as such in the document and do not make any inferences. Once you have mentioned these two dates,do also identify whether the date (b) (i.e., date of circulation) is notmore than 30 days from the date (a) (i.e., the date of approval). If the time gap is more than 30 days, please mention the time gap",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Approval Date and Circulation Date"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "relevantDatesPas5"
+    ],
+    "multiplierQueries": {}
+  }
+}

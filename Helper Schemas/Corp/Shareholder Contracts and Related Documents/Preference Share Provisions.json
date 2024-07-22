@@ -1,0 +1,26 @@
+{
+  "name": "Preference Share Provisions",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "preferenceShareProvisions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the shareholder hold any preference shares? Are thepreference shares convertible? What are the terms of conversion?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Preference Share Provisions"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "preferenceShareProvisions"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Indemnity Information",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "indemnityInformation": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is any insurance coverage available to indemnified persons? Are members of the investment committee given indemnification?  Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response. ",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Indemnity Information"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "indemnityInformation"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

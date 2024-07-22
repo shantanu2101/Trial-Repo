@@ -1,0 +1,26 @@
+{
+  "name": "Nature of Litigation",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "natureOfLitigation": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the nature of the litigation, i.e. is it a criminalproceeding, civil proceeding, statutory proceeding, tax proceeding,etc.? Is it a petition, interlocutory application, first appeal, secondappeal, etc.? What is the relevant forum/ court before which the casehas been filed?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Nature of Litigation"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "natureOfLitigation"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Compounding of Offences",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "compoundingOfOffences": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Have any offences been compounded by the company? If yes, provide the following details: (a) what is the offence that has been compounded? (i.e., mention 'particulars of offence' and 'name of act and section under which offence committed'); (b) 'name of court/concerned authority' before which the offence has been compounded?; and (c) what is the 'amount of compounding'? ",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Compounding of Offences"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "compoundingOfOffences"
+    ],
+    "multiplierQueries": {}
+  }
+}

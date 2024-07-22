@@ -1,0 +1,26 @@
+{
+  "name": "Employees Earning Provident Fund More Than 1800",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "ppfMoreThan1800": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Which employees are receiving provident fund of more than INR/Rupees 1800 per month?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Employees Earning Provident Fund More Than 1800"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "ppfMoreThan1800"
+    ],
+    "multiplierQueries": {}
+  }
+}

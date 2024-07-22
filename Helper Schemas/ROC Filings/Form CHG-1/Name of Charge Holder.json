@@ -1,0 +1,26 @@
+{
+  "name": "Name of Charge Holder",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "chargeholderName": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the name of the chargeholder? Restrict the answer tothe facts expressly set out in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Name of Charge Holder"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "chargeholderName"
+    ],
+    "multiplierQueries": {}
+  }
+}

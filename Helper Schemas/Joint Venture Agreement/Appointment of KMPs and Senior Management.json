@@ -1,0 +1,26 @@
+{
+  "name": "Appointment of KMPs and Senior Management",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "kmpAndSeniorManagementAppointment": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "As per the document, how are the key managerial personnel (including the chief executive officer, chief financial officer, managing director, whole-time director, or company secretary) and senior management of the entity appointed?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Appointment of KMPs and Senior Management"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "kmpAndSeniorManagementAppointment"
+    ],
+    "multiplierQueries": {}
+  }
+}

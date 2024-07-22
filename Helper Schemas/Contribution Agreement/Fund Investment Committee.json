@@ -1,0 +1,34 @@
+{
+    "name": "Fund Investment Committee",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "fundInvestmentCommittee": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the fund have a binding investment committee? Who is taking the final investment and divestment decisions for the fund? Is the manager required to follow the advice of any such committee? Respond to each question separately. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Fund Investment Committee"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "fundInvestmentCommittee"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Summary of Indebtedness and Debentures",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "outstandingDebtAndDebentures": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Summarize the data expressly set out in the following field ofthe document: 'Indebtedness including debentures (Outstanding as atthe end of financial year)'. If the data in this field makes a referenceto an attachment to the document, then the response can be based onthe attachment as well. The response should necessarily mention theoutstanding debentures of the Company (if any). ",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Summary of Indebtedness and Debentures"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "outstandingDebtAndDebentures"
+    ],
+    "multiplierQueries": {}
+  }
+}

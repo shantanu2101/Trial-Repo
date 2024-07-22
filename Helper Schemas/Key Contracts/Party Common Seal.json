@@ -1,0 +1,32 @@
+{
+    "name": "Party Common Seal",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "partyCommonSeal": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the <document> expressly contemplate whether a common seal is required to be affixed by any party? If so, in whose presence is the common seal required to be affixed? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Party Common Seal"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "partyCommonSeal"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+

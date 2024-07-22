@@ -1,0 +1,26 @@
+{
+  "name": "Whether Company has an RTA",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "whetherRtaPresent": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the company have a registrar and transfer agent? If yes,mention its name. Restrict your response only to the details expresslyset out in the document and do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Whether Company has an RTA"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "whetherRtaPresent"
+    ],
+    "multiplierQueries": {}
+  }
+}

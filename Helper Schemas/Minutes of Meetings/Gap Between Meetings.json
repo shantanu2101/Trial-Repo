@@ -1,0 +1,45 @@
+{
+  "name": "Gap Between Meetings",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {
+      "meetingsGapContext": {
+        "group": "Contexts",
+        "mode": "accumulateClaude",
+        "queries": [
+          {
+            "text": "From the minutes of the meeting given as document, identify the date on which the meeting was held. Further, identify the date on which the previous meeting was held.",
+            "visible": false,
+            "systemPrompt": "You are an expert at reading minutes of meetings of theboard of directors, shareholders, and committees of a company. You willbe provided a document from which you will need to identify the dateon which the meeting was held. This will always be provided at the startof the document, before the core discussions of the meeting arepresented. You will also have to identify the date on which the previousmeeting was held. This can usually be found in the portion of the document where the board, shareholders or committee approves/acknowledges/ notes the minutes of the previous meeting."
+          },
+          {
+            "text": "Present the <Data> in the following format: 'Meeting Held on[Date]; Previous Meeting Held on [Date]'. Use the DD/MM/YYYY format forthe dates.",
+            "visible": true
+          }
+        ]
+      }
+    },
+    "querySets": {
+      "gapBetweenMeetings": {
+        "mode": "chained",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "From <context0>, compare the two dates and identify the number of days of gap between the two meetings.",
+            "source": true,
+            "context": [
+              "meetingsGapContext"
+            ],
+            "visible": true,
+            "displayQuery": "Gap Between Meetings"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "gapBetweenMeetings"
+    ],
+    "multiplierQueries": {}
+  }
+}

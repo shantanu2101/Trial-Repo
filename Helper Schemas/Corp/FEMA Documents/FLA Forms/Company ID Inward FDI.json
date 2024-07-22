@@ -1,0 +1,26 @@
+{
+  "name": "Company ID Inward FDI",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "companyIdInwardFdi": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the 'identification of reporting company (in terms of inward FDI)'? Strictly limit the response to the data specifically identified as 'identification of reporting company (in terms of inward FDI)' in the document",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Company ID (Inward FDI)"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "companyIdInwardFdi"
+    ],
+    "multiplierQueries": {}
+  }
+}

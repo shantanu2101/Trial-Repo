@@ -1,0 +1,26 @@
+{
+  "name": "Order Passed",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "orderPassed": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the terms of the order or decision that has beenpassed by the court/ tribunal/ judicial authority? Do not confuse thiswith the arguments or allegations raised by the parties.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Order Passed"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "orderPassed"
+    ],
+    "multiplierQueries": {}
+  }
+}

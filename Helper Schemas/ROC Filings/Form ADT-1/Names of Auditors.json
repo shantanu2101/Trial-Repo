@@ -1,0 +1,26 @@
+{
+  "name": "Names of Auditors",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "namesOfAuditors": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the names of the auditors appointed by the company?Mention the current auditors as well as the previous auditors?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Names of Auditors"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "namesOfAuditors"
+    ],
+    "multiplierQueries": {}
+  }
+}

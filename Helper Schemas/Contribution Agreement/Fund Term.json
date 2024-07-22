@@ -1,0 +1,29 @@
+{
+    "name": "Fund Term",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "fundTerm": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is the term calculated as per the date of initial closing or the date of final closing?  Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Fund Term"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "fundTerm"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

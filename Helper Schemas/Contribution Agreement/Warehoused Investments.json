@@ -1,0 +1,30 @@
+{
+    "name": "Warehoused Investments",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "warehousedInvestments": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any existing warehoused investments? When will warehoused investments be transferred to the fund? At what value will the warehoused investments be transferred to the fund? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response. ",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Warehoused Investments"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "warehousedInvestments"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Arguments Raised by Respondent",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "respondentArguments": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the main arguments, defenses and observations raised by the respondent? Has the respondent raised any counter claims?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Arguments Raised by Respondent"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "respondentArguments"
+    ],
+    "multiplierQueries": {}
+  }
+}

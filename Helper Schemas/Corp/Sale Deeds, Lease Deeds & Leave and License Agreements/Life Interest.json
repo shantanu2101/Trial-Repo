@@ -1,0 +1,26 @@
+{
+  "name": "Life Interest",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "lifeInterest": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document provide the receiving party with a lifeinterest over the property? A life interest grants the receiving partythe right to occupy, use, or receive income from a property for as longas they live, but the ownership of the property itself remains withsomeone else. Rely only on explicit references in the document. Do notmake any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Life Interest"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "lifeInterest"
+    ],
+    "multiplierQueries": {}
+  }
+}

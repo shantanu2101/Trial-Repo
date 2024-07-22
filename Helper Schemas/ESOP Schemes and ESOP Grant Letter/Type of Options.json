@@ -1,0 +1,26 @@
+{
+  "name": "Type of Options",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "typeOfOptions": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What type of options does the ESOP scheme pertain to? This maybe in the form of stock option, stock purchase, restricted stock unit,stock appreciation rights, etc. Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Type of Options"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "typeOfOptions"
+    ],
+    "multiplierQueries": {}
+  }
+}

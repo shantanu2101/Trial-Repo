@@ -1,0 +1,26 @@
+{
+  "name": "Certificate Details and Security Holder",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "certificateDetailsAndSecurityHolder": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Identify the following distinct data based on the contents expressly set out as such in the document: (a) certificate number /certificate no.; (b) register folio number; (c) name of the holder of the security",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Certificate Details and Security Holder"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "certificateDetailsAndSecurityHolder"
+    ],
+    "multiplierQueries": {}
+  }
+}

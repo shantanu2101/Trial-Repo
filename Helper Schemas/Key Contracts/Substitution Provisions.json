@@ -1,0 +1,33 @@
+{
+    "name": "Substitution Provisions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "substitutionProvisions": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the contract have any provisions for substitution of a party? Restrict yourself to explicit clauses in the <document> to this effect, and do not make any inferences. Mention the specific clause number/clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Substitution Provisions"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "substitutionProvisions"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+

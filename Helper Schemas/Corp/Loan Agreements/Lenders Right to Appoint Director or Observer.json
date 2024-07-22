@@ -1,0 +1,26 @@
+{
+  "name": "Lenders Right to Appoint Director or Observer",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "lendersRightToAppointDirectorOrObserver": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a provision which entitles the lender to appoint adirector or observer to the board of directors of the company?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Lenders Right to Appoint Director or Observer"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "lendersRightToAppointDirectorOrObserver"
+    ],
+    "multiplierQueries": {}
+  }
+}

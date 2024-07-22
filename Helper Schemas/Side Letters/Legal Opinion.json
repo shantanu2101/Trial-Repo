@@ -1,0 +1,42 @@
+{
+    "name": "Legal Opinion",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "legalOpinion": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any provisions linked to a legal opinion or a closing opinion? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Legal Opinion"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "legalOpinion"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Directors and KMPs of the Company",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "directorsAndKmpData": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the composition of the board of directors and who are the key managerial personnel of the company? Restrict your response to data expressly set out in the field of the document titled 'Details of Directors and Key Managerial Personnel'. If the data in this field makes a reference to an attachment to the document, then the response can be based on the attachment as well. Respond in tabular format with name and designation as the two columns of the table",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Directors and KMPs of the Company"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "directorsAndKmpData"
+    ],
+    "multiplierQueries": {}
+  }
+}

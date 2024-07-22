@@ -1,0 +1,26 @@
+{
+  "name": "Withdrawal or Buyout of JV Interest",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "withdrawalOrBuyoutOfJVInterest": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document provide a mechanism for withdrawal orbuyout of a party's interest in the joint venture?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Withdrawal or Buyout of JV Interest"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "withdrawalOrBuyoutOfJVInterest"
+    ],
+    "multiplierQueries": {}
+  }
+}

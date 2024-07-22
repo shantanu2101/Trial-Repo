@@ -1,0 +1,26 @@
+{
+  "name": "Standing Order Location",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "standingOrderLocation": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "For which location/ locations has the standing order beenissued?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Standing Order Location"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "standingOrderLocation"
+    ],
+    "multiplierQueries": {}
+  }
+}

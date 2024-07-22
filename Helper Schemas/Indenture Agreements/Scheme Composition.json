@@ -1,0 +1,29 @@
+{
+    "name": "Scheme Composition",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "schemeComposition": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Does the indenture/investment management deal in the <document> deal with multiple schemes? Rely only on explicit references in the <document>. Do not make any inferences",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Scheme Composition"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "schemeComposition"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

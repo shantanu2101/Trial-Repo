@@ -1,0 +1,26 @@
+{
+  "name": "Consequences for Delay in Payment",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "paymentDelayConsequences": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the penalties or consequences prescribed in the document for delay in payment of the rent/ fee by {partyName}?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Consequences for Delay in Payment"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "paymentDelayConsequences"
+    ],
+    "multiplierQueries": {}
+  }
+}

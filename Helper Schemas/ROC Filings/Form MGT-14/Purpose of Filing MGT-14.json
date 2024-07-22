@@ -1,0 +1,26 @@
+{
+  "name": "Purpose of Filing MGT-14",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "mgt14Purpose": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the purpose of filing the Form MGT-14? The answer mustbe limited to demonstrating which of the following 3 options in the document have been selected: (a) registration of resolutions; (b)registration of agreement; or (c) registration of postal ballotresolution?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Purpose of Filing MGT-14"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "mgt14Purpose"
+    ],
+    "multiplierQueries": {}
+  }
+}

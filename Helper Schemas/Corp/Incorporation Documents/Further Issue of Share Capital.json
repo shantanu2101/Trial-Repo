@@ -1,0 +1,26 @@
+{
+  "name": "Further Issue of Share Capital",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "furtherIssueOfCapital": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document prescribe a particular procedure to be followed for a further issue of share capital? If yes, then what is this procedure?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Further Issue of Share Capital"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "furtherIssueOfCapital"
+    ],
+    "multiplierQueries": {}
+  }
+}

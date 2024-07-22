@@ -1,0 +1,26 @@
+{
+    "name": "FC-GPR Reference Number",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "fcgprrefno": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the FC-GPR reference number? Do not confuse this with 'Initial FCGPR reference number'. If the latter is also provided, set out separately.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "FC-GPR Reference Number"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "fcgprrefno"
+        ],
+        "multiplierQueries": {}
+    }
+}

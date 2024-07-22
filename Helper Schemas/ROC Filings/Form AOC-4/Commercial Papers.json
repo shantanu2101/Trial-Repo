@@ -1,0 +1,26 @@
+{
+  "name": "Commercial Papers",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "commercialPapers": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the company have any commercial papers? If yes, then provide details.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Commercial Papers"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "commercialPapers"
+    ],
+    "multiplierQueries": {}
+  }
+}

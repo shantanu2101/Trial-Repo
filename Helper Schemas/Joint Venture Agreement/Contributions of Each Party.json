@@ -1,0 +1,26 @@
+{
+  "name": "Contributions of Each Party",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "contributionsOfEachParty": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What contributions is each party expected to make towards the joint venture, in terms of, for example, capital, assets, human resources, intellectual property, etc.? What agreements govern these contributions? Rely only on explicit references in the document. Do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Contributions of Each Party"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      ""
+    ],
+    "multiplierQueries": {}
+  }
+}

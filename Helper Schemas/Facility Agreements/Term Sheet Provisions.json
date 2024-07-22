@@ -1,0 +1,26 @@
+{
+    "name": "Term Sheet Provisions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "termSheetProvisions": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is there a provision by which this document prevails over a sanction letter, term sheet or other documents?",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Overriding Nature of Sanction Letter"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "termSheetProvisions"
+        ],
+        "multiplierQueries": {}
+    }
+}

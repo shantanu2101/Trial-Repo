@@ -1,0 +1,26 @@
+{
+  "name": "Exit Rights of Shareholder",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "exitRights": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the exit rights available to the shareholder under the document? These are the provisions which govern how a shareholder can sell or dispose of their ownership stake in a company. Provide details of all such exit provisions including, for instance, right to sell shares, pre-emption rights, tag along rights, drag along rights, exit valuation, transfer restrictions, exit triggers, etc. Are the exit rights provided in any particular order?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Exit Rights of Shareholder"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "exitRights"
+    ],
+    "multiplierQueries": {}
+  }
+}

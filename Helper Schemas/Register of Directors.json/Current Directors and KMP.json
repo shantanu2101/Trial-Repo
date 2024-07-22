@@ -1,0 +1,26 @@
+{
+    "name": "Current Directors and KMP",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "currentDirectors": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "The document contains a table listing out all directors and key managerial personnel (KMP) of the company. If the 'date of cessation' of their directorship/role is specified, that means they are currently no longer serving as director or as a KMP. Accordingly, prepare a list of all the current directors and KMPs of the company in a tabular format with the following details: (a) 'name of the director or KMP'; (b) 'director identification number' of each director (this field can be left blank in case of KMPs); (c) designation of the director or KMP; (d) age of the director/KMP; (e) nationality of the director/KMP; (f) date of board resolution for appointment, date of appointment and date of re-appointment, if any; and (g) details of office held and/or relinquished by the director/KMP in any other body corporate",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Current Directors and KMP"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "currentDirectors"
+        ],
+        "multiplierQueries": {}
+    }
+}

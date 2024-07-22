@@ -1,0 +1,26 @@
+{
+  "name": "Date of Board and Shareholder Approval for Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "dateOfApprovalForScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the date on which the board of directors approved the ESOP scheme? What is the date on which the shareholders approved the ESOP scheme?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Date of Board and Shareholder Approval for Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "dateOfApprovalForScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

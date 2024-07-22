@@ -1,0 +1,26 @@
+{
+  "name": "Account Closing Date",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "accountClosingDate": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the account closing date? Strictly limit the response to the date specifically identified as 'Account Closing Date' in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Account Closing Date"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "accountClosingDate"
+    ],
+    "multiplierQueries": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Investor Jurisdiction",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorJurisdiction": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the jurisdictions of the target investors? Restrict your response to what is explicitly stated in the <document>. Do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Jurisdiction"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorJurisdiction"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

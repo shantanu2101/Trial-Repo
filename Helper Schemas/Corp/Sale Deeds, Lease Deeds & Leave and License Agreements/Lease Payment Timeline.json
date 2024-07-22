@@ -1,0 +1,26 @@
+{
+  "name": "Lease Payment Timeline",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "leasePaymentTimeline": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the timeline or schedule for payment of lease rent?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Lease Payment Timeline"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "leasePaymentTimeline"
+    ],
+    "multiplierQueries": {}
+  }
+}

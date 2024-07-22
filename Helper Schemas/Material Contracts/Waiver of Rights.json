@@ -1,0 +1,26 @@
+{
+  "name": "Waiver of Rights",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "waiverOfRights": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the agreement provide that the parties' rights may bewaived in certain situations? Under what conditions or circumstancesshall such waiver take place? Does the agreement state that waiver ofone right by a party will not constitute waiver of any other right, orthat failure by a party to take any action will not constitute a waiverof rights?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Waiver of Rights"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "waiverOfRights"
+    ],
+    "multiplierQueries": {}
+  }
+}

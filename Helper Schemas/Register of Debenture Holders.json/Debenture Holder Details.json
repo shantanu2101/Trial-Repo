@@ -1,0 +1,26 @@
+{
+    "name": "Debenture Holder Details",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "debentureHolderDetailsRegister": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Identify the class of debentures or other securities that this document pertains to, and the nominal value or face value of each such debentures / securities. This should be expressly mentioned on the first page. Then, prepare a table setting out the following details for each debenture holder or security holder mentioned in the document: (a) 'name of the debenture holder / other security holder'; (b) 'name of joint holders, if any'; (b) 'total no. of debentures or other securities held' by each of them; (c) 'Date of becoming   debenture holder/ other security holder'; (d) address / registered address; (e) whether the person is currently a debenture holder / security holder of the company or whether such holding has  ceased (i.e., a date of cessation  has been specified)",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Debenture Holder Details"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "debentureHolderDetailsRegister"
+        ],
+        "multiplierQueries": {}
+    }
+}

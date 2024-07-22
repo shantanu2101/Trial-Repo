@@ -1,0 +1,26 @@
+{
+  "name": "Time Gap between AGMs",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "gapInAgms": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Was the gap between two annual general meetings more than 15months? If yes, which annual general meetings had such a gap and howlong was the gap? The date of the meetings is expressly set out in thefield of the document titledmembers/class/requisitioned/NCLT/court-convened meetings' and the typeof meeting may be specified as 'Annual General Meeting'. Calculate thegap between two Annual General Meetings based on this data whilepreparing your response. ",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Time Gap between AGMs"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "gapInAgms"
+    ],
+    "multiplierQueries": {}
+  }
+}

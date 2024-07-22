@@ -1,0 +1,26 @@
+{
+  "name": "Facts of Matter",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "factsOfMatter": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the facts and events leading up to the matter? As far as possible, present these facts in chronological order. Focus only on the facts leading up to the matter, as explicitly laid down in the document. Do not include any allegations or claims raised. Restrict your responses to explicit references in the document, and do not make any inferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Facts of Matter"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "factsOfMatter"
+    ],
+    "multiplierQueries": {}
+  }
+}

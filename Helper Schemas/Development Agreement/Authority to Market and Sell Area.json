@@ -1,0 +1,26 @@
+{
+  "name": "Authority to Market and Sell Area",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "marketAndSellArea": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Who has the authority under the agreement, to market and sell the constructed area?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Authority to Market and Sell Area"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "marketAndSellArea"
+    ],
+    "multiplierQueries": {}
+  }
+}

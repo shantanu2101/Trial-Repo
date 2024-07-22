@@ -1,0 +1,26 @@
+{
+  "name": "Clauses Relied on",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "clausesReliedOn": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What are the clauses of the agreement/ contract which have been explicitly relied on in the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Clauses Relied on"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "clausesReliedOn"
+    ],
+    "multiplierQueries": {}
+  }
+}

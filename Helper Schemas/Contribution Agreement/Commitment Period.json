@@ -1,0 +1,31 @@
+{
+    "name": "Commitment Period",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "commitmentPeriod": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Under what circumstances can the commitment period of the fund be terminated? Also mention the circumstances under which the commitment period of the fund can be reinstated. Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Commitment Period"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "commitmentPeriod"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+

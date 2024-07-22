@@ -1,0 +1,26 @@
+{
+  "name": "Turnover and Net Worth",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "turnoverAndNetWorth": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the turnover and net worth of the company (as expresslymentioned in the Form MGT-7)? Please present your answers in tabularformat setting out: (a) the full amounts exactly as set out in the form;and (b) the same amounts in words (eg. how many crore and how manylakh))",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Turnover and Net Worth"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "turnoverAndNetWorth"
+    ],
+    "multiplierQueries": {}
+  }
+}

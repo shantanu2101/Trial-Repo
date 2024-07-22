@@ -1,0 +1,26 @@
+{
+  "name": "Applicability Of Industrial Disputes Act",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "industrialDisputesActApplicability": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is there a provision which indicates that the parties are contracting out of or excluding the applicability of the Industrial Disputes Act, 1947?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Applicability Of Industrial Disputes Act"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "industrialDisputesActApplicability"
+    ],
+    "multiplierQueries": {}
+  }
+}

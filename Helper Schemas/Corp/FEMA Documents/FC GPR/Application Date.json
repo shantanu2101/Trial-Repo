@@ -1,0 +1,26 @@
+{
+    "name": "Application Date",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "applicationDateFcgprFctrs": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What is the application date of the form? Strictly limit yourself to the data provided under the heading 'Application Date' and do not confuse it with any other dates that may be mentioned",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Application Date"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "applicationDateFcgprFctrs"
+        ],
+        "multiplierQueries": {}
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Appointment Letter",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "appointmentLetterDir12": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "In case an appointment letter/email in relation to appointment of the director/KMP is provided as an attachment to the document (i.e., included towards the end after the pages containing the Form DIR-12),what are the benefits available to the director/KMP pursuant to the appointment letter/email? What is the date of the appointment letter/email? Is such letter/email valid and subsisting? If no such appointment letter is present, simply mention that it is not present",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Appointment Letter"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "appointmentLetterDir12"
+    ],
+    "multiplierQueries": {}
+  }
+}

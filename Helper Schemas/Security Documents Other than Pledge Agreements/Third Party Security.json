@@ -1,0 +1,32 @@
+{
+    "name": "Third Party Security",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "thirdPartySecurity": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Is the security being provided by the borrower or a third party who is not the borrower? In other words, is the security provider a different entity or person than the entity which has availed the facility or loan? ",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Third Party Security"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "thirdPartySecurity"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+{
+    "name": "Other Jurisdictions",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "otherJurisdictions": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are any other jurisdictions mentioned in the side letter? Restrict your responses only to explicit references in the <document>. Do not make any inferences.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Other Jurisdictions"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "otherJurisdictions"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

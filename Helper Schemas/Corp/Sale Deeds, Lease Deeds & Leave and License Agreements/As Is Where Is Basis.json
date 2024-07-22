@@ -1,0 +1,26 @@
+{
+  "name": "As Is Where Is Basis",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "asIsWhereIsBasis": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Is the property being provided on an as-is-where-is basis? This is a provision which states that the seller is selling, and the buyer is buying the property in whatever condition it presently exists, and that the buyer is accepting the property with all its faults. Rely only on explicit references in the document. Do not make anyinferences.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "As Is Where Is Basis"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "asIsWhereIsBasis"
+    ],
+    "multiplierQueries": {}
+  }
+}

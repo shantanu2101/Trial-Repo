@@ -1,0 +1,27 @@
+{
+  "name": "Nationality of Individual",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nationalityOfIndividual": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the nationality of the individual as per the document?",
+            "systemPrompt": "You are an expert at analyzing identificationdocuments/ ID cards of individuals, and extracting the relevant data ofthe individual from such documents. You will be provided a documentfrom which you have to identify the nationality of the individual. Thismay be provided explicitly under the 'Nationality' section of the document. If no explicit mention is provided, the nationality of theindividual can also be inferred from the government entity which hasissued the document. For example, if the document has been issued bythe Government of India or the government of any state in India, it maybe inferred that the individual is Indian by nationality. Regardless ofyour response, always provide the rationale for the response and thebasis on which you are making an inference.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Nationality of Individual"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nationalityOfIndividual"
+    ],
+    "multiplierQueries": {}
+  }
+}

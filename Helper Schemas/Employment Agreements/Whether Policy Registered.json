@@ -1,0 +1,28 @@
+{
+  "name": "Whether Policy Registered",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+      "context": {},
+      "querySets": {
+          "whetherPolicyRegistered": {
+              "mode": "accumulate",
+              "queries": [
+                  {
+                      "keywordRequired": [],
+                      "text": "Has the policy been registered with the requisite authorities? If yes, then which authority has the policy been registered with and under which statute/ law? Rely only on explicit references in the document. Do not make any inferences.",
+                      "source": true,
+                      "visible": true,
+                      "displayQuery": "Whether Policy Registered"
+                  }
+              ]
+          }
+      },
+      "baseQueries": [
+          "whetherPolicyRegistered"
+      ],
+      "multiplierQueries": {}
+  }
+}
+
+

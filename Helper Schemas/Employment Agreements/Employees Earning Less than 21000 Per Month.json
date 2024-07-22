@@ -1,0 +1,26 @@
+{
+  "name": "Employees Earning Less than 21000 Per Month",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "salaryLessThan21000PerMonth": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide a bulleted list of employees who earn a total gross salary or total compensation or Cost To Company/ CTC of less than INR/Rupees 21000 per month. What is the number of such employees?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Employees Earning Less than 21000 Per Month"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "salaryLessThan21000PerMonth"
+    ],
+    "multiplierQueries": {}
+  }
+}

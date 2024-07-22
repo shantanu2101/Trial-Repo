@@ -1,0 +1,26 @@
+{
+  "name": "Number of Deposit Holders",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "numberOfDepositHolders": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the total number of deposit holders as on 1 April (asexpressly mentioned in the document)?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Number of Deposit Holders"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "numberOfDepositHolders"
+    ],
+    "multiplierQueries": {}
+  }
+}

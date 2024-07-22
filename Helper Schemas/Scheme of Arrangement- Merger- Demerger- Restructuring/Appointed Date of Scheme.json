@@ -1,0 +1,26 @@
+{
+  "name": "Appointed Date of Scheme",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "appointedDateOfScheme": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the appointed date or effective date of the scheme/transaction?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Appointed Date of Scheme"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "appointedDateOfScheme"
+    ],
+    "multiplierQueries": {}
+  }
+}

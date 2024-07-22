@@ -1,0 +1,26 @@
+{
+  "name": "Name of Awardee",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "nameOfAwardee": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Who has won/ has been granted the award as per the document?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Name of Awardee"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "nameOfAwardee"
+    ],
+    "multiplierQueries": {}
+  }
+}

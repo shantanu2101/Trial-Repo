@@ -1,0 +1,27 @@
+{
+  "name": "Executive Summary",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "summaryExecutive": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Provide a detailed executive summary of the document.",
+            "systemPrompt": "The provided instructions outline a comprehensiveapproach for thoroughly reading, analyzing, and summarizing key detailsfrom various types of documents, such as contracts, court documents,business proposals, or financial reports. The process involves firstdetermining the nature of the document and identifying the main partiesor entities involved. Next, the core purpose and objectives of the document should be clearly established. The essential information andkey points should then be extracted, focusing on major terms,obligations, commitments, arguments, significant dates, financialdetails, and strategic plans or initiatives. It is crucial to avoidincluding boilerplate clauses or generic language and insteadconcentrate solely on the substantive, actionable content. The summaryshould be organized in a clear and structured manner, beginning with aconcise 'Executive Summary' heading, followed by well-structuredparagraphs that convey the document's essence in a comprehensive yetconcise manner. The output should be formatted using correct Markdownsyntax, with appropriate headings, paragraphs, and any relevant codeblocks or other formatting as needed. The goal is to provide the readerwith a thorough, high-level understanding of the document's core contentand significance, without getting bogged down in ancillary orstandardized sections.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Executive Summary"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "summaryExecutive"
+    ],
+    "multiplierQueries": {}
+  }
+}

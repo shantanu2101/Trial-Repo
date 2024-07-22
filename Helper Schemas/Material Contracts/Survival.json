@@ -1,0 +1,26 @@
+{
+  "name": "Survival",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "survival": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document specify which clauses/ provisions willsurvive termination or expiry of the agreement? This is usually providedthrough a survival clause, but it may also be provided through separatereferences across the document. Is there a period mentioned forsurvival?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Survival"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "survival"
+    ],
+    "multiplierQueries": {}
+  }
+}

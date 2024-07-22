@@ -1,0 +1,26 @@
+{
+  "name": "Contracts Sanctioned",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "contractsSanctioned": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Were there any contracts or agreements which were approved/sanctioned at the meeting?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Contracts Sanctioned"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "contractsSanctioned"
+    ],
+    "multiplierQueries": {}
+  }
+}

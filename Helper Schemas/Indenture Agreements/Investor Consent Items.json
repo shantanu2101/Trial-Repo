@@ -1,0 +1,29 @@
+{
+    "name": "Investor Consent Items",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "investorConsentItems": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "Are there any items requiring consent of the investors? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for each response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Investor Consent Items"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "investorConsentItems"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+

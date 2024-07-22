@@ -1,0 +1,26 @@
+{
+  "name": "Subscribers and Subscription",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "subscribersAndSubscription": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Who are the subscribers to the memorandum of association? Whatis their respective subscription, i.e. the number/ percentage of sharestaken by or allotted to each subscriber? What is the type of shareallotted to each subscriber, i.e. ordinary share/ preference share/redeemable share/ equity share etc. if provided in the document?Provide the details in a bulleted list in the following format: '1.[Name of Subscriber] - [Subscription Details]; 2. [Name of Subscriber] -[Subscription Details]' and so on.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Subscribers and Subscription"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "subscribersAndSubscription"
+    ],
+    "multiplierQueries": {}
+  }
+}

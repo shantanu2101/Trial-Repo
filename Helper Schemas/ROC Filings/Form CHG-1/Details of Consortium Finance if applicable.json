@@ -1,0 +1,26 @@
+{
+  "name": "Details of Consortium Finance if applicable",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "consortiumDetails": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Was there any consortium finance involved? If yes, provide the details of the lead banker and details of the joint charge. Restrict the answer to the facts expressly set out in the document.",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Details of Consortium Finance (if applicable)"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "consortiumDetails"
+    ],
+    "multiplierQueries": {}
+  }
+}

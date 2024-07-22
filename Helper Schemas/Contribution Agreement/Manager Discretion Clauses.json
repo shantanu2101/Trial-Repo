@@ -1,0 +1,34 @@
+{
+    "name": "Manager Discretion Clauses",
+    "chapter": "",
+    "alternativeNames": [],
+    "pipeline": {
+        "context": {},
+        "querySets": {
+            "managerDiscretionClauses": {
+                "mode": "accumulate",
+                "queries": [
+                    {
+                        "keywordRequired": [],
+                        "text": "What are the clauses where the investment manager can exercise its discretion? Restrict yourself to explicit clauses in the contract to this effect, and do not make any inferences. Mention the specific clause number/ clause title for your response.",
+                        "source": true,
+                        "visible": true,
+                        "displayQuery": "Manager Discretion Clauses"
+                    }
+                ]
+            }
+        },
+        "baseQueries": [
+            "managerDiscretionClauses"
+        ],
+        "multiplierQueries": {}
+    }
+}
+
+
+
+
+
+
+
+

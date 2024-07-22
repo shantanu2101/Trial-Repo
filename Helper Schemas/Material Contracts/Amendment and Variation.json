@@ -1,0 +1,26 @@
+{
+  "name": "Amendment and Variation",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "amendmentAndVariation": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "Does the document state whether the agreement may be amended or modified by {partyName}? Under what conditions can the terms of the agreement be amended or modified?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Amendment and Variation"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "amendmentAndVariation"
+    ],
+    "multiplierQueries": {}
+  }
+}

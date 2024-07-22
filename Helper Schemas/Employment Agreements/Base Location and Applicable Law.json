@@ -1,0 +1,26 @@
+{
+  "name": "Base Location and Applicable Law",
+  "chapter": "",
+  "alternativeNames": [],
+  "pipeline": {
+    "context": {},
+    "querySets": {
+      "baseLocationAndApplicableLaw": {
+        "mode": "accumulate",
+        "queries": [
+          {
+            "keywordRequired": [],
+            "text": "What is the base location of the employee? If the base location is not specified, does the document provide the applicable/ governing law for labour law compliances?",
+            "source": true,
+            "visible": true,
+            "displayQuery": "Base Location and Applicable Law"
+          }
+        ]
+      }
+    },
+    "baseQueries": [
+      "baseLocationAndApplicableLaw"
+    ],
+    "multiplierQueries": {}
+  }
+}
